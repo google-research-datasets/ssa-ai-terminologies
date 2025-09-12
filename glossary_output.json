@@ -1,0 +1,2613 @@
+{
+  "glossary_by_level": {
+    "Basic": {
+      "accuracy": {
+        "en": {
+          "term": "Accuracy",
+          "definition": "It is the proportion of all classifications that were correct, whether positive or negative. \nEmails example: In the spam classification example, accuracy measures the fraction of all emails correctly classified."
+        },
+        "sw": {
+          "term": "Usahihi",
+          "definition": "Ni sehemu ya uainishaji wote ambao ulikuwa sahihi, iwe unafaa au haufai. \n Mifano ya barua pepe: Kwenye mfano wa uainishaji wa taka, usahihi hupima sehemu za barua pepe zote zilizoainishwa kwa usahihi."
+        },
+        "af": {
+          "term": "akkuraatheid",
+          "definition": "Dit is die gedeelte van alle klassifikasies wat korrek was, ongeag of dit positief of negatief was. \n E-posvoorbeeld: In die strooiposklassifikasievoorbeeld meet akkuraatheid die breukdeel van alle e-posse wat korrek geklassifiseer is."
+        },
+        "xh": {
+          "term": "Ukuchaneka",
+          "definition": "Ngumlinganiselo wazo zonke iindidi zokuhlela ebezichanekile, nokuba bezilungile okanye zingalunganga. \n Umzekelo we-imeyile: Kumzekelo wokuhlelwa kwe-spam, ukuchaneka kulinganisa iqhezu lazo zonke ii-imeyile ezihlelwe ngokuchanekileyo."
+        },
+        "zu": {
+          "term": "Ukunemba",
+          "definition": "Kuyisilinganiso sakho konke ukuhlunga obekunembile, kungakhathaliseki ukuthi kuhle noma kubi. \n Isibonelo sama-imeyili: Esibonelweni sokuhlungwa kukagaxekile, ukunemba kulinganisa ingxenye yawo wonke ama-imeyili ahlungwe ngokunembile."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall",
+          "text": "Adapted from the Google for Developers, Machine Learning Crash Course entry 'Classification: Accuracy Precision Recall'"
+        }
+      },
+      "active_learning": {
+        "en": {
+          "term": "Active learning",
+          "definition": "A special case of machine learning in which a learning algorithm can interactively query a human user (or some other information source), to label new data points with the desired outputs."
+        },
+        "sw": {
+          "term": "Ujifunzaji amilifu",
+          "definition": "Taaluma maalum ya mashine kujifunza ambapo algoriti ya mafunzo inaweza kutagusana na mtumiaji kwa vidokezo (au chanzo kingine cha maelezo), ili kuwekea lebo viwango vipya vya data kwenye matokeo yanayokusudiwa."
+        },
+        "af": {
+          "term": "aktiewe leer",
+          "definition": "\u2019n Spesiale geval van masjienleer waarin \u2019n leeralgoritme interaktief navraag by \u2019n menslike gebruiker (of \u2019n ander inligtingbron) kan doen om nuwe datapunte met die verlangde uitsette te etiketteer."
+        },
+        "xh": {
+          "term": "Ukufunda ngokusebenza",
+          "definition": "Imeko ekhethekileyo yokufunda koomatshini apho i-algorithm yokufunda inokubuza ngokudibeneyo kumsebenzisi ongumntu (okanye omnye umthombo wolwazi), ukulebheyila amanqaku amatsha edatha kunye neziphumo ezifunwayo."
+        },
+        "zu": {
+          "term": "Ukufunda okusebenzayo",
+          "definition": "Isimo esikhethekile sokufunda ngomshini lapho i-algorithm yokufunda ingabuza ngokuxhumana nomsebenzisi ongumuntu (noma omunye umthombo wolwazi), ukulebula amaphoyinti edatha amasha ngemiphumela efiselekayo."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Active_learning_(machine_learning)&oldid=1261722015",
+          "text": "Adapted from the Wikipedia article 'Active learning (machine learning)'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Active_learning_(machine_learning)&action=history"
+        }
+      },
+      "ai_alignment": {
+        "en": {
+          "term": "AI alignment",
+          "definition": "Aims to steer AI systems toward a person's or group's intended goals, preferences, and ethical principles. An AI system is considered aligned if it advances the intended objectives. A misaligned AI system pursues unintended objectives."
+        },
+        "sw": {
+          "term": "Ulinganifu akiliunde",
+          "definition": "Hukusudia kuelekeza mifumo ya AI kulingana na kanuni za maadili, malengo na mapendeleo ya mtu binafsi au ya kikundi. Mfumo wa AI unachukuliwa kuwa unalingana iwapo unatekeleza malengo yanayokusudiwa. Mfumo wa AI ambao haulingani hufuata malengo yasiyokusudiwa."
+        },
+        "af": {
+          "term": "KI-belyning",
+          "definition": "Dit is daarop gemik om AI-stelsels in die rigting van \u2019n persoon of groep se bedoelde doelwitte, voorkeure en etiese beginsels te stuur. \u2019n AI-stelsel word as gerig beskou as dit die bedoelde doelwitte bevorder. \u2019n Wangerigte AI-stelsel streef onbedoelde doelwitte na."
+        },
+        "xh": {
+          "term": "Ulungelelwaniso lweAI",
+          "definition": "Ijolise ekuqhubeni iinkqubo ze-AI ukuya kwiinjongo ezijoliswe kumntu okanye iqela, ukhetho, nemigaqo yokuziphatha. Inkqubo ye-AI ithathwa njengelungelelanisiweyo ukuba iqhubela phambili iinjongo ekujoliswe kuzo. Inkqubo ye-AI engalunganga ilandela iinjongo ezingalindelekanga."
+        },
+        "zu": {
+          "term": "Ukuqondanisa kwe-AI",
+          "definition": "Imigomo yokuqondisa amasistimu we-AI emigomweni ehloselwe umuntu noma iqembu, okuncanyelwayo, nemithetho yokuziphatha. Isistimu ye-AI ibhekwa njengeqondanisiwe uma ithuthukisa imigomo ehlosiwe. Isistimu ye-AI engaqondanisiwe kahle iya emigomweni engahlosiwe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=AI_alignment&oldid=1308419400",
+          "text": "Adapted from the Wikipedia article 'AI alignment'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=AI_alignment&action=history"
+        }
+      },
+      "algorithmic_bias": {
+        "en": {
+          "term": "Algorithmic bias",
+          "definition": "A systematic and repeatable errors in a computer system that create \"unfair\" outcomes, such as \"privileging\" one category over another in ways different from the intended function of the algorithm."
+        },
+        "sw": {
+          "term": "Mwegemeo kialgoriti",
+          "definition": "Hitilafu za kimfumo na zinazoweza kujirudia kwenye mfumo wa kompyuta zinazoleta matokeo \"yasiyo na usawa\", kama vile \"kuipa kipaumbele\" aina moja dhidi ya nyingine katika njia zilizo tofauti na utendakazi wa algoriti unaokusudiwa."
+        },
+        "af": {
+          "term": "algoritmesydigheid",
+          "definition": "\u2019n Sistematiese en herhaalbare fout in \u2019n rekenaarstelsel wat \u201conregverdige\u201d uitkomste skep, soos om een kategorie bo \u2019n ander te \u201cbevoordeel\u201d op maniere wat van die bedoelde funksie van die algoritme afwyk."
+        },
+        "xh": {
+          "term": "Ukuthatha icala kwealgorithm",
+          "definition": "Iimpazamo ezicwangcisiweyo neziphindaphindwayo kwinkqubo yekhompyutha edala iziphumo \"ezingalunganga\", ezifana \"nokubeka phambili\" olunye udidi ngaphezulu kolunye ngeendlela ezahlukileyo kumsebenzi ocetyiweyo we-algorithm."
+        },
+        "zu": {
+          "term": "Ukuchema ngokwe-algorithmic",
+          "definition": "Amaphutha wesistimu naphindekayo kusistimu yekhompyutha asungula imiphumela \"engafanele\", \"njengokuphakamisa\" isigaba esithile ngaphezu kwesinye ngezindlela ezihlukile emsebenzini obuhlosiwe we-algorithm."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Algorithmic_bias&oldid=1263343007",
+          "text": "Adapted from the Wikipedia article 'Algorithmic bias'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Algorithmic_bias&action=history"
+        }
+      },
+      "algorithmic_transparency": {
+        "en": {
+          "term": "Algorithmic transparency",
+          "definition": "The principle that the factors that influence the decisions made by algorithms should be visible, or transparent, to the people who use, regulate, and are affected by systems that employ those algorithms."
+        },
+        "sw": {
+          "term": "Uwazi kialgoriti",
+          "definition": "Kanuni inayoeleza kuwa mambo yanayoathiri uamuzi unaofanywa na algoriti unapaswa uwe dhahiri au uwe wazi kwa watu wanaotumia, kudhibiti na wanaoathiriwa na mifumo inayotumia algoriti hizo."
+        },
+        "af": {
+          "term": "algoritmedeursigtigheid",
+          "definition": "Die beginsel dat die faktore wat die besluite be\u00efnvloed wat deur algoritmes geneem word, sigbaar, of deursigtig, moet wees vir die mense wat stelsels wat daardie algoritmes benut, gebruik en reguleer en daardeur geraak word."
+        },
+        "xh": {
+          "term": "Ukubonakala kwealgorithm",
+          "definition": "Umgaqo wokuba izinto ezichaphazela izigqibo ezenziwe ziialgorithm kufuneka zibonakale, okanye zibe lubala kubantu abazisebenzisayo, abazilawulayo, nabachaphazelekayo ziinkqubo ezisebenzisa ezo zixhobo."
+        },
+        "zu": {
+          "term": "Ukungafihlwa ngokwe-algorithmic",
+          "definition": "Umthetho wokuthi izici ezinegalelo ezinqumweni ezenziwa ama-algorithms kufanele zibonakale, noma zingafihleki, kubantu abasebenzisa, baqondise, futhi bathintwe amasistimu asebenzisa lawo ma-algorithm."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Algorithmic_transparency&oldid=1219712999",
+          "text": "Adapted from the Wikipedia article 'Algorithmic transparency'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Algorithmic_transparency&action=history"
+        }
+      },
+      "artificial_intelligence_ai": {
+        "en": {
+          "term": "Artificial Intelligence (AI)",
+          "definition": "In its broadest sense, is intelligence exhibited by machines, particularly computer systems. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals."
+        },
+        "sw": {
+          "term": "Akiliunde (AI)",
+          "definition": "Katika dhana yake pana zaidi, ni umahiri unaoonyeshwa na mashine, hasa mifumo ya kompyuta. Ni taaluma ya utafiti katika sayansi ya kompyuta inayobuni na kutafiti njia pamoja na programu inayoziwezesha mashine kutambua mazingira yake na kutumia mafunzo pamoja na umahiri ili kuchukua hatua zinazoongeza uwezekano wake wa kufikia malengo yaliyokusudiwa."
+        },
+        "af": {
+          "term": "kunsmatige intelligensie (KI)",
+          "definition": "Dit is in die wydste betekenis intelligensie wat deur masjiene, veral rekenaarstelsels, getoon word. Dit is \u2019n navorsingsveld in rekenaarwetenskap wat studiemetodes en sagteware ontwikkel wat dit vir masjiene moontlik maak om hul omgewing waar te neem en leer en intelligensie te gebruik om handelinge uit te voer wat hul kans so groot moontlik maak om gedefinieerde doelwitte te bereik."
+        },
+        "xh": {
+          "term": "Ubukrelekrele Bobugcisa (AI)",
+          "definition": "Xa ichazwa ngeyona ndlele igabalala, bubukrelekrele obubonakaliswa ngoomatshini, ingakumbi iinkqubo zekhompyutha. Licandelo lophando kwisayensi yekhompyutha ephuhlisa ize ifunda iindlela nesoftware eyenza ukuba oomatshini babone okuwungqongileyo kwaye usebenzise ukufunda nobukrelekrele ukuthatha iintshukumo ezandisa amathuba awo okufikelela kwiinjongo ezichaziweyo."
+        },
+        "zu": {
+          "term": "Ubuhlakani Bokwakhiwe",
+          "definition": "Ngomqondo obanzi, ukuhlakanipha okubonakaliswa imishini, ikakhulu amasistimu ekhompyutha. Iyinkundla yocwaningo lwesayensi yekhompyutha esungula futhi icwaninge izindlela nesofthiwe evumela imishini ukuba ibone indawo futhi isebenzise ukufunda nokuhlakanipha ukuze ithathe izinyathelo ezikhuphula amathuba ayo okufinyelela imigomo ebekiwe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Artificial_intelligence&oldid=1266369163",
+          "text": "Adapted from the Wikipedia article 'Artificial intelligence'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Artificial_intelligence&action=history"
+        }
+      },
+      "artificial_neural_network_ann": {
+        "en": {
+          "term": "Artificial Neural Network (ANN)",
+          "definition": "In machine learning, a neural network (also artificial neural network or neural net, abbreviated ANN or NN) is a model inspired by the structure and function of biological neural networks in animal brains. An ANN consists of connected units or nodes called artificial neurons, which loosely model the neurons in the brain."
+        },
+        "sw": {
+          "term": "Mtandao nyurounde",
+          "definition": "Katika mchakato wa mashine kujifunza, mtandao unaoiga hisia na ubongo (pia hujulikana kama mtandao bandia unaoiga hisia na ubongo au mtandao wa neva, kwa kifupi ANN au NN) ni mfumo unaowezeshwa na muundo pamoja na utendakazi wa mifumo ya neva ya kibiolojia katika ubongo wa wanyama. ANN inajumuisha vitengo au vifaa kwenye mtandao vinavyoitwa neva bandia, ambazo huiga kwa kiasi fulani neva zilizo katika ubongo."
+        },
+        "af": {
+          "term": "kunsmatige neurale netwerk (KNN)",
+          "definition": "In masjienleer is \u2019n neurale netwerk (ook kunsmatige neurale netwerk of neurale net, afgekort as KNN of NN) \u2019n model wat ge\u00efnspireer is deur die struktuur en funksie van biologiese neurale netwerke in die breine van diere. \u2019n KNN bestaan uit gekoppelde eenhede of nodusse genaamd kunsmatige neurone, wat losweg na die neurone in die brein gemodelleer is."
+        },
+        "xh": {
+          "term": "INethiwekhi yeNgqondo Eyenziweyo (ANN)",
+          "definition": "Ekufundweni koomatshini, i-neural nethwekhi (ne-artificial neural nethwekhi okanye i-neural net, i-ANN xa ifinyeziwe okanye i-NN) yimodeli engumzekelo ekhuthazwa sisakhiwo nomsebenzi we-biological neural networks kubuchopho bezilwanyana. I-ANN iqulathe iiyunithi ezidityanisiweyo okanye iindawo ezibizwa ngokuba zii-neuron ezenziweyo, ezibonisa ngokukhululekileyo imithambo-luvo ebuchotsheni."
+        },
+        "zu": {
+          "term": "Ubuxhakaxhaka Bokunikezelana Obakhiwe",
+          "definition": "Ekufundeni komshini, ineural network (ebizwa nangokuthi yi-artificial neural network noma ineural net, enesifinyezo esithi ANN noma NN) iyimodeli esekelwa ukwakheka nokusebenza kwamabiological neural network ebuchosheni bezilwane. I-ANN iqukethe amayunithi noma amanodi axhumene abizwa ngokuthi ama-artificial neuron, alingisa amaneuron asebuchosheni."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Neural_network_(machine_learning)&oldid=1260959133",
+          "text": "Adapted from the Wikipedia article 'Neural network (machine learning)'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Neural_network_(machine_learning)&action=history"
+        }
+      },
+      "autonomous_vehicles": {
+        "en": {
+          "term": "Autonomous Vehicles",
+          "definition": "Refers to a car that is capable of operating with reduced or no human input. \nSynonyms: self-driving car, driverless car, robotaxi, robotic car or robo-car."
+        },
+        "sw": {
+          "term": "Gari endeshi",
+          "definition": "Hurejelea gari linaloweza kujiendesha bila dereva au kwa kudhibitiwa kidogo na binadamu. \n Visawe: gari linalojiendesha, gari lisilo na dereva, taksi inayoendeshwa na roboti, gari inayoendeshwa na roboti au gari ya roboti."
+        },
+        "af": {
+          "term": "outonome voertuig",
+          "definition": "Dit verwys na \u2019n motor wat in staat is om met verminderde of geen menslike insette nie te werk. \n Sinonieme: selfbestuurmotor, bestuurderlose motor, robottaxi, robotiese motor of robotmotor."
+        },
+        "xh": {
+          "term": "Izithuthi ezizilawulayo",
+          "definition": "Ibhekisa kwimoto ekwaziyo ukusebenza ngegalelo lomntu elinciphileyo okanye kungekho galelo lomntu. \n Izithethantonye: imoto eziqhubayo, imoto engenamqhubi, i-robotaxi, imoto yerobhothi okanye i-robo-car."
+        },
+        "zu": {
+          "term": "Izimoto Ezizishayelayo",
+          "definition": "Zibhekisela emotweni ekwazi ukuhamba ngokuqondisa okuncane komuntu noma ngaphandle kwako. \n Amagama afanayo: imoto ezishayelayo, imoto engenamshayeli, irobotaxi, imoto eyirobhothi noma irobo-car."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Self-driving_car&oldid=1269814255",
+          "text": "Adapted from the Wikipedia article 'Self-driving car'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Self-driving_car&action=history"
+        }
+      },
+      "biasvariance_tradeoff": {
+        "en": {
+          "term": "Bias-variance tradeoff",
+          "definition": "Describes the relationship between a model's complexity, the accuracy of its predictions, and how well it can make predictions on previously unseen data that were not used to train the model."
+        },
+        "sw": {
+          "term": "Sawazisho sokamilifu-sojumuishi",
+          "definition": "Hufafanua uhusiano kati ya uchangamano wa mfumo, usahihi wa utabiri wake na kiwango ambacho unaweza kufanya utabiri kuhusiana na data isiyoonekana awali ambayo haikutumika kufunza mfumo huo."
+        },
+        "af": {
+          "term": "sydigheid-variansie-afruiling",
+          "definition": "Dit beskryf die verhouding tussen \u2019n model se kompleksiteit, die akkuraatheid van die voorspellings daarvan, en hoe goed dit voorspellings kan doen op grond van data wat nie vroe\u00ebr gesien is nie en nie gebruik is om die model op te lei nie."
+        },
+        "xh": {
+          "term": "Ukuthatha icala kwiyantlukwano yorhwebo",
+          "definition": "Ichaza unxulumano phakathi kokuntsokotha kwemodeli, ukuchaneka koqikelelo lwayo, nendlela enokwenza ngayo uqikelelo kwidatha ebingabonwa ngaphambili engazange isetyenziswe ekuqeqesheni imodeli."
+        },
+        "zu": {
+          "term": "Ilumbanisamaphutha",
+          "definition": "Ichaza ubuhlobo phakathi kobunkimbinkimbi bemodeli, ukunemba kokuqagela kwayo, nendlela ekwazi ukuqagela kahle ngayo kudatha engakaze ibonwe ngaphambilini engazange isetshenziswe ekuqeqesheni leyo modeli."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Bias%E2%80%93variance_tradeoff&oldid=1261711127",
+          "text": "Adapted from the Wikipedia article 'Bias%E2%80%93variance tradeoff'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Bias%E2%80%93variance_tradeoff&action=history"
+        }
+      },
+      "chatbot": {
+        "en": {
+          "term": "Chatbot",
+          "definition": "A software application or web interface that is designed to mimic human conversation through text or voice interactions. Also spelled as chat bot."
+        },
+        "sw": {
+          "term": "Boti sogozi",
+          "definition": "Programu au kiolesura cha wavuti kilichobuniwa ili kuiga mazungumzo ya binadamu kupitia mitagusano ya sauti au maandishi. Pia huitwa kijibu gumzo."
+        },
+        "af": {
+          "term": "kletsbot",
+          "definition": "\u2019n Sagtewareapp of webkoppelvlak wat ontwerp is om menslike gesprek deur teks- of steminteraksies na te boots. In Engels gespel as \u201cchatbot\u201d of \u201cchat bot\u201d."
+        },
+        "xh": {
+          "term": "Ichatbot",
+          "definition": "Iaplikheyshini yesoftware okanye ujongano lwewebhu eyilelwe ukulinganisa incoko yabantu ngokubhaliweyo okanye ukusetyenziswa kwelizwi. Ikwapelwe ngokuthi chat bot."
+        },
+        "zu": {
+          "term": "Ifuzelankulumo",
+          "definition": "I-application yesofthiwe noma isixhumi esibonakalayo sewebhu esiklanyelwe ukulingisa ingxoxo yabantu ngombhalo noma ngokuxhumana ngezwi. Iphinde ibhalwe nangokuthi chat bot."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=List_of_chatbots&oldid=1262590194",
+          "text": "Adapted from the Wikipedia article 'List of chatbots'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=List_of_chatbots&action=history"
+        }
+      },
+      "computer_vision": {
+        "en": {
+          "term": "Computer vision",
+          "definition": "An interdisciplinary field that deals with how computers can be made to gain high-level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that the human visual system can do.\nAs a scientific discipline, computer vision is concerned with the theory behind artificial systems that extract information from images."
+        },
+        "sw": {
+          "term": "Uoni kompyuta",
+          "definition": "Taaluma ya mada anuai inayohusiana na jinsi kompyuta zinavyoweza kupewa uwezo wa kupata uelewa wa kiwango cha juu kwenye picha au video dijitali. Kulingana na mtazamo wa uhandisi, hulenga kufanya kiotomatiki majukumu ambayo mfumo wa kuona wa binadamu unaweza kufanya.\n Kama taaluma ya kisayansi, uwezo wa kompyuta kuona unahusiana na dhana ya mifumo bandia inayodondoa maelezo kutoka kwenye picha."
+        },
+        "af": {
+          "term": "rekenaarvisie",
+          "definition": "\u2019n Interdissiplin\u00eare vakgebied wat gaan oor hoe rekenaars gemaak kan word om ho\u00ebvlakbegrip van digitale prente of video\u2019s te kry. Uit \u2019n ingenieursoogpunt is dit daarop gemik om take te outomatiseer wat die menslike visuele stelsel kan verrig.\n As \u2019n wetenskaplike dissipline is rekenaarvisie gemoeid met die teorie agter kunsmatige stelsels wat inligting uit prente haal."
+        },
+        "xh": {
+          "term": "Umbono wekhompyutha",
+          "definition": "Inkalo yezifundo ezahlukeneyo ejongene nendlela iikhompyutha ezinokuthi zenziwe ngayo ukufumana ukuqonda okuphezulu kwimifanekiso yedijithali okanye iividiyo. Ngokwembono yobunjineli, ifuna ukuzenzela imisebenzi enokwenziwa yinkqubo yokubona yomntu.\n Njengoqeqesho lwezenzululwazi, umbono wekhompyutha ujongene nethiyori esemva kweenkqubo ezenziweyo ezikhupha inkcazelo kwimifanekiso."
+        },
+        "zu": {
+          "term": "Umbono wekhompyutha",
+          "definition": "Inkundla eyizinhlobonhlobo egxile endleleni okungenziwa ngayo ukuba amakhompyutha athole ukuqonda kwezinga eliphezulu ngezithombe namavidiyo edijithali. Ngokombono wonjiniyela, ihlose ukwenza imisebenzi eyenziwa isistimu yokubuka komuntu.\n Ngokomthetho wesayensi, ukubona kwekhompyutha kukhathazeke ngendaba yamasistimu okwenziwa adonsa imininingwane ezithombeni."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Computer_vision&oldid=1262452359",
+          "text": "Adapted from the Wikipedia article 'Computer vision'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Computer_vision&action=history"
+        }
+      },
+      "conversational_ai": {
+        "en": {
+          "term": "Conversational AI",
+          "definition": "A type of artificial intelligence (AI) that can simulate human conversation thanks to natural language processing (NLP) technologies."
+        },
+        "sw": {
+          "term": "Akiliunde longo",
+          "definition": "Aina ya akiliunde (AI) ambayo inaweza kuiga mazungumzo ya binadamu kupitia teknolojia za uchakataji wa lugha kwa matumizi ya kompyuta (NLP)."
+        },
+        "af": {
+          "term": "gesprek-KI",
+          "definition": "\u2019n Soort kunsmatige intelligensie (AI) wat menslike gesprekke kan naboots danksy tegnologie vir natuurlike taalverwerking (NTV)."
+        },
+        "xh": {
+          "term": "I-AI yokuncokola",
+          "definition": "Uhlobo lwe-artificial intelligence (AI) ekwazi ukulinganisa incoko yabantu ngoncedo lobuchwephesha bokulungiswa kolwimi lwendalo (NLP)."
+        },
+        "zu": {
+          "term": "Ingxoxo yobuhlakani obakhiwe",
+          "definition": "Uhlobo lobuchwepheshe bokwakhiwe (AI) olungalingisa ingxoxo yabantu ngenxa yobuchwepheshe bokucubungula kolimi lwemvelo (NLP)."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://cloud.google.com/conversational-ai",
+          "text": "Adapted from the Conversational Ai entry on Google Cloud"
+        }
+      },
+      "data_anonymization": {
+        "en": {
+          "term": "Data anonymization",
+          "definition": "A process by which personal data is altered in such a way that a data subject can no longer be identified directly or indirectly, either by the data controller alone or in collaboration with any other party."
+        },
+        "sw": {
+          "term": "Ufichodata tambulishi",
+          "definition": "Mchakato ambapo data binafsi inabadilishwa katika njia ambayo mmiliki wa data hawezi tena kutambuliwa moja kwa moja au kwa njia isiyo ya moja kwa moja na mdhibiti wa data pekee au akishirikiana na mshirika mwingine."
+        },
+        "af": {
+          "term": "data-anonimisering",
+          "definition": "\u2019n Proses waardeur persoonlike data s\u00f3 gewysig word dat \u2019n datasubjek nie meer direk of indirek deur \u00f3f die databeheerder alleen, \u00f3f in samewerking met enige ander party ge\u00efdentifiseer kan word nie."
+        },
+        "xh": {
+          "term": "Ukwenza idatha ifihlwe iinkcukacha",
+          "definition": "Inkqubo apho idatha yomntu iguqulwa khona ngendlela yokuba umxholo wedatha ungasakwazi ukuchongwa ngokuthe ngqo okanye ngokungathanga ngqo, nokuba ngumlawuli wedatha yedwa okanye ngokubambisana nalo naliphi na elinye iqela."
+        },
+        "zu": {
+          "term": "Ufihlomvelaphi lwemininingo",
+          "definition": "Inqubo yokuguqulwa kwedatha yomuntu ngendlela yokuthi umnikazi wedatha angabe esakwazi ukutholwa ngokuqondile noma ngokungaqondile, kungaba ngesilawuli sedatha sisodwa noma sihlangene nanoma yikuphi okunye."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Data_anonymization&oldid=1239265652",
+          "text": "Adapted from the Wikipedia article 'Data anonymization'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Data_anonymization&action=history"
+        }
+      },
+      "data_augmentation": {
+        "en": {
+          "term": "Data augmentation",
+          "definition": "A statistical technique which allows maximum likelihood estimation from incomplete data."
+        },
+        "sw": {
+          "term": "Ujalizaji data",
+          "definition": "Mbinu ya kitakwimu inayowezesha ukadiriaji wa juu wa uwezekano fulani unaotokana na data ambayo si kamili."
+        },
+        "af": {
+          "term": "data-aanvulling",
+          "definition": "\u2019n Statistiese tegniek wat \u2019n skatting van die grootste waarskynlikheid uit onvolledige data moontlik maak."
+        },
+        "xh": {
+          "term": "Ukwandiswa kwedatha",
+          "definition": "Ubuchule beenkcukacha-manani obuvumela uqikelelo lokunokwenzeka okukhulu okusuka kwidatha engaphelelanga."
+        },
+        "zu": {
+          "term": "Isandisamininingo",
+          "definition": "Ikhono lezibalo elivumela ukulinganisa kokuqagela okukhulu ngedatha engaphelele."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Data_augmentation&oldid=1242820045",
+          "text": "Adapted from the Wikipedia article 'Data augmentation'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Data_augmentation&action=history"
+        }
+      },
+      "data_deanonymization": {
+        "en": {
+          "term": "Data de-anonymization",
+          "definition": "It is the practice of matching anonymous data (also known as de-identified data) with publicly available information, or auxiliary data, in order to discover the person the data belong to. Also known as 'data re-identification'."
+        },
+        "sw": {
+          "term": "Ufichuzidata tambulishi",
+          "definition": "Ni mbinu ya kulinganisha data ambayo utambulisho wake umefichwa (pia hujulikana kama data isiyotambulishwa) na taarifa zinazopatikana kwa umma au data ya ziada, ili kumgundua mtu ambaye anahusiana na data hiyo. Pia hujulikana kama 'kutambua upya data'."
+        },
+        "af": {
+          "term": "datadeanonimisering",
+          "definition": "Dit is die praktyk om anonieme data (ook bekend as gede\u00efdentifiseerde data) te pas by inligting wat publiek beskikbaar is, of aanvullende data, om uit te vind aan watter persoon die data behoort. Dit is ook bekend as \u201cdataheridentifisering\u201d."
+        },
+        "xh": {
+          "term": "Ukwaziwa kwedatha yaziwe kwakhona",
+          "definition": "Isenzo sokuthelekisa idatha engachazwanga (ekwabizwa ngokuba yidatha eyekisiweyo ukuchonga) enenkcukacha ezifumaneka esidlangalaleni, okanye iinkcukacha ezincedisayo, ukuze kufunyanwe ukuba ngubani umntu wale datha. Ikwabizwa ngokuba 'kukuphinda kuchongwe idatha'."
+        },
+        "zu": {
+          "term": "Ivezamvelaphi lemininingo",
+          "definition": "Inqubo yokuqhathanisa idatha engaziwa (eyaziwa nangokuthi yide-identified data) enemininingwane etholakala esidlangalaleni, noma idatha eseceleni, ukuze kutholakale umuntu ongumnikazi waleyo datha. Yaziwa nangokuthi 'yidata re-identification'."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Data_re-identification&oldid=1263116556",
+          "text": "Adapted from the Wikipedia article 'Data re-identification'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Data_re-identification&action=history"
+        }
+      },
+      "data_mining": {
+        "en": {
+          "term": "Data mining",
+          "definition": "An interdisciplinary subfield of computer science and statistics with an overall goal of extracting information (with intelligent methods) from a data set and transforming the information into a comprehensible structure for further use."
+        },
+        "sw": {
+          "term": "Uchimbuzi data",
+          "definition": "Taaluma ndogo inayohusisha mada anuai za sayansi ya kompyuta na takwimu yenye lengo la jumla la kudondoa taarifa (kwa kutumia njia mahiri) kutoka kwenye kifungu cha data na kubadilisha taarifa kuwa muundo unaoeleweka kwa matumizi zaidi."
+        },
+        "af": {
+          "term": "dataontginning",
+          "definition": "\u2019n Interdissiplin\u00eare subvakgebied van rekenaarwetenskap en statistiek waarvan die oorkoepelende doel is om inligting (met intelligente metodes) uit \u2019n datastel te haal en die inligting tot \u2019n verstaanbare struktuur te omskep vir verdere gebruik."
+        },
+        "xh": {
+          "term": "Ukwembiwa kweenkcukacha",
+          "definition": "Icandelo elingaphantsi kwezifundo zesayensi yekhompyutha neenkcukacha-manani enenjongo yokukhupha inkcazelo (ngeendlela ezikrelekrele) ukusuka kwiseti yedatha nokuguqula inkcazelo kwisakhiwo esiqondakalayo ukuze sisetyenziswe ngakumbi."
+        },
+        "zu": {
+          "term": "Ukuhlwaya imininingo",
+          "definition": "Inkundla encane eyizinhlobonhlobo yesayensi yekhompyutha nezibalo enomgomo wokudonsa imininingwane (ngezindlela ezihlakaniphile) kusethi yedatha nokuguqula leyo mininingwane ibe yisakhiwo esiqondakalayo ukuze isetshenziswe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Data_mining&oldid=1231470748",
+          "text": "Adapted from the Wikipedia article 'Data mining'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Data_mining&action=history"
+        }
+      },
+      "deep_learning": {
+        "en": {
+          "term": "Deep Learning",
+          "definition": "Deep learning refers to a class of machine learning algorithms in which a hierarchy of layers is used to transform input data into a slightly more abstract and composite representation. For example, in an image recognition model, the raw input may be an image (represented as a tensor of pixels). The first representational layer may attempt to identify basic shapes such as lines and circles, the second layer may compose and encode arrangements of edges, the third layer may encode a nose and eyes, and the fourth layer may recognize that the image contains a face."
+        },
+        "sw": {
+          "term": "Ujifunzajikina",
+          "definition": "Mafunzo ya kina hurejelea aina ya algoriti za mashine kujifunza ambapo madaraja ya safu mbalimbali hutumika kubadilisha data inayowekwa kuwa katika taswira changamano na ya kidhahania zaidi. Kwa mfano, katika muundo wa kutambua picha, data ambayo haijachanganuliwa inayowekwa inaweza kuwa picha (inayoonyeshwa kama kipengee cha pikseli). Safu ya kwanza ya taswira inaweza kujaribu kutambua maumbo ya msingi kama vile mistari na miduara, safu ya pili inaweza kutunga na kusimba mipangilio ya kingo, safu ya tatu inaweza kusimba pua na macho na safu ya nne inaweza kutambua kuwa picha hiyo ina sura."
+        },
+        "af": {
+          "term": "diepleer",
+          "definition": "Diepleer verwys na \u2019n klas masjienleeralgoritmes waarin \u2019n hi\u00ebrargie lae gebruik word om invoerdata tot \u2019n effens meer abstrakte en saamgestelde verteenwoordiging te omskep. Byvoorbeeld, in \u2019n prentherkenningmodel kan die onverwerkte invoer \u2019n prent wees (wat as \u2019n tensor pieksels verteenwoordig word). Die eerste verteenwoordigende laag kan probeer om basiese vorms, soos lyne en sirkels, te identifiseer; die tweede laag kan rangskikkings van rande saamstel en enkodeer; die derde laag kan neuse en o\u00eb enkodeer; en die vierde laag kan herken dat die prent \u2019n gesig bevat."
+        },
+        "xh": {
+          "term": "Ukufunda nzulu",
+          "definition": "Ukufunda nzulu kubhekisele kwiklasi yokufunda koomatshini beealgorithm apho ukulandelelana kweeleya kusetyenziselwa ukuguqula idatha efakiweyo ibe yinto engabonakaliyo nomboniso odibeneyo. Umzekelo, kwimodeli yokuqaphela umfanekiso, umthombo wokufakwayo unokuba ngumfanekiso (omelwe njengetensor yeepikseli). Ileya yokuqala omeleyo unokuzama ukuchonga iimilo ezisisiseko ezifana nemigca kunye nezangqa, ileya yesibini inokuqamba ize idibanise ulungelelwaniso lwemiphetho, ileya yesithathu inokubhaqa impumlo namehlo, ize ileya yesine iqonde ukuba umfanekiso uqulathe ubuso."
+        },
+        "zu": {
+          "term": "Ukufunda usebenzisa izici",
+          "definition": "Ideep learning ibhekisela esigabeni sama-algorithm okufunda komshini lapho amazinga ezendlalelo esetshenziselwa ukuguqula idatha efakwayo ibe yisimo esifihlekile nesididiyelwe. Ngokwesibonelo, kumodeli yokuqashelwa kwesithombe, okufakwayo okungahlungiwe kungase kube isithombe (esimelelwa yitensor yamaphikseli). Isendlalelo sokuqala esimelelayo singase sizame ukubona izinhlobo zezinto ezivamile njengolayini neziyingi, isendlalelo sesibili singase sibhale futhi sifake ikhodi ekuhlelweni kwamachopho, isendlalelo sesithathu singase sifake ikhodi yekhala namehlo, kanti isendlalelo sesine singase sibone ukuthi isithombe siqukethe ubuso."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Deep_learning&oldid=1265703622",
+          "text": "Adapted from the Wikipedia article 'Deep learning'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Deep_learning&action=history"
+        }
+      },
+      "deepfake": {
+        "en": {
+          "term": "Deepfake",
+          "definition": "Images, videos, or audio which are edited or generated using artificial intelligence tools, and which may depict real or non-existent people. They are a type of synthetic media."
+        },
+        "sw": {
+          "term": "Ghushikina",
+          "definition": "Picha, video au sauti ambazo zinahaririwa au kutayarishwa kwa kutumia zana za akiliunde na ambazo zinaweza kuonyesha watu halisi au wasio halisi. Ni aina ya maudhui sanisi."
+        },
+        "af": {
+          "term": "diepvervalsing",
+          "definition": "Prente, video\u2019s of oudio wat met gebruik van nutsgoed met kunsmatige intelligensie geredigeer of gegenereer is, en wat regte of niebestaande mense kan uitbeeld. Dit is \u2019n soort sintetiese media."
+        },
+        "xh": {
+          "term": "Ideepfake",
+          "definition": "Imifanekiso, iividiyo, okanye okumanyelwayo okuedithiweyo okanye okuveliswa kusetyenziswa izixhobo zobukrelekrele ezenziweyo, ezinokuthi zimele abantu bokwenyani okanye abangekhoyo. Ziluhlobo lwemidiya eyenziweyo."
+        },
+        "zu": {
+          "term": "Ifihlabuwuwa",
+          "definition": "Izithombe, amavidiyo, noma okulalelwayo okuhlelwa noma kukhiqizwe ngamathuluzi wobuchwepheshe bokwakhiwe, futhi okungabonisa abantu bangempela noma abangekho ngokoqobo. Kuyizinhlobo zesynthetic media."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Deepfake&oldid=1299636005",
+          "text": "Adapted from the Wikipedia article 'Deepfake'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Deepfake&action=history"
+        }
+      },
+      "explainable_ai_xai": {
+        "en": {
+          "term": "Explainable AI (XAI)",
+          "definition": "Either refers to an artificial intelligence (AI) system over which it is possible for humans to retain intellectual oversight, or refers to the methods to achieve this."
+        },
+        "sw": {
+          "term": "Akiliunde inayofafanua (XAI)",
+          "definition": "Hurejelea mfumo wa akiliunde (AI) ambao wanadamu wanaweza kuendelea kusimamia na kudhibiti au hurejelea njia za kufikia lengo hili."
+        },
+        "af": {
+          "term": "verklaarbare KI (VKI)",
+          "definition": "Dit verwys \u00f3f na \u2019n stelsel met kunsmatige intelligensie (AI) waaroor dit vir mense moontlik is om intellektuele toesig te behou, \u00f3f dit verwys na die metodes om dit reg te kry."
+        },
+        "xh": {
+          "term": "I-AI ecacisekayo (XAI)",
+          "definition": "Ibhekisa kwinkqubo yobukrelekrele bokwenziwa (AI) apho kunokwenzeka ukuba abantu bagcine ukongamela ubukrelekrele, okanye ibhekisa kwiindlela zokwazi ukuphumeza oku."
+        },
+        "zu": {
+          "term": "Ubuhlakani Obakhiwe Obuchazekayo",
+          "definition": "Ibhekisela kusistimu yobuchwepheshe bokwakhiwe (AI) eyenza kwenzeke ukuthi abantu baqhubeke beqondisa ngokuhlakanipha, noma kubhekisela ezindleleni zokukufinyelela lokhu."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Explainable_artificial_intelligence&oldid=1263451063",
+          "text": "Adapted from the Wikipedia article 'Explainable artificial intelligence'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Explainable_artificial_intelligence&action=history"
+        }
+      },
+      "fairness_in_ai": {
+        "en": {
+          "term": "Fairness (in AI)",
+          "definition": "Fairness in machine learning refers to the various attempts at correcting algorithmic bias in automated decision processes based on machine learning models. Decisions made by computers after a machine-learning process may be considered unfair if they were based on variables considered sensitive. For example gender, ethnicity, sexual orientation or disability."
+        },
+        "sw": {
+          "term": "Usawa (katika akiliunde)",
+          "definition": "Usawa katika mchakato wa mashine kujifunza hurejelea majaribio mbalimbali ya kusahihisha upendeleo wa kialgoriti katika michakato ya uamuzi wa kiotomatiki kulingana na mifumo ya mashine kujifunza. Uamuzi unaofanywa na kompyuta baada ya mchakato wa mashine kujifunza unaweza kuchukuliwa kuwa hauna usawa iwapo ulitokana na vibadala vinavyochukuliwa kuwa ni nyeti. Kwa mfano, jinsia, ukabila, mwelekeo wa kingono au ulemavu."
+        },
+        "af": {
+          "term": "regverdigheid (in KI)",
+          "definition": "Regverdigheid in masjienleer verwys na die verskillende pogings om algoritmiese vooroordeel in geoutomatiseerde besluitnemingprosesse op grond van masjienleermodelle reg te stel. Besluite wat n\u00e1 \u2019n masjienleerproses deur rekenaars geneem word, kan as onregverdig beskou word as hulle gegrond is op veranderlikes wat as sensitief beskou word. Byvoorbeeld gender, etnisiteit, seksuele ori\u00ebntasie of gestremdheid."
+        },
+        "xh": {
+          "term": "Ubulungisa (kwi-AI)",
+          "definition": "I-Fairness ekufundweni koomatshini ibhekiselele kwiinzame ezahlukeneyo zokulungisa ukuthatha icala kweealgorithm kwiinkqubo zezigqibo ezizenzekelayo ezisekelwe kwiimodeli zokufundwa koomatshini. Izigqibo ezenziwe ziikhompyutha emva kwenkqubo yokufunda koomatshini zinokujongwa njengezingafanelekanga ukuba bezisekelwe kwizinto ezithathwa njengezinovakalelo. Umzekelo isini, ubuhlanga, ukuziqhelanisa ngesondo okanye ukukhubazeka."
+        },
+        "zu": {
+          "term": "Ukungachemi (ku-AI)",
+          "definition": "Ukungachemi ekufundeni komshini kubhekisela emizamweni ehlukahlukene yokulungisa ukuchema kwama-algorithm ezinqubweni zezinqumo ezizenzekelayo ezisekelwe kumamodeli okufunda komshini. Izinqumo ezenziwa amakhompyutha ngemva kwenqubo yokufunda komshini zingase zibhekwe njengezingafanele uma zisekelwe ezingxenyekazini ezibhekwa njengezizwelayo. Ngokwesibonelo ubulili, ubuzwe, ubulili oyamaniseka nabo noma ukukhubazeka."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Fairness_(machine_learning)&oldid=1227016341",
+          "text": "Adapted from the Wikipedia article 'Fairness (machine learning)'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Fairness_(machine_learning)&action=history"
+        }
+      },
+      "fewshot_prompting": {
+        "en": {
+          "term": "Few-shot prompting",
+          "definition": "A prompting strategy that includes two or more examples of the desired input and output"
+        },
+        "sw": {
+          "term": "Udokezaji kwa mifano",
+          "definition": "Mkakati wa udokezaji unaojumuisha mifano miwili au zaidi ya data na tokeo linalokusudiwa"
+        },
+        "af": {
+          "term": "veelvoorbeeldinstruksieteks",
+          "definition": "\u2019n Porboodskapstrategie wat twee of meer voorbeelde van die verlangde invoer en uitvoer insluit"
+        },
+        "xh": {
+          "term": "Uyalelo olumizekelo mininzi",
+          "definition": "Isicwangciso esiyalelayo esibandakanya imizekelo emibini okanye ngaphezulu yokufakwayo okufunekayo nesiphumo"
+        },
+        "zu": {
+          "term": "Ukuyalela ngokumbalwa",
+          "definition": "Isu leprompting oluhlanganisa izibonelo ezimbili noma ngaphezulu zokufakwayo nomphumela ofunwayo"
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Few-shot prompting in AI'"
+        }
+      },
+      "finetuning": {
+        "en": {
+          "term": "Fine-tuning",
+          "definition": "In deep learning, fine-tuning is an approach to transfer learning in which the parameters of a pre-trained model are trained on new data."
+        },
+        "sw": {
+          "term": "Uboreshaji modeli",
+          "definition": "Katika mchakato wa mafunzo ya kina, uboreshaji ni mbinu ya kuhamisha mafunzo ambapo vigezo vya mfumo uliofunzwa awali hufunzwa kwa kutumia data mpya."
+        },
+        "af": {
+          "term": "verfyning",
+          "definition": "In diepleer is fyn instelling \u2019n benadering om leer oor te dra waarin die parameters van \u2019n voorafopgeleide model met nuwe data opgelei word."
+        },
+        "xh": {
+          "term": "Ukutyhuna kakuhle",
+          "definition": "Ekufundeni nzulu, i-fine-tuning yindlela yokudlulisa ukufunda apho iipharamitha zemodeli eqeqeshwe kwangaphambili ziqeqeshelwe idatha entsha."
+        },
+        "zu": {
+          "term": "Ukucolisisa",
+          "definition": "Ekufundeni ngokujulile, ifine-tuning iyindlela yokudlulisela ukufunda lapho amapharamitha wemodeli eqeqeshwe kusengaphambili eqeqeshelwa idatha entsha."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Fine-tuning_(deep_learning)&oldid=1222695059",
+          "text": "Adapted from the Wikipedia article 'Fine-tuning (deep learning)'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Fine-tuning_(deep_learning)&action=history"
+        }
+      },
+      "generative_ai": {
+        "en": {
+          "term": "Generative AI",
+          "definition": "Artificial intelligence capable of generating text, images, videos, or other data using generative models, often in response to prompts. Generative AI models learn the patterns and structure of their input training data and then generate new data that has similar characteristics."
+        },
+        "sw": {
+          "term": "Akiliunde zalishi",
+          "definition": "Akiliunde yenye uwezo wa kutayarisha maandishi, picha, video au data nyingine kwa kutumia mifumo zalishi, mara nyingi kwa kujibu vidokezo. Mifumo ya AI zalishi hujifunza mitindo na muundo wa data ya mafunzo inayowekwa kisha kutayarisha data mpya ambayo ina sifa kama hizo."
+        },
+        "af": {
+          "term": "generatiewe KI",
+          "definition": "Kunsmatige intelligensie wat die vermo\u00eb het om teks, prente, video\u2019s of ander data met gebruik van generatiewe modelle te genereer, dikwels in reaksie op porboodskappe. Generatiewe-AI-modelle leer die patrone en struktuur van hul invoeropleidingdata en genereer dan nuwe data wat soortgelyke kenmerke het."
+        },
+        "xh": {
+          "term": "I-AI yokuvelisa",
+          "definition": "I-artificial intelligence ekwazi ukuvelisa umbhalo, imifanekiso, iividiyo, okanye enye idatha isebenzisa imodeli yokuzivelisela, ehlala iphendula imiyalelo. Iimodeli ze-AI Yokuvelisa zifunda iiphatheni nolwakhiwo lwedatha yoqeqesho lwazo zize emva koko zivelise idatha entsha eneempawu ezifanayo."
+        },
+        "zu": {
+          "term": "Ubuhlakani Obakhiwe Obukhiqizayo",
+          "definition": "Ubuchwepheshe bokwakhiwe bukwazi ukukhiqiza umbhalo, izithombe, amavidiyo, nenye idatha ngamamodeli akhiqizayo, ngokuvamile ngokusabela emiyalelweni. Amamodeli we-AI ekhiqizayo afunda amaphethini nesakhiwo sedatha yokuqeqeshwa yokufakwayo bese ekhiqiza idatha entsha enezici ezifanayo."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Generative_artificial_intelligence&oldid=1260973415",
+          "text": "Adapted from the Wikipedia article 'Generative artificial intelligence'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Generative_artificial_intelligence&action=history"
+        }
+      },
+      "hallucination": {
+        "en": {
+          "term": "Hallucination",
+          "definition": "A response generated by AI which contains false or misleading information presented as fact."
+        },
+        "sw": {
+          "term": "Uzushi",
+          "definition": "Jibu linalotayarishwa kwa AI ambalo lina maelezo ya uongo au yanayopotosha yanayowasilishwa kuwa ya kweli."
+        },
+        "af": {
+          "term": "hallusinasie",
+          "definition": "\u2019n Antwoord gegenereer deur AI wat vals of misleidende inligting bevat, maar as \u2019n feit voorgehou word."
+        },
+        "xh": {
+          "term": "Ukubona izinto ezingekhoyo",
+          "definition": "Impendulo eveliswa yi-AI equlethe inkcazelo engeyonyani okanye elahlekisayo eboniswe njengenyaniso."
+        },
+        "zu": {
+          "term": "Ukudideka",
+          "definition": "Impendulo ekhiqizwa yi-AI equkethe imininingwane engamanga noma edukisayo enikezwa njengeyiqiniso."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Hallucination_(artificial_intelligence)&oldid=1307664387",
+          "text": "Adapted from the Wikipedia article 'Hallucination (artificial intelligence)'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Hallucination_(artificial_intelligence)&action=history"
+        }
+      },
+      "humanintheloop_hitl": {
+        "en": {
+          "term": "Human-in-the-Loop (HITL)",
+          "definition": "In machine learning, HITL is used in the sense of humans aiding the computer in making the correct decisions in building a model."
+        },
+        "sw": {
+          "term": "Mwanadamu uzioni",
+          "definition": "Katika mfumo wa mashine kujifunza, HITL inatumika kwa maana ya wanadamu kusaidia kompyuta kufanya uamuzi sahihi katika kutengeneza mfumo."
+        },
+        "af": {
+          "term": "mens-wat-ingesluit-word (MWIW)",
+          "definition": "In masjienleer word MWIW gebruik in die sin van mense wat die rekenaar bystaan om die korrekte besluite te neem wanneer \u2019n model gebou word."
+        },
+        "xh": {
+          "term": "Ihuman-in-the-Loop (HITL)",
+          "definition": "Ekufundeni koomatshini, i-HITL isetyenziswa kwingqiqo yabantu encedisa ikhompyutha ekwenzeni izigqibo ezichanekileyo ekwakheni imodeli."
+        },
+        "zu": {
+          "term": "Inxumano Yomuntu Nomshini",
+          "definition": "Ekufundeni komshini, i-HITL isetshenziswa ngomqondo wokuthi abantu basiza ikhompyutha ekwenzeni izinqumo ezinembile ekwakheni imodeli."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Human-in-the-loop&oldid=1284925742",
+          "text": "Adapted from the Wikipedia article 'Human-in-the-loop'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Human-in-the-loop&action=history"
+        }
+      },
+      "large_language_model_llm": {
+        "en": {
+          "term": "Large Language Model (LLM)",
+          "definition": "A computational model capable of language generation or other natural language processing tasks. As language models, LLMs acquire these abilities by learning statistical relationships from vast amounts of text during a self-supervised and semi-supervised training process."
+        },
+        "sw": {
+          "term": "Modeli kubwa ya lugha",
+          "definition": "Mfumo unaotumia kompyuta unaoweza kutayarisha lugha au kutekeleza majukumu mengine ya uchakataji wa lugha kwa matumizi ya kompyuta. Ikiwa mifumo ya lugha, LLM hupata uwezo huu kwa kujifunza uhusiano wa kitakwimu kutoka kwenye kiasi kikubwa cha maandishi wakati wa mchakato wa mafunzo unaojisimamia na unaosimamiwa kidogo."
+        },
+        "af": {
+          "term": "groot taalmodel (GTM)",
+          "definition": "\u2019n Rekenaarmodel wat taal kan genereer of ander take met natuurlike taalverwerking kan uitvoer. As taalmodelle verkry GTM\u2019e hierdie vermo\u00ebns deur statistiese verhoudings uit ontsaglike hoeveelhede teks te leer tydens \u2019n opleidingproses onder selftoesig of semitoesig."
+        },
+        "xh": {
+          "term": "IModeli yoLwimi eNkulu (LLM)",
+          "definition": "Imodeli yekhompyutha ekwaziyo ukuvelisa ulwimi okanye eminye imisebenzi yokulungisa ulwimi lwendalo. Njengeemodeli zolwimi, ii-LLM zifumana obu buchule ngokufunda unxulumano lwamanani ukusuka kumthamo omkhulu wezibhalo ngexesha lenkqubo yoqeqesho oluzigadelayo noluphantsi kweliso eliphakathi."
+        },
+        "zu": {
+          "term": "Insuselakuyo Yolimi Ngokubanzi",
+          "definition": "Imodeli yekhompyutha ekwazi ukukhiqiza ulimi noma eminye imisebenzi yokucubungula kolimi lwemvelo. Njengamamodeli wolimi, ama-LLM athola lawa makhono ngokufunda ubuhlobo bezibalo emananini amaningi ombhalo phakathi nenqubo yokuqeqesha ozigada ngokwakho kuyo negadwa ngokwengxenye."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Large_language_model&oldid=1262506051",
+          "text": "Adapted from the Wikipedia article 'Large language model'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Large_language_model&action=history"
+        }
+      },
+      "machine_learning_ml": {
+        "en": {
+          "term": "Machine Learning (ML)",
+          "definition": "A field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data and thus perform tasks without explicit instructions."
+        },
+        "sw": {
+          "term": "Ujifunzaji wa mashine",
+          "definition": "Taaluma ya akiliunde inayohusiana na utayarishaji na utafiti wa algoriti za takwimu zinazoweza kujifunza kutokana na data na kujumlisha data isiyoonekana, hivyo kutekeleza majukumu bila maagizo dhahiri."
+        },
+        "af": {
+          "term": "masjienleer (ML)",
+          "definition": "\u2019n Studierigting in kunsmatige intelligensie wat ingestel is op die ontwikkeling en bestudering van statistiese algoritmes wat uit data kan leer en dit vir onbekende data kan veralgemeen, en gevolglik take sonder uitdruklike instruksies kan uitvoer."
+        },
+        "xh": {
+          "term": "IMachine Learning (ML)",
+          "definition": "Icandelo lokufunda kwi-artificial intelligence ejongene nophuhliso nokufunda ii-algorithim zamanani anokuthi afunde kwidatha kwaye enze ngokubanzi kwidatha engabonakaliyo kwaye ngaloo ndlela enze imisebenzi ngaphandle kwemiyalelo ecacileyo."
+        },
+        "zu": {
+          "term": "Ukufunda Komshini",
+          "definition": "Inkundla yokucwaninga ebuchwephesheni bokwakhiwe egxile ekwakhekeni nasocwaningweni lwama-algorithm ezibalo engafunda kudatha futhi iyiguqulele kudatha engabonakali ngaleyo ndlela yenze imisebenzi ngaphandle kweziqondiso ezicacile."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Machine_learning&oldid=1307433589",
+          "text": "Adapted from the Wikipedia article 'Machine learning'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Machine_learning&action=history"
+        }
+      },
+      "multimodal_learning": {
+        "en": {
+          "term": "Multimodal learning",
+          "definition": "A type of deep learning using multiple modalities of data, such as text, audio, or images."
+        },
+        "sw": {
+          "term": "Ujifunzaji mseto",
+          "definition": "Ni aina ya mafunzo ya kina kwa kutumia miundo anuai ya data, kama vile maandishi, sauti au picha."
+        },
+        "af": {
+          "term": "multimodale leer",
+          "definition": "\u2019n Soort diepleer wat veelvuldige modaliteite data, soos teks, oudio of prente, gebruik."
+        },
+        "xh": {
+          "term": "Ukufunda ngeeModali ezininzi",
+          "definition": "Uhlobo lokufunda olunzulu usebenzisa iindela ezininzi zedatha, ezinjengemibhalo, okumanyelwayo, okanye imifanekiso."
+        },
+        "zu": {
+          "term": "Ukufunda ngezinsuselakuyo eziningi",
+          "definition": "Uhlobo lokufunda okujulile olusebenzisa amamodali wedatha angaphezu kweyodwa, njengombhalo, okulalelwayo, noma izithombe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Multimodal_learning&oldid=1250163955",
+          "text": "Adapted from the Wikipedia article 'Multimodal learning'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Multimodal_learning&action=history"
+        }
+      },
+      "natural_language_processing_nlp": {
+        "en": {
+          "term": "Natural Language Processing (NLP)",
+          "definition": "An interdisciplinary subfield of computer science and artificial intelligence, primarily concerned with providing computers with the ability to process data encoded in natural language. \nMajor tasks in natural language processing are speech recognition, text classification, natural-language understanding, and natural-language generation."
+        },
+        "sw": {
+          "term": "Uchakataji Lugha Asilia",
+          "definition": "Taaluma ndogo ya mada mbalimbali za sayansi ya kompyuta na akiliunde, ambayo kimsingi inahusiana na kuzipatia kompyuta uwezo wa kuchakata data iliyosimbwa katika lugha ya kawaida. \n Majukumu makuu katika uchakataji wa lugha kwa matumizi ya kompyuta ni utambuzi wa matamshi, uainishaji wa maandishi, kuelewa lugha ya binadamu na utayarishaji wa lugha ya kawaida."
+        },
+        "af": {
+          "term": "natuurliketaalverwerking (NTV)",
+          "definition": "\u2019n Interdissiplin\u00eare subvakgebied in rekenaarwetenskap en kunsmatige intelligensie wat hoofsaaklik daarop ingestel is om aan rekenaars die vermo\u00eb te gee om data te verwerk wat in natuurlike taal ge\u00ebnkodeer is. \n Belangrike take in natuurlike taalverwerking is spraakherkenning, teksklassifikasie, natuurlike taalbegrip en natuurlike taalgenerering."
+        },
+        "xh": {
+          "term": "UkuSetyenzwa koLwimi lweNdalo (NLP)",
+          "definition": "Indawo engaphantsi kwezifundo zenzululwazi yekhompyutha ne-artificial intelligence, yeyona nto ijongene nokubonelela iikhompyutha ngesakhono sokucubungula idatha efakwe ngekhowudi ngolwimi lwendalo. \n Imisebenzi ephambili ekusetyenzweni kolwimi lwendalo kukunakanwa kwentetho, ukuhlelwa kwemibhalo, ukuqonda ulwimi lwendalo, nokuveliswa kolwimi lwendalo."
+        },
+        "zu": {
+          "term": "Ukucubungula Kolimi Lwemvelo (NLP)",
+          "definition": "Inkundla engaphezu kweyodwa yesayensi yekhompyutha nobuchwepheshe bokwakhiwe, egxile ngokuyinhloko ekunikezeni amakhompyutha ikhono lokucubungula idatha ebhalwe ngekhodi yolimi olungokwemvelo. \n Imisebenzi emikhulu ekucubunguleni kolimi lwemvelo ukubonwa kwengxoxo, ukuhlunga umbhalo, ukuqonda ulimi lwemvelo, nokukhiqiza ulimi lwemvelo."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Natural_language_processing&oldid=1292777221",
+          "text": "Adapted from the Wikipedia article 'Natural language processing'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Natural_language_processing&action=history"
+        }
+      },
+      "noisy_data": {
+        "en": {
+          "term": "Noisy data",
+          "definition": "Data with a large amount of additional meaningless information in it called noise."
+        },
+        "sw": {
+          "term": "Datataka",
+          "definition": "Data iliyo na viwango vikubwa vya maelezo ya ziada yasiyo muhimu huitwa kelele."
+        },
+        "af": {
+          "term": "raserige data",
+          "definition": "Data met \u2019n groot hoeveelheid bykomende, betekenislose inligting daarin wat geraas genoem word."
+        },
+        "xh": {
+          "term": "Idatha eninzi engelo ncedo",
+          "definition": "Idatha enesixa esikhulu senkcazelo eyongezelelweyo engenantsingiselo kuyo ibizwa ngokuba yi-noise."
+        },
+        "zu": {
+          "term": "Imininingo enolwazi olungadingeki",
+          "definition": "Idatha enenani elikhulu lemininingwane engenancazelo kuyo ebizwa ngomsindo."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Noisy_data&oldid=1299171640",
+          "text": "Adapted from the Wikipedia article 'Noisy data'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Noisy_data&action=history"
+        }
+      },
+      "oneshot_prompting": {
+        "en": {
+          "term": "One-shot prompting",
+          "definition": "A prompting strategy that includes one example of the desired input and output"
+        },
+        "sw": {
+          "term": "Udokezaji kwa mfano mmoja",
+          "definition": "Mkakati wa kutumia vidokezo unaojumuisha mfano mmoja wa data na tokeo linalokusudiwa"
+        },
+        "af": {
+          "term": "eenvoorbeeldinstruksieteks",
+          "definition": "\u2019n Porboodskapstrategie wat een voorbeeld van die verlangde invoer en uitvoer insluit"
+        },
+        "xh": {
+          "term": "Uyalelo olumzekelo mnye",
+          "definition": "Isicwangciso sokuyalela esibandakanya umzekelo omnye wento efakwayo efunekayo nesiphumo"
+        },
+        "zu": {
+          "term": "Ukuyalelela ngokukodwa",
+          "definition": "Isu lomyalelo elibandakanya isibonelo esisodwa sokufakwayo nomphumela ofiselekayo"
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about One-shot prompting in AI'"
+        }
+      },
+      "open_source": {
+        "en": {
+          "term": "Open source",
+          "definition": "A source code (a plain text computer program written in a programming language) that is made freely available for possible modification and redistribution."
+        },
+        "sw": {
+          "term": "Programu huria",
+          "definition": "Msimbo wa tovuti (programu ya kompyuta ya maandishi dhahiri yanayoandikwa kwa lugha ya usanidi) ambao unapatikana bila malipo ili uweze kufanyiwa maboresho au kusambazwa upya."
+        },
+        "af": {
+          "term": "oopbron",
+          "definition": "\u2019n Bronkode (\u2019n rekenaarprogram in skoonteks wat in \u2019n programmeertaal geskryf is) wat vrylik beskikbaar gestel word vir moontlike wysiging en herverspreiding."
+        },
+        "xh": {
+          "term": "Umthombo ovulelekileyo",
+          "definition": "Ikhowudi yomthombo (inkqubo yekhompyutha ebhaliweyo ecacileyo ebhalwe ngolwimi lwenkqubo) eyenziwe ifumaneke ngokukhululekileyo ukuze ikwazi ukuguqulwa nokusasazwa kwakhona."
+        },
+        "zu": {
+          "term": "Umthombo ovulekile",
+          "definition": "Ikhodi yomthombo (uhlelo lwekhompyutha lombhalo ongenalutho olubhalwe ngolimi lweprogramming) etholakala mahhala ukuze iguqulwe futhi isakazwe kabusha."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Source_code&oldid=1308543381",
+          "text": "Adapted from the Wikipedia article 'Source code'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Source_code&action=history"
+        }
+      },
+      "output": {
+        "en": {
+          "term": "Output",
+          "definition": "The information or creative work that an AI tool produces after it is prompted, such as an answer to a question, a text summary, an image, or a piece of music"
+        },
+        "sw": {
+          "term": "Matokeo",
+          "definition": "Maelezo au ubunifu ambao zana ya AI hutayarisha baada ya kupewa kidokezo, kama vile jibu la swali, muhtasari wa maandishi, picha au maudhui ya muziki"
+        },
+        "af": {
+          "term": "afvoer",
+          "definition": "Die inligting of kreatiewe werk wat \u2019n AI-nutsding lewer nadat dit gepor is, soos \u2019n antwoord op \u2019n vraag, \u2019n teksopsomming, \u2019n prent of \u2019n stuk musiek"
+        },
+        "xh": {
+          "term": "Imveliso",
+          "definition": "Inkcazelo okanye umsebenzi wokudala oveliswa sisixhobo se-AI emva kokuyalelwa, njengempendulo yombuzo, isishwankathelo sombhalo, umfanekiso, okanye isiqwenga somculo"
+        },
+        "zu": {
+          "term": "Umkhiqizo",
+          "definition": "Imininingwane noma umsebenzi wobuciko okhiqizwa yithuluzi le-AI ngemva komyalelo, njengempendulo embuzweni, isifinyezo sombhalo, isithombe, noma umculo"
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Output in AI'"
+        }
+      },
+      "prompt__": {
+        "en": {
+          "term": "Prompt",
+          "definition": "An instruction, usually expressed in natural language, used to get the desired output from a generative AI engine."
+        },
+        "sw": {
+          "term": "Kidokezo",
+          "definition": "Maagizo, ambayo hufafanuliwa katika lugha ya kawaida, yanayotumika kupata matokeo yanayokusudiwa kupitia mfumo wa AI zalishi."
+        },
+        "af": {
+          "term": "instruksieteks",
+          "definition": "\u2019n Instruksie, gewoonlik uitgedruk in natuurlike taal, wat gebruik word om die verlangde uitvoer van \u2019n generatiewe-AI-enjin te kry."
+        },
+        "xh": {
+          "term": "Umyalelo",
+          "definition": "Umyalelo, odla ngokuchazwa ngolwimi lwendalo, osetyenziselwa ukufumana imveliso efunekayo kwi-injini ye-AI yokuvelisa."
+        },
+        "zu": {
+          "term": "Umyalelo",
+          "definition": "Isiqondiso, ngokuvamile esivezwa ngolimi olungokwemvelo, esisetshenziselwa ukuthola umphumela ofiswayo enjinini ye-AI ekhiqizayo."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Prompt   in AI'"
+        }
+      },
+      "prompt_engineering": {
+        "en": {
+          "term": "Prompt engineering",
+          "definition": "The process of structuring an instruction that can be interpreted and understood by a generative AI model."
+        },
+        "sw": {
+          "term": "Uhandisi vidokezo",
+          "definition": "Mchakato wa kuunda maagizo ambayo mfumo wa AI zalishi unaweza kufafanua na kuelewa."
+        },
+        "af": {
+          "term": "instruksieteksontwerp",
+          "definition": "Die proses om \u2019n instruksie te struktureer wat deur \u2019n generatiewe-AI-model ge\u00efnterpreteer en verstaan kan word."
+        },
+        "xh": {
+          "term": "Ubunjinelimyalelo",
+          "definition": "Inkqubo yokumisela umyalelo onokutolikwa uze uqondwe yimodeli ye-AI yokuvelisa."
+        },
+        "zu": {
+          "term": "Ubunjiniyela bemiyalelo",
+          "definition": "Inqubo yokwakha umyalelo ongase uchazwe futhi uqondwe yimodeli ye-AI ekhiqizayo."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Prompt_engineering&oldid=1283389568",
+          "text": "Adapted from the Wikipedia article 'Prompt engineering'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Prompt_engineering&action=history"
+        }
+      },
+      "pseudonymization_": {
+        "en": {
+          "term": "Pseudonymization",
+          "definition": "The process of obscuring data with the ability to re-identify it later. Personally identifiable information fields within a data record are replaced by one or more artificial identifiers, or pseudonyms."
+        },
+        "sw": {
+          "term": "Ulakabishaji data tambulishi",
+          "definition": "Mchakato wa kuficha data ikiwa na uwezo wa kuitambua tena baadaye. Nafasi za sehemu za taarifa zinazoweza kumtambulisha mtu kibinafsi ndani ya rekodi ya data huchukuliwa na vipengee vya kuficha utambulisho wa data au kitambulishi kimoja bandia au zaidi."
+        },
+        "af": {
+          "term": "pseudonimisering",
+          "definition": "Die proses om data te verdoesel met die vermo\u00eb om dit later te heridentifiseer. Velde met persoonlik identifiseerbare inligting in \u2019n datarekord word vervang met een of meer kunsmatige identifiseerders, of pseudonieme."
+        },
+        "xh": {
+          "term": "IPseudonymization",
+          "definition": "Inkqubo yokufihla idatha nokwazi ukuyichonga kwakhona kamva. Indawo yenkcazelo echongiweyo ngokobuqu kwirekhodi yedatha ethathelwe indawo sisifanisi esinye, okanye ngapezulu, okanye ii-pseudonym."
+        },
+        "zu": {
+          "term": "Ukuzivezambumbulu",
+          "definition": "Inqubo yokufihla idatha ngendlela yokukwazi ukuyibona futhi kamuva. Izinkundla zolwazi olukhomba umuntu siqu (PII) erekhodini ledatha ziyakhishwa kufakwe izinkomba zokwenziwa ezizodwa noma ngaphezulu, noma amapseudonyms."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Pseudonymization&oldid=1300324783",
+          "text": "Adapted from the Wikipedia article 'Pseudonymization'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Pseudonymization&action=history"
+        }
+      },
+      "raw_data": {
+        "en": {
+          "term": "Raw data",
+          "definition": "Also known as primary data, are data (e.g., numbers, instrument readings, figures, etc.) collected from a source, prior to cleaning or analysis."
+        },
+        "sw": {
+          "term": "Data ghafi",
+          "definition": "Pia hujulikana kama data ya msingi, ni data (k.m., namba, vipimo vya vifaa, tarakimu, n.k.) iliyokusanywa kutoka katika chanzo kabla ya kuichambua au kuchanganua."
+        },
+        "af": {
+          "term": "onverwerkte data",
+          "definition": "Ook bekend as prim\u00eare data \u2013 dit is data (byvoorbeeld nommers, instrumentlesings, syfers, ensovoorts) wat van \u2019n bron af ingesamel is, voordat dit opgeruim of ontleed is."
+        },
+        "xh": {
+          "term": "Idatha ekrwada",
+          "definition": "Ekwabizwa ngokuba yidatha yangaphambili, yidatha (umzekelo, amanani, ukufundwa kwezixhobo, amanani, njalo-njalo.) eqokelelwe kumthombo ngaphambi kokucoca okanye uhlalutyo."
+        },
+        "zu": {
+          "term": "Imininingo engahlungiwe",
+          "definition": "Yaziwa nangokuthi idatha eyinhloko, iyidatha (isib., izinombolo, ukufundwa kwethuluzi, izinombolo, njll.) eqongelelwa emthonjeni, ngaphambi kokuhlanza noma ukuhlaziya."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Raw_data&oldid=1299497641",
+          "text": "Adapted from the Wikipedia article 'Raw data'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Raw_data&action=history"
+        }
+      },
+      "reinforcement_learning_rl": {
+        "en": {
+          "term": "Reinforcement Learning (RL)",
+          "definition": "An interdisciplinary area of machine learning and optimal control concerned with how an intelligent agent ought to take actions in a dynamic environment in order to maximize the cumulative reward."
+        },
+        "sw": {
+          "term": "Ujifunzaji imarishi",
+          "definition": "Taaluma anuai ya mashine kujifunza na udhibiti bora unaohusiana na jinsi ambavyo kipengee mahiri kinapaswa kuchukua hatua katika mazingira nyumbufu ili kuongeza jumla ya mafanikio."
+        },
+        "af": {
+          "term": "versterkingleer (VL)",
+          "definition": "\u2019n Interdissiplin\u00eare terrein van masjienleer en optimale beheer wat gemoeid is met hoe \u2019n intelligente agent in \u2019n dinamiese omgewing behoort op te tree om die kumulatiewe beloning so groot moontlik te maak."
+        },
+        "xh": {
+          "term": "Ukufunda ngokuKhuthazwa (RL)",
+          "definition": "Icandelo lokufunda koomatshini nolawulo olufanelekileyo olunenkxalabo ngendlela iarhente ekrelekrele ekufuneka ithathe ngayo amanyathelo kwindawo eguqukayo ukuze kwandiswe umvuzo owongezelekayo."
+        },
+        "zu": {
+          "term": "Ukufunda Ukuthatha Izinqumo",
+          "definition": "Indawo engaphezu kweyodwa yokufunda komshini nokulawula okuthuthukisiwe okugxile endleleni i-ejenti ehlakaniphile okufanele ithathe ngayo izinyathelo endaweni eshintshashintshayo ukuze kuthuthukiswe umvuzo oqongelelwe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Reinforcement_learning&oldid=1305774041",
+          "text": "Adapted from the Wikipedia article 'Reinforcement learning'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Reinforcement_learning&action=history"
+        }
+      },
+      "robotics": {
+        "en": {
+          "term": "Robotics",
+          "definition": "The interdisciplinary study and practice of the design, construction, operation, and use of robots (a machine\u2014especially one programmable by a computer\u2014capable of carrying out a complex series of actions automatically)."
+        },
+        "sw": {
+          "term": "Robotiki",
+          "definition": "Taaluma ya mada anuai na mbinu ya kubuni, kutengeneza, kuendesha na kutumia roboti (mashine\u2014hasa ile inayoendeshwa na kompyuta\u2014yenye uwezo wa kutekeleza kiotomatiki mifuatano changamano ya vitendo)."
+        },
+        "af": {
+          "term": "robotika",
+          "definition": "Die interdissiplin\u00eare bestudering en toepassing van die ontwerp, konstruksie, bedryf en gebruik van robotte (\u2019n masjien \u2013 veral een wat deur \u2019n rekenaar geprogrammeer kan word \u2013 wat in staat is om \u2019n komplekse reeks handelinge outomaties uit te voer)."
+        },
+        "xh": {
+          "term": "Irobhothiksi",
+          "definition": "Uphononongo lwezifundo ezahlukahlukeneyo nokusebenza koyilo, ukwakhiwa, ukusebenza, kunye nokusetyenziswa kweerobhothi (umatshini\u2013ngakumbi omnye ocwangciswayo yikhompyutha\u2013ekwaziyo ukwenza uluhlu olunzima lwezenzo ngokuzenzekelayo)."
+        },
+        "zu": {
+          "term": "IRobotiksi",
+          "definition": "Ucwaningo olungaphezu kolulodwa nomsebenzi wedizayini, ukwakha, ukusebenza, nokusetshenziswa kwamarobhothi (umshini\u2014ikakhulu ongahlelwa yikhompyutha\u2014okwazi ukufeza uchungechunge lwezenzo eziyinkimbinkimbi ngokuzenzekelayo)."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Robotics&oldid=1302329800",
+          "text": "Adapted from the Wikipedia article 'Robotics'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Robotics&action=history"
+        }
+      },
+      "speech_recognition": {
+        "en": {
+          "term": "Speech recognition",
+          "definition": "An interdisciplinary subfield of computer science and computational linguistics that develops methodologies and technologies that enable the recognition and translation of spoken language into text by computers."
+        },
+        "sw": {
+          "term": "Utambuzi longo",
+          "definition": "Taaluma ndogo inayohusisha mada anuai za sayansi ya kompyuta na ukokotoaji wa lugha kwa kutumia kompyuta ambao unabuni mbinu na teknolojia zinazowezesha kutambua na kutafsiri lugha inayozungumzwa kuwa maandishi kupitia kompyuta."
+        },
+        "af": {
+          "term": "spraakherkenning",
+          "definition": "\u2019n Interdissiplin\u00eare subvakgebied van rekenaarwetenskap en rekenaarlinguistiek wat metodologie\u00eb en tegnologie\u00eb ontwikkel wat die herkenning en vertaling van gesproke taal in teks deur rekenaars moontlik maak."
+        },
+        "xh": {
+          "term": "Ukunakanwa kwentetho",
+          "definition": "Icandelo elingaphantsi kwezifundo ezahlukeneyo zenzululwazi yekhompyutha neelwimi zekhompyutha eziphuhlisa iindlela nobuchwepheshe obuvumela ukuqondwa nokuguqulelwa kolwimi oluthethwayo kwisicatshulwa ngeekhompyutha."
+        },
+        "zu": {
+          "term": "Inzwagezwi",
+          "definition": "Inkundla engaphezu kweyodwa yesayensi yekhompyutha nolimi lwekhompyutha olusungula izindlela nobuchwepheshe obuvumela ukuqashelwa nokuhunyushwa kolimi olukhulunywayo ngombhalo emakhompyutheni."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Speech_recognition&oldid=1308968197",
+          "text": "Adapted from the Wikipedia article 'Speech recognition'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Speech_recognition&action=history"
+        }
+      },
+      "supervised_learning": {
+        "en": {
+          "term": "Supervised learning",
+          "definition": "A paradigm in machine learning where input objects and a desired output value train a model."
+        },
+        "sw": {
+          "term": "Ujifunzaji elekezwa",
+          "definition": "Nadharia katika mchakato wa mashine kujifunza ambapo vipengee vya data na matokeo yanayokusudiwa hufunza mfumo."
+        },
+        "af": {
+          "term": "leer onder toesig",
+          "definition": "\u2019n Paradigma in masjienleer waar invoervoorwerpe en \u2019n verlangde uitvoerwaarde \u2019n model oplei."
+        },
+        "xh": {
+          "term": "Ukufunda okujongiweyo",
+          "definition": "I-paradigm ekufundeni koomatshini apho izinto ezifakwayo nexabiso elifunekayo lemveliso liqeqesha imodeli."
+        },
+        "zu": {
+          "term": "Ukufunda okuqashelwe",
+          "definition": "Isibonelo sokufunda komshini lapho izinto ezifakwayo nenani lomphumela ofiswayo ziqeqesha imodeli."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Supervised_learning&oldid=1308164849",
+          "text": "Adapted from the Wikipedia article 'Supervised learning'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Supervised_learning&action=history"
+        }
+      },
+      "synthetic_media": {
+        "en": {
+          "term": "Synthetic media",
+          "definition": "A catch-all term for the artificial production, manipulation, and modification of data and media by automated means, especially through the use of artificial intelligence algorithms, such as for the purpose of misleading people or changing an original meaning. Also known as AI-generated media."
+        },
+        "sw": {
+          "term": "Maudhui sanisi",
+          "definition": "Istilahi inayohusisha michakato yote ya uundaji bandia, urekebishaji na ubadilishaji wa data na maudhui kwa njia ya kiotomatiki, hususani kupitia matumizi ya algoriti za akiliunde, kama vile kwa madhumuni ya kupotosha watu au kubadilisha maana halisi. Pia hujulikana kama maudhui yaliyotayarishwa kwa AI."
+        },
+        "af": {
+          "term": "sintetiese media",
+          "definition": "\u2019n Versamelterm vir die kunsmatige produksie, manipulasie en modifikasie van data en media deur geoutomatiseerde metodes, veral deur die gebruik van algoritmes met kunsmatige intelligensie, soos met die doel om mense te mislei of om \u2019n oorspronklike betekenis te verander. Ook bekend as AI-gegenereerde media."
+        },
+        "xh": {
+          "term": "Imidiya yokwenziwayo",
+          "definition": "Intetho ehlala isetyenziswa yemveliso eyenziweyo , ukwenziwa nokuguqulwa kwedatha kunye nemidiya ngeendlela ezizenzekelayo, ngokukodwa ngokusetyenziswa kwee-algorithms ze-artificial intelligence, njengenjongo yokulahlekisa abantu okanye ukutshintsha intsingiselo yangaphambili. Ekwabizwa ngokuba yimidiya eveliswe yi-AI."
+        },
+        "zu": {
+          "term": "Ezokwazisa ezikhiqizwa umshini",
+          "definition": "Itemu elihlanganisa konke lomkhiqizo owakhiwe, ukufuzisela, nokuguqulwa kwedatha nemidiya ngokuzenzakalelayo, ikakhulu ngokusebenzisa ama-algorithms wobuchwepheshe bokwakhiwe, ngenjongo yokudukisa abantu noma ukushintsha incazelo yasekuqaleni. Yaziwa nangokuthi yimidiya ekhiqizwe yi-AI."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Synthetic_media&oldid=1293511090",
+          "text": "Adapted from the Wikipedia article 'Synthetic media'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Synthetic_media&action=history"
+        }
+      },
+      "transfer_learning": {
+        "en": {
+          "term": "Transfer learning",
+          "definition": "Transfer learning (TL) is a technique in machine learning (ML) in which knowledge learned from a task is re-used in order to boost performance on a related task.[1] For example, for image classification, knowledge gained while learning to recognize cars could be applied when trying to recognize trucks."
+        },
+        "sw": {
+          "term": "Ujifunzaji hamishi",
+          "definition": "Kuhamisha mafunzo (TL) ni mbinu inayotumika katika mchakato wa mashine kujifunza (ML) ambapo ujuzi unaotokana na jukumu unatumika tena ili kuboresha utendaji kwenye jukumu linalohusiana.[1] Kwa mfano, katika uainishaji wa picha, ujuzi unaopatikana wakati wa kujifunza ili kutambua magari madogo unaweza kutumika mfumo unapojaribu kutambua malori."
+        },
+        "af": {
+          "term": "oordragleer",
+          "definition": "Oordragleer (OL) is \u2019n tegniek in masjienleer (ML) waarin kennis wat uit \u2019n taak geleer is, weer gebruik word om die prestasie met \u2019n verwante taak te verbeter.[1] Byvoorbeeld, vir prentklassifikasie kan die kennis wat verkry is terwyl daar geleer is om motors te herken, toegepas word wanneer daar geprobeer word om vragmotors te herken."
+        },
+        "xh": {
+          "term": "Udluliselo lokufundiweyo",
+          "definition": "Ukufunda okudluliswayo (TL) bubuchule ekufundeni koomatshini (ML) apho ulwazi olufundwe kumsebenzi luphinda lusetyenziswe ukuze kunyuswe ukusebenza komsebenzi onxulumeneyo.[1] Umzekelo, kuhlelo lwemifanekiso, ulwazi olufunyenwe ngelixa ufunda ukuqaphela iimoto lunokusetyenziswa xa kuzanywa ukuqatshelwa iilori."
+        },
+        "zu": {
+          "term": "Ukufunda kokudlulisela",
+          "definition": "Ukufunda kokudlulisela (TL) ingubuciko ekufundeni komshini (ML) lapho ulwazi olutholwe emsebenzini lusetshenziswa kabusha ukuze kuthuthukiswe ukusebenza komsebenzi ohlobene.[1] Ngokwesibonelo, ekuhlungeni isithombe, ulwazi olutholwe ngesikhathi kufundwa ukuqaphela izimoto lungasebenza uma kuzanywa ukuqaphela amaloli."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Transfer_learning&oldid=1308107615",
+          "text": "Adapted from the Wikipedia article 'Transfer learning'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Transfer_learning&action=history"
+        }
+      },
+      "unsupervised_learning": {
+        "en": {
+          "term": "Unsupervised learning",
+          "definition": "A framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data."
+        },
+        "sw": {
+          "term": "Ujifunzaji usioelekezwa",
+          "definition": "Mfumo unaotumika katika mchakato wa mashine kujifunza ambapo, tofauti na mafunzo yanayosimamiwa, algoriti hujifunza mitindo kwa upekee kupitia data isiyo na lebo."
+        },
+        "af": {
+          "term": "leer sonder toesig",
+          "definition": "\u2019n Raamwerk in masjienleer waar \u2013 anders as met leer onder toesig \u2013 algoritmes patrone eksklusief uit ongemerkte data leer."
+        },
+        "xh": {
+          "term": "Ukufunda okungajongwangwa",
+          "definition": "Isakhelo ekufundweni koomatshini apho, ngokuchaseneyo nokufunda okugadiweyo, ii-algorithm zifunda iipateni ngokukodwa kwiidatha ezingabhalwanga."
+        },
+        "zu": {
+          "term": "Ukufunda okungagadiwe",
+          "definition": "Ifremuwekhi ekufundeni komshini lapho, ngokungafani nokufunda okugadiwe, ama-algorithms afunda amaphethini ngokukhethekile kudatha engenalebula."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Unsupervised_learning&oldid=1300836256",
+          "text": "Adapted from the Wikipedia article 'Unsupervised learning'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Unsupervised_learning&action=history"
+        }
+      },
+      "zeroshot_prompting": {
+        "en": {
+          "term": "Zero-shot prompting",
+          "definition": "A prompting strategy that doesn\u2019t include any examples about the desired input and output"
+        },
+        "sw": {
+          "term": "Udokezaji bila mfano",
+          "definition": "Mkakati wa kutumia udokezaji usiojumuisha mifano yoyote kuhusu data na tokeo linalokusudiwa"
+        },
+        "af": {
+          "term": "geenvoorbeeldinstruksieteks",
+          "definition": "\u2019n Porboodskapstrategie wat geen voorbeelde van die verlangde invoer en uitvoer insluit nie"
+        },
+        "xh": {
+          "term": "Uyalelo olungena mizekelo",
+          "definition": "Isicwangiso sokuyalela esingabandakanyi nayiphi na imizekelo ngokufakwayo okufunekayo nesiphumo."
+        },
+        "zu": {
+          "term": "Ukuyalela ngeze",
+          "definition": "Isu lokukhumbuza elingabandakanyi noma iziphi izibonelo ezimayelana nokufakwayo kanye nomphumela ofiswayo"
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Zero-shot prompting in AI'"
+        }
+      }
+    },
+    "Advanced": {
+      "ab_testing": {
+        "en": {
+          "term": "A/B testing",
+          "definition": "A statistical way of comparing two (or more) techniques\u2014the A and the B. Typically, the A is an existing technique, and the B is a new technique. A/B testing not only determines which technique performs better but also whether the difference is statistically significant."
+        },
+        "sw": {
+          "term": "Jaribio A/B",
+          "definition": "Ni njia ya kitakwimu wa kulinganisha mitindo miwili (au zaidi)\u2014A na B. Kwa kawaida A ndio mtindo uliopo na B ni mtindo mpya. Jaribio la A/B hupima ili kubaini ni mbinu gani ina utendaji bora, lakini pia, ikiwa kuna tofauti yoyote kubwa ya kitakwimu kati ya mbinu hizo."
+        },
+        "af": {
+          "term": "A/B-toetsing",
+          "definition": "\u2019n Statistiese manier om twee (of meer) tegnieke te vergelyk - die A en die B. Gewoonlik is die A \u2019n bestaande tegniek en die B \u2019n nuwe tegniek. A/B-toetse bepaal nie net watter tegniek beter presteer nie, maar ook of die verskil wel statisties relevant is."
+        },
+        "xh": {
+          "term": "Uvavanyo lweA/B",
+          "definition": "Indlela yezibalo yokuthelekisa iindlela ezimbini (okanye ngaphezulu)-i-A kunye ne-B. Ngokuqhelekileyo, i-A yinkqubo ekhoyo, kwaye i-B yindlela entsha. Uvavanyo lwe-A/B alubonisi nje kuphela ukuba boluphi na ubugcisa obusebenza ngcono kodwa nokuba umahluko ubalulekile ngokwezibalo."
+        },
+        "zu": {
+          "term": "Ukuhlolakuqhathanisa imikhiqizo",
+          "definition": "Indlela yezibalo yokuqhathanisa izindlela - u-A kanye no-B. Ngokujwayelekile, u-A uyindlela ekhona, bese u-B abe yindlela entsha. Ukuhlola kwe-A/B akugcini ngokunquma ukuthi iyiphi indlela esebenza kangcono kodwa nokuthi umehluko wezibalo ubalulekile na."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#ab-testing",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Ab Testing'"
+        }
+      },
+      "ablation": {
+        "en": {
+          "term": "Ablation",
+          "definition": "In artificial intelligence (AI), particularly machine learning (ML), ablation is the removal of a component of an AI system. An ablation study investigates the performance of an AI system by removing certain components to understand the contribution of the component to the overall system."
+        },
+        "sw": {
+          "term": "Uondoaji vipengele",
+          "definition": "Katika fani ya akiliunde, hasa mashine kujifunza, kumomonyoa ni kuondoa kipengele cha mfumo wa akiliunde. Utafiti wa kumomonyoa huchunguza utendaji wa mfumo wa akiliunde kwa kuodoa baadhi ya vipengele ili kuelewa mchango wa vipengele hivyo katika mfumo mzima."
+        },
+        "af": {
+          "term": "ablasie",
+          "definition": "In kunsmatige intelligensie (KI), spesifiek masjienleer (ML), is ablasie die verwydering van \u2019n komponent van \u2019n KI-stelsel. \u2019n Ablasiestudie ondersoek die werkverrigting van \u2019n KI-stelsel deur sekere komponente te verwyder om die bydrae van die komponent tot die algehele stelsel te verstaan."
+        },
+        "xh": {
+          "term": "Ukukhutshwa",
+          "definition": "Kubukrelekrele obenziweyo (iAI), ngokukodwa ukufundwa komatshini (ML), ukukhutshwa kukukhutshwa kwecandelo lenkqubo yeAI. Uphononongo lokuchithwa luphanda ukusebenza kwenkqubo yeAI ngokususa amacandelo athile ukuqonda igalelo lecandelo kwinkqubo yonke."
+        },
+        "zu": {
+          "term": "ukukhipha izakhi",
+          "definition": "Ubuchwepheshe obusebenza ngokungasikho okwemvelo (i-AI), ikakhulukazi ukufunda ngomshini (i-ML), ukukhipha izakhi zohlelo lwe-AI. Ucwaningo lwezakhi luhlola ukusebenza kohlelo lwe-AI ngokususa izakhi ezithile ukuze uqonde igalelo lezakhi ohlelweni lulonke."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Ablation_(artificial_intelligence)&oldid=1254378720",
+          "text": "Adapted from the Wikipedia article 'Ablation (artificial intelligence)'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Ablation_(artificial_intelligence)&action=history"
+        }
+      },
+      "ai_adoption": {
+        "en": {
+          "term": "AI Adoption",
+          "definition": "In computing, adoption means the transfer (conversion) between an old system and a target system in an organization (or more broadly, by anyone). In regard to AI, it means using artificial intelligence to improve workflows and decision-making processes"
+        },
+        "sw": {
+          "term": "Usimilishaji akiliunde",
+          "definition": "Katika masuala ya kikompyuta, ukumbatiaji unarejelea kuhamisha (ugeuzaji) kati ya mfumo wa zamani na mfumo unaolengwa katika shirika (au kwa upana, kwa mtu yeyote). Katika ulingo wa AI, inamaanisha utumiaji wa akiliunde ili kuboresha utendaji kikazi na michakato ya kufanya uamuzi"
+        },
+        "af": {
+          "term": "KI-ingebruikneming",
+          "definition": "In rekenaarwese beteken ingebruikneming die oordrag (omskakeling) tussen \u2019n ou stelsel en \u2019n teikenstelsel in \u2019n organisasie (of wyer nog, deur enigiemand). Met betrekking tot KI beteken dit dat kunsmatige intelligensie gebruik word om werkvloei en besluitnemingprosesse te verbeter."
+        },
+        "xh": {
+          "term": "Uguqulelo kwiAI",
+          "definition": "Ekusebenzeni kweekhompyutha, uguqulelo luthetha ukudluliselwa (ukuguqulwa) phakathi kwenkqubo endala nenkqubo eyithagethi  kwintlangano (okanye ngokubanzi, nguye nabani na). Ngokuphathelele iAI, kuthetha ukusebenzisa ubukrelekrele obenziweyo ukuze kuphuculwe ukuhamba komsebenzi neenkqubo zokwenza izigqibo."
+        },
+        "zu": {
+          "term": "Ukwamukela Ubuhlakani Obakhiwe",
+          "definition": "Kwezocwaningo lwamakhompyutha, ukuguqukela kusho ukudlulisa (ukushintsha) usuke ohlelweni oludala kanye nohlelo okuphokophelwe kulo esikhungweni (noma kabanzi, okwenziwa yinoma wubani). Maqondana ne-AI, kusho ukusebenzisa ubuchwephe obusebenza ngokungasikho okwemvelo ukuthuthukisa umsebenzi kanye nezinqubo zokuthatha izinqumo"
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Software_adoption&oldid=1230084410",
+          "text": "Adapted from the Wikipedia article 'Software adoption'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Software_adoption&action=history"
+        }
+      },
+      "anomaly_detection": {
+        "en": {
+          "term": "Anomaly detection",
+          "definition": "In machine learning, this is the process of using machine learning models to identify anomalies rapidly. This serves several purposes, whether to maintain clean, high-quality data that you will use for processing or specific business purposes."
+        },
+        "sw": {
+          "term": "Utambuzi wa dosari",
+          "definition": "Katika mashine kujifunza, huu ni mchakato wa kutumia mifumo ya mashine kujifunza kutambua hali zisizo za kawaida kwa haraka. Huwa na malengo kadhaa, iwe ni kudumisha data ya ubora wa juu utakayotumia katika uchakataji au kwa malengo mahususi ya kibiashara."
+        },
+        "af": {
+          "term": "afwykingbespeuring",
+          "definition": "In masjienleer is dit die proses waardeur masjienleermodelle gebruik word om onre\u00eblmatighede vinnig te identifiseer. Dit dien verskeie doele, onder andere die behoud van skoon, ho\u00ebgehaltedata wat gebruik word vir prosessering of spesifieke besigheidsdoeleindes."
+        },
+        "xh": {
+          "term": "Ufunyaniso lokungaqhelekanga",
+          "definition": "Ukufunda koomatshini, le yinkqubo yokusebenzisa iimodeli zokufunda ngoomatshini ukuchonga izinto ezingaqhelekanga ngokukhawuleza. Oku kusebenzela iinjongo ezininzi, nokuba kukugcina idatha ecocekileyo, ekumgangatho ophezulu oya kuyisebenzisela ukuprosesa okanye iinjongo ezithile zoshishino."
+        },
+        "zu": {
+          "term": "Ukuhlonza okungavamile",
+          "definition": "Ekufundeni ngemishini, lokhu kuyinqubo yokusebenzisa izinhlelo zokufunda ngemishini sokuhlonza okungavamile ngokushesha. Lokhu kusebenza ngokwezinhloso ezihlukene, okungaba wukugcina imininingwane engenasici, eseqophelweni eliphezulu ozoyisebenzisela ukulungisa noma izinhloso zebhizinisi ezibaluliwe."
+        },
+        "attribution": {
+          "source_author": "",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://www.coursera.org/articles/anomaly-detection-machine-learning",
+          "text": ""
+        }
+      },
+      "artifical_general_intelligence": {
+        "en": {
+          "term": "Artifical general intelligence",
+          "definition": "A non-human mechanism that demonstrates a broad range of problem solving, creativity, and adaptability. For example, a program demonstrating artificial general intelligence could translate text, compose symphonies, and excel at games that have not yet been invented."
+        },
+        "sw": {
+          "term": "Akiliunde jumuifu",
+          "definition": "Mfumo usio wa kibinadamu ulio na uwezo mpana wa kutatua matatizo, kuwa na ubunifu na unyumbufu. Kwa mfano, mfumo ulio na akiliunde yenye utashi unaweza kutafsiri matini, ukatunga muziki na kufanya vyema katika michezo ambayo hata haijavumbuliwa."
+        },
+        "af": {
+          "term": "kunsmatige algemene intelligensie",
+          "definition": "\u2019n Niemenslike meganisme wat \u2019n algemene, wye reeks probleemoplossing, kreatiwiteit en aanpasbaarheid demonstreer. Byvoorbeeld, \u2019n program wat kunsmatige intelligensie demonstreer kan teks vertaal, simfonie\u00eb komponeer en uitblink in speletjies wat nog nie geskep is nie."
+        },
+        "xh": {
+          "term": "Ubukrelekrele obenziweyo ngokubanzi",
+          "definition": "Indlela engeyoyamntu ebonisa uluhlu olubanzi lokusombulula iingxaki, ukuyila,  nokuguquguquka. Umzekelo, iprogramu ebonisa ubukrelekrele obenziweyo ngokubanzi  bunokuguqulela umbhalo, buqambe iisimfoni, buze bugqwese kwimidlalo engekaveliswa."
+        },
+        "zu": {
+          "term": "Ubuhlakani Obakhiwe Obuvamile",
+          "definition": "Inqubo engeziwa abantu yokuveza uhla olubanzi lokuxazulula inkinga, ubuciko, kanye nokuhambisana nezimo. Isibonelo, uhlelo olubonisa ubuchwepheshe obusebenza ngokungasikho okwemvelo jikelele obungakwazi ukuhumusha umbhalo, buqambe imiculo, futhi buhambe phambili emidlalweni engakasungulwa."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#artificial-general-intelligence",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Artificial General Intelligence'"
+        }
+      },
+      "artificial_narrow_intelligence_ani": {
+        "en": {
+          "term": "Artificial Narrow Intelligence (ANI)",
+          "definition": "Narrow AI can be classified as being \u201climited to a single, narrowly defined task. Most modern AI systems would be classified in this category.\u201d Some examples of narrow AI are self-driving cars and robot systems used in the medical field."
+        },
+        "sw": {
+          "term": "Akiliunde mahususi",
+          "definition": "Akiliunde yenye Umahususi unafasiliwa kuwa \u201cmifumo ya akiliunde inayotekeleza jukumu moja lililobainishwa. Mifumo mingi ya akiliunde ya kisasa inaweza kupatikana katika aina hii.\u201d Mifano ya akiliunde yenye umahuusi ni magari yanayojiendesha na mifumo ya roboti zinazotumika katika matibabu."
+        },
+        "af": {
+          "term": "kunsmatige beperkte intelligensie (KBI)",
+          "definition": "Beperkte KI kan geklassifiseer word as \"beperk tot \u2019n enkel, noukeurig gedefinieerde taak\". Meeste moderne KI-stelsels sal in hierdie kategorie geklassifiseer word\". \u2019n Paar voorbeelde van beperkte KI is selfbestuurkarre en robotstelsels wat in die mediese veld gebruik word."
+        },
+        "xh": {
+          "term": "Ubukrelekrele oBenziweyo oBumxinwa (ANI)",
+          "definition": "I-AI Emxinwa inokuhlelwa \u201cnjengesikelwe umda kumsebenzi omnye ochaziweyo. Uninzi lweenkqubo ze-AI zanamhlanje zingahlelwa kolu didi\". Eminye imizekelo ye-AI emxinwa ziimoto eziziqhubayo neenkqubo zerobhothi ezisetyenziswa kwicandelo lezonyango."
+        },
+        "zu": {
+          "term": "Ubuhlakani Obakhiwe Obubhuncene",
+          "definition": "I-AI encinyanane okungathiwa \"inomkhawulo wokwenza umsebenzi owodwa umcinyane ochaziwe. Izinhlelo ze-AI zesimanje eziningi zingafakwa kulesi sigaba.\" Ezinye izibonelo zobuchwepheshe obusebenza ngokungasikho okwemvelo obuncinyane yizimoto ezimoto ezizishayelayo kanye nezinhlelo zamarobhothi ezisetshenziswa emkhakheni wezokwelapha."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Weak_artificial_intelligence&oldid=1291897714",
+          "text": "Adapted from the Wikipedia article 'Weak artificial intelligence'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Weak_artificial_intelligence&action=history"
+        }
+      },
+      "automl_automated_machine_learning": {
+        "en": {
+          "term": "AutoML (Automated Machine Learning)",
+          "definition": "Automated machine learning (AutoML) is the process of automating the tasks of applying machine learning to real-world problems. It is the combination of automation and ML."
+        },
+        "sw": {
+          "term": "Ujifunzaji wa mashine kiotomati",
+          "definition": "Mashine Kujifunza Kiotomatiki (AutoML) ni mchakato wa kufanya mitambo ijiendeshe kwa kutumia uwezo wa mashine kujifunza katika majukumu ya ulimwengu halisi. Ni utumiaji wa fani ya mitambo kujiuendesha na mashine kujifunza kwa pamoja."
+        },
+        "af": {
+          "term": "OutoML (outomatiese masjienleer)",
+          "definition": "Outomatiese masjienleer (OutoML) is die proses waardeur die take waarin masjienleer op regtew\u00eareldprobleme toegepas word, geoutomatiseer word. Dis die kombinasie van outomatisering en masjienleer."
+        },
+        "xh": {
+          "term": "iAutoML (ukuFunda ngoMatshini okuZenzekelayo)",
+          "definition": "Ukufunda ngomatshini ngokuzenzekelayo (iAutoML) yinkqubo yokuzenzela imisebenzi yokufaka umatshini wokufunda kwiingxaki zehlabathi lokwenyani. Yindibaniselwano yokuzenzela neML."
+        },
+        "zu": {
+          "term": "Ukufunda Kwemishini Ngokuzenzekela",
+          "definition": "Ufunda kwemishini ngokuzenzekela (i-AutoML) yinqubo yokuhlela ukuba imisebenzi izenzekele usebenzisa ukufunda kwemishini ezinkingeni zasemhlabeni zangempela. Kuhlanganisa ukuzenzekela kanye ne-ML."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Automated_machine_learning&oldid=1261502345",
+          "text": "Adapted from the Wikipedia article 'Automated machine learning'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Automated_machine_learning&action=history"
+        }
+      },
+      "big_data": {
+        "en": {
+          "term": "Big data",
+          "definition": "Primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing application software. Big data usually includes data sets with sizes beyond the ability of commonly used software tools to capture, curate, manage, and process data within a tolerable elapsed time."
+        },
+        "sw": {
+          "term": "Data pana",
+          "definition": "Kimsingi ni mkusanyiko mkubwa au changamano wa data ambao hauwezi kushughulikiwa kwa programu za kawaida za kuchakata data. Kwa kawaida data lukuki huwa mkusanyiko wa data unaozidi uwezo wa zana za kawaida za kunakili, kukusanya, kudhibiti na kuchakata data katika kipindi kinachoweza kuvumilika."
+        },
+        "af": {
+          "term": "groot data",
+          "definition": "Verwys hoofsaaklik na datastelle wat te groot of kompleks is om deur tradisionele appsagteware vir dataprosessering gehanteer te word. Grootdata sluit gewoonlik datastelle in met groottes b\u00f3 die vermo\u00ebns van sagtewarenutsgoed wat gewoonlik gebruik word om data binne \u2019n draaglike tydsduur vas te vang, saam te stel, te bestuur en te prosesseer."
+        },
+        "xh": {
+          "term": "Idatha enkulu",
+          "definition": "Ngokuyintloko ibhekisa kwiiseti zedatha ezinkulu kakhulu okanye ezintsokothileyo ukuba zingasetyenzwa ngokwesiko lenkqubo yedatha yesoftware. Idatha enkulu idla ngokubandakanya iiseti zedatha ezinobungakanani obungaphaya kwamandla ezixhobo zesoftware ezisetyenziswa ngokuqhelekileyo ukubamba, ukulungelelanisa, ukulawula, nokucwangcisa idatha kwixesha elinyamezelekayo."
+        },
+        "zu": {
+          "term": "Imininingo emikhulu",
+          "definition": "Kusho uhlu lwemininingwane olukhulu noma oludidayo oluzobhekana nesoftiwe yohlelo lokulungisa imininingwane lakudala. Imininingwane emikhulu ibandakanya uhlu lwemininingwane enobungakho obungaphezul kwamandla eamathuluzi esoftiwe evame ukusetshenziswa okuqopha, ukuphatha, ukulawula, nokulungisa imininingwane esikhathini esidlulile esamukelekile."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Big_data&oldid=1309128949",
+          "text": "Adapted from the Wikipedia article 'Big data'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Big_data&action=history"
+        }
+      },
+      "binary_classification": {
+        "en": {
+          "term": "Binary classification",
+          "definition": "A type of classification task that predicts one of two mutually exclusive classes: the positive class and the negative class. For example, a model that determines whether email messages are spam (the positive class) or not spam (the negative class)."
+        },
+        "sw": {
+          "term": "Uainishaji jozi",
+          "definition": "Aina ya uainishaji wa majukumu unaobashiri tokeo moja kati ya mawili yasiyoweza kutokea kwa pamoja: upande chanya na upande hasi. Kwa mfano, mfumo unaotambua kama ujumbe wa barua pepe ni taka (upande chanya) au si taka (upande hasi)."
+        },
+        "af": {
+          "term": "bin\u00eare klassifisering",
+          "definition": "\u2019n Tipe klassifiseringtaak wat een of twee onverenigbare klassifiserings voorspel: die positiewe klas en die negatiewe klas. Byvoorbeeld, \u2019n model wat bepaal of \u2019n e-posboodskap gemorspos is (die positiewe klas) of nie gemorspos is nie (die negatiewe klas)."
+        },
+        "xh": {
+          "term": "Ukuhlelwa kweBinary",
+          "definition": "Uhlobo lomsebenzi wokuhlelwa oqikelela enye yeeklasi ezimbini ezizimeleyo: udidi oluhle kunye nodidi olubi. Umzekelo, imodeli emisela ukuba imiyalezo yeimeyile isispem (iklasi elungileyo) okanye ayisiso (udidi olubi)."
+        },
+        "zu": {
+          "term": "ukuhlela kokukabili",
+          "definition": "Uhlobo lomsebenzi wokuhlukanisa ngokwamazinga oluqagela izinga elilodwa noma amabili akhethekile: amazinga okuhle kanye namazinga okubi. Isibonelo, uhlelo olunquma ukuthi ingabe imiyalelo yama-imeyli iwugaxekile (izinga lokuhle) noma akusiwo ugaxekile (izinga lokubi)."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#binary-classification",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Binary Classification'"
+        }
+      },
+      "black_box_ai": {
+        "en": {
+          "term": "Black Box AI",
+          "definition": "A term used to describe artificial intelligence systems whose internal workings and decision-making processes are opaque or not easily understandable to humans."
+        },
+        "sw": {
+          "term": "Akiliunde fiche",
+          "definition": "Neno linalotumika kufafanua mifumo ya akiliunde ambayo utendakazi wake wa ndani na michakato ya kufanya uamuzi si bayana au si rahisi kwa binadamu kuelewa."
+        },
+        "af": {
+          "term": "swartboks-KI",
+          "definition": "\u2019n Term wat gebruik word om KI-stelsels te beskryf waarvan die interne bewerkinge en besluitnemingprosesse ondeursigtig is en nie maklik deur mense verstaan kan word nie."
+        },
+        "xh": {
+          "term": "Ibhokisi yeAI eMnyama",
+          "definition": "Ibinzana elisetyenziselwa ukuchaza iinkqubo zobukrelekrele obenziweyo apho iindlela zangaphakathi zokusebenza kwazo neenkqubo zazo zokwenza izigqibo zingacacanga okanye zingaqondwa lula ngabantu."
+        },
+        "zu": {
+          "term": "Ubuhlakani Obakhiwe obungeqondwe abantu",
+          "definition": "Itemu elisetshenziselwa ukuchaza ubuchwepheshe obusebenza ngokungasikho okwemvelo ezinezindlela zokusebenza zangaphakathi kanye nokuthatha izinqumo ezingacacile noma ezingaqondwa abantu kabula."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Black Box AI in AI'"
+        }
+      },
+      "data_minimization": {
+        "en": {
+          "term": "Data minimization",
+          "definition": "Data minimization is the principle of collecting, processing and storing only the necessary amount of personal information required for a specific purpose."
+        },
+        "sw": {
+          "term": "Ubanifu data",
+          "definition": "Kupunguza data ni kanuni inayosema kwamba kiasi cha taarifa binafsi kinachokusanywa, kuchakatwa na kuhifadhiwa kinafaa tu kuwa kinachohitajika kwa madhumuni mahususi."
+        },
+        "af": {
+          "term": "dataminimalisering",
+          "definition": "Dataminimalisering is die prinsiep waarin net die persoonlike inligting wat vir \u2019n spesifieke doel nodig is, ingesamel, verwerk en geberg word."
+        },
+        "xh": {
+          "term": "unciphisozinkcukacha",
+          "definition": "Ukunciphisa idatha ngumgaqo wokuqokelela, ukuprosesa nokugcina kuphela isixa esifunekayo senkcazelo yomntu efunekayo ngenjongo ethile."
+        },
+        "zu": {
+          "term": "Ukunciphisa imininingo",
+          "definition": "Ukunciphisa imininingwane kuyinqubo yokuqoqa, ukulungisa nokugcina isibalo esidingekayo solwazi lomuntu siqu oludingeka ngokwenhloso ebaluliwe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Data_minimization&oldid=1251606307",
+          "text": "Adapted from the Wikipedia article 'Data minimization'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Data_minimization&action=history"
+        }
+      },
+      "debiasing": {
+        "en": {
+          "term": "Debiasing",
+          "definition": "Debiasing is the reduction of bias, particularly with respect to judgment and decision making. Biased judgment and decision making is that which systematically deviates from the prescriptions of objective standards such as facts, logic, and rational behavior or prescriptive norms."
+        },
+        "sw": {
+          "term": "Uondoaji uegemezi",
+          "definition": "Kuondoa upendeleo ni mchakato wa kupunguza ubaguzi, hasa katika maoni na kufanya maamuzi. Maoni na maamuzi yenye upendeleo ni yale ambayo huenda kinyume na vigezo vilivyobainishwa vya usawa kama vile ukweli, mantiki na urazini au mwongozo wa kawaida."
+        },
+        "af": {
+          "term": "vooroordeelverwydering",
+          "definition": "Vooroordeelverwydering is die vermindering van bevooroordeling, spesifiek met betrekking tot opinies en besluitneming. Bevooroordeelde opinies en besluitneming is d\u00edt wat stelselmatig afwyk van die voorgeskrewe objektiewe standaarde, soos feite, logikia en rasionele optrede of voorgeskrewe norme."
+        },
+        "xh": {
+          "term": "Ukunciphisa ukuthatha icala",
+          "definition": "Ukunciphisa ukuthatha icala kukunciphisa umkhethe, ngakumbi ngokubhekisele kwisigwebo nokwenza izigqibo. Isigwebo nokwenziwa kwezigqibo okunomkhethe kukusuka ngokucwangcisiweyo kwimimiselo yemigangatho yenjongo efana neenyani, ingqiqo, nokuziphatha okunengqiqo okanye imigaqo emiselweyo."
+        },
+        "zu": {
+          "term": "Ukuchezuka kokujwayelekile",
+          "definition": "Ukususa ukuchema kuwukunciphsa ukuchema, ikakhulukazi maqondana nokwahlulela kanye nokuthatha izinqumo. Ukwahlulela ngokungachemi kanye nokuthatha izinqumo kuyilokho okuchezuka ngokohlelo oluthile kulokho okumisiwe emigomweni yezimpokophelo njengamaqiniso, okuqondakalayo, kanye nokuziphatha ngokufanele noma izindlela ezimisiwe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Debiasing&oldid=1187181655",
+          "text": "Adapted from the Wikipedia article 'Debiasing'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Debiasing&action=history"
+        }
+      },
+      "differential_privacy": {
+        "en": {
+          "term": "Differential Privacy",
+          "definition": "Differential privacy (DP) is a mathematically rigorous framework for releasing statistical information about datasets while protecting the privacy of individual data subjects. It enables a data holder to share aggregate patterns of the group while limiting information that is leaked about specific individuals."
+        },
+        "sw": {
+          "term": "Faragha pembuzi",
+          "definition": "Faragha kwa kuchanganya data ni mchakato madhubuti wa kihisabati wa kutoa taarifa za kitakwimu kuhusu mkusanyiko wa data huku faragha ya walio kwenye data hiyo ikilindwa. Humwezesha mshikilizi wa data kutuma ruwaza jumuifu ya data kuhusu kundi bila kufuchua taarifa kuhusu watu wowote mahususi."
+        },
+        "af": {
+          "term": "differensi\u00eble privaatheid",
+          "definition": "Differensi\u00eble privaatheid (DP) is \u2019n wiskundige, strawwe raamwerk vir die vrystelling van statistiese inligting oor datastelle, terwyl die privaatheid van individuele data-onderwerpe beskerm word. Dit maak dat \u2019n datahouer aggregaatpatrone van die groep kan deel en terselfde tyd die inligting kan beperk wat deursyfer oor die spesifieke individue."
+        },
+        "xh": {
+          "term": "Ukugcinwa kuyimfihlo kokwahlukileyo",
+          "definition": "Ukugcinwa kokwahlukileyo kuyimfihlo (iDP) sisikhokelo semathematika esingqongqo sokukhupha inkcazelo yeenkcukacha manani ngeeseti zedatha ngelixa kukhusela ubumfihlo bedatha yento nganye. Kuvumela umnini wedatha ukuba abelane ngeepateni ezidityanisiweyo zeqela ngelixa enciphisa inkcazelo evuzisiweyo ngabantu abathile."
+        },
+        "zu": {
+          "term": "Ubumfihlo Obuvikelayo",
+          "definition": "Inqubomogomo yokwahlukanisa (i-DP) iwuhlelo olunzulu lwezibalo lokukhipha ulwazi lwezibalo ngohlu lwemininingwane kube kuvikelwa imininingwane eyimfihlo yabantu abathile. Yenza umnikazi wemininingwane akwazi ukwabelana ngamaphethini ngokwezibalo ebe enciphisa ulwazi oluputshukayo ngabantu abathile."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Differential_privacy&oldid=1292259844",
+          "text": "Adapted from the Wikipedia article 'Differential privacy'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Differential_privacy&action=history"
+        }
+      },
+      "edge_computing": {
+        "en": {
+          "term": "Edge Computing",
+          "definition": "Edge computing is a distributed computing model that brings computation and data storage closer to the sources of data. Edge is about processing data closer to where it's being generated, enabling processing at greater speeds and volumes, leading to greater action-led results in real time."
+        },
+        "sw": {
+          "term": "Uchakataji kasi",
+          "definition": "Uchakataji data ukingoni. Ni mfumo wa kikompyuta unaofanya uchakataji na uhifadhi wa data ufanyike karibu na vyanzo vya data. Unahusu kuchakata data karibu na inapozalishwa hivyo kufanikisha uchakataji mwingi kwa kasi ambao huleta matokeo mengi katika muda halisi."
+        },
+        "af": {
+          "term": "periferale berekening",
+          "definition": "Periferale berekening is \u2019n verspreide berekeningmodel wat berekeninge en databerging nader aan databronne bring. Periferaal behels dat data geprosesseer word nader aan waar dit gegenereer word. Dit maak dit moontlik om teen ho\u00ebr spoed en groter volumes data te prosesseer, en daardeur intyds beter handelinggedrewe resultate te kry."
+        },
+        "xh": {
+          "term": "Usondezomphethelweni ngekhompuyutha",
+          "definition": "Ukusetyenziswa kwekhompyutha emphethelweni yimodeli yekhompyutha esasazwayo ezisa ukusetyenziswa kwekhompyutha nokugcinwa kwedatha kufutshane nemithombo yedatha. Emphethelweni umalunga nokusetyenzwa kwedatha kufutshane nalapho yenziwa khona, ivumela ukuproseswa ngezantya ezinkulu nemithamo, ekhokelela kwiziphumo ezinkulu ezikhokelwa yintshukumo ngexesha lokwenyani."
+        },
+        "zu": {
+          "term": "Ucubungulokusondeza",
+          "definition": "Ucubungulokuzondeza lwukudlulisela uhlelo locwaningo lwamakhompyutha olusondeza ucwaningo nokugcinwa kolwazi ndawonye nemithombo yemininingwane. Ucubungulokusondeza lumayelana nokulungisa imininingwane ibe iseduze kwalapho ikhiqizwe khona, okwenza ukulungiswa kwayo kusheshe futhi ibe miningi, okuholela emiphumeleni ebanzi ngesikhathi sangempela."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Edge_computing&oldid=1298053941",
+          "text": "Adapted from the Wikipedia article 'Edge computing'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Edge_computing&action=history"
+        }
+      },
+      "false_negative": {
+        "en": {
+          "term": "False negative",
+          "definition": "A result that indicates a given condition does not exist when it does. This means the algorithm generates a negative result when it should have been positive. A false negative could result in a cancerous region being overlooked, leading to a delayed diagnosis and treatment."
+        },
+        "sw": {
+          "term": "Hasi hadaifu",
+          "definition": "Matokoe yanayoonyesha kwamba hali fulani haipo wakati ipo. Hii ina maana kwamba algoriti imetoa matokeo hasi wakati ilifaa kutoa matokeo chanya. Ukosefu usio kweli unaweza kusababisha sehemu iliyo na saratani kutoangaziwa, hivyo kuchelewesha utambuzi na matibabu."
+        },
+        "af": {
+          "term": "vals negatief",
+          "definition": "\u2019n Uitslag wat aandui dat \u2019n gegewe kondisie nie bestaan nie terwyl dit wel bestaan. Dit beteken dat die algoritme \u2019n negatiewe resultaat genereer wanneer dit \u2019n positiewe een moes genereer. Byvoorbeeld, \u2019n vals negatief kan veroorsaak dat \u2019n kankeragtige area nie raakgesien word nie, wat kan lei tot vertraagde diagnose en behandeling."
+        },
+        "xh": {
+          "term": "Inegethivu engeyonyani",
+          "definition": "Isiphumo esibonisa ukuba imeko echaziweyo ayikho kodwa ibe ikhona. Oku kuthetha ukuba ialgorithm ivelisa iziphumo ezinegethivu xa bekufanele ukuba ziphozithivu. Inegethivu engoyonyani inokukhokelela ekubeni ummandla onomhlaza ungahoywa, nto leyo ekhokelela kuxilongo nonyango olulibazisekileyo."
+        },
+        "zu": {
+          "term": "Iphutha okungelona",
+          "definition": "Umphumela oveza ukuthi isimo esithile asikho sibe sikhona. Lokhu kusho ukuthi i-algorithm ikhiqiza umphumela omubi kube kumele ikhiphe omuhle. Umphumelakukhohlisa ungadala ukuthi indawo enomdlavuza inganakwa, okuholela ekuphuzeni kokutholakala nokwelashwa kwesifo."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=False_positives_and_false_negatives&oldid=1298182799",
+          "text": "Adapted from the Wikipedia article 'False positives and false negatives'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=False_positives_and_false_negatives&action=history"
+        }
+      },
+      "false_positive": {
+        "en": {
+          "term": "False positive",
+          "definition": "A result that indicates a given condition does exist when it does not. For instance, in a medical imaging scenario, a false positive might lead to a healthy region being flagged as cancerous, potentially causing unnecessary concern and medical procedures for the patient."
+        },
+        "sw": {
+          "term": "Chanya hadaifu",
+          "definition": "Matokeo yanayoonyesha kwamba hali fulani ipo wakati haipo. Kwa mfano, katika muktadha wa kupiga picha za kimatibabu, usahihi usio kweli unaweza kufanya sehemu isiyo na maambukizi kuainishwa kwamba ina saratani, hivyo kusababisha wasiwasi usio na msingi na matibabu yasiyo ya lazima kwa mgonjwa."
+        },
+        "af": {
+          "term": "vals positief",
+          "definition": "\u2019n Uitslag wat aandui dat \u2019n gegewe kondisie bestaan terwyl dit nie bestaan nie. Byvoorbeeld, in \u2019n mediesebeeldscenario kan \u2019n vals positief veroorsaak dat \u2019n gesonde area gevlag word as kankeragtig, wat onnodige bekommernis en mediese prosedures vir die pasient kan veroorsaak."
+        },
+        "xh": {
+          "term": "Iphozithivu engeyonyani",
+          "definition": "Isiphumo esibonisa ukuba imeko echaziweyo ikhona kodwa ibe ingekho. Umzekelo, kwimeko yomfanekiso wezonyango, iphozithivu ongeyonyani unokukhokelela ekubeni ummandla osempilweni kuthiwe unomhlaza, nto leyo enokubangela inkxalabo neenkqubo zonyango ezingeyomfuneko kwisigulana."
+        },
+        "zu": {
+          "term": "Iphutha okuyilo",
+          "definition": "Umphumela oveza ukuthi isimo esibaluliwe sikhona sibe singekho. Isibonelo, lapho kuskenwa umzimba ukuze welashwe, umphumela wokuhle oyinkohliso ungaholela ekutheni indawo ephilile kuthiwe inomdlavuza, okungadala ukukhathazeka kanye nequbo yokwelashwa kwesidingo kungenasidingo."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=False_positives_and_false_negatives&oldid=1298182799",
+          "text": "Adapted from the Wikipedia article 'False positives and false negatives'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=False_positives_and_false_negatives&action=history"
+        }
+      },
+      "federated_learning": {
+        "en": {
+          "term": "Federated Learning",
+          "definition": "A distributed machine learning approach that trains machine learning models using decentralized examples residing on devices such as smartphones. In federated learning, a subset of devices downloads the current model from a central coordinating server. The devices use the examples stored on the devices to make improvements to the model. The devices then upload the model improvements (but not the training examples) to the coordinating server, where they are aggregated with other updates to yield an improved global model."
+        },
+        "sw": {
+          "term": "Ujifunzaji shirikishi",
+          "definition": "Mfumo wa mashine kujifunza uliogatuliwa huchukua mkondo wa mashine kujifunza kwa kutumia mifano iliyosambazwa kwenye vifaa mbalimbali kama vile simu mahiri. Katika mafunzo yaliyogatuliwa, kundi fulani la vifaa hupakua mfumo uliopo kutoka kwenye seva kuu ya kuratibu. Kisha vifaa hivyo hutumia mifano inayohifadhiwa kwenye vifaa vyenyewe kuboresha mfumo. Baadaye vifaa hivyo hupakia maboresho ya mfumo (bali si mifano ile ya kufundishia) kwenye seva kuu ya kuratibu, ambapo maboresho hayo hujumlishwa na masasisho mengine ili kuboresha mfumo mkuu."
+        },
+        "af": {
+          "term": "gefedereerde leer",
+          "definition": "\u2019n Verspreide masjienleerbenadering wat masjienleermodelle oplei met gedesentraliseerde voorbeelde wat op toestelle soos slimfone gestoor is. In gefedereerde leer laai \u2019n substel toestelle die huidige model van \u2019n sentrale, ko\u00f6rdineringbediener af. Die toestelle gebruik die voorbeelde wat op die toestelle gestoor is om verbeteringe aan die model te maak. Die toestelle laai dan die modelverbeteringe op (maar nie die opleidingvoorbeelde nie) na die ko\u00f6rdineringbediener toe, waar dit alles saam met ander opdaterings saamgevoeg word om \u2019n verbeterde algehele model te lewer."
+        },
+        "xh": {
+          "term": "Ukufunda okudityanisiweyo",
+          "definition": "Indlela yokufunda koomatshini esasazwayo eqeqesha iimodeli zokufunda ngoomatshini kusetyenziswa imizekelo ebekiweyo ehlala kwizixhobo ezinjengeesmartphone. Kwimfundo edibeneyo, iseti engezantsi yezixhobo ikhuphela imodeli yangoku kwiseva ephakathi yokulungelelanisa. Izixhobo zisebenzisa imizekelo egcinwe kwizixhobo ukuze kuphuculwe imodeli. Emva koko izixhobo zifaka ukuphuculwa kwemodeli (kodwa kungekhona imizekelo yoqeqesho) kwiseva yokulungelelanisa, apho zidityaniswe nolunye uhlaziyo ukuvelisa imodeli ephuculweyo yehlabathi."
+        },
+        "zu": {
+          "term": "Ukuthuthukisa ubuchwepheshe",
+          "definition": "Indlela yokufunda ngomshini edluliswayo eqeqesha izinhlelo zokufunda ngemishini kusetshenziswa izibonelo eziqeqelwe ndawonye kumadivayisi anjengamasamthifoni. Lapho kufundwa ngokubuchwepheshe, uhlu lwamadivayisi akhethiwe adawuniloda uhlelo olukhona ngokususela kuseva edidiyele eqoqele konke ndawonye. Amadivayisi asebenzisa izibonelo ezigcinwe kumadivayisi ukuthuthukisa uhlelo. Amadivayisi abe esefaka okuthuthukisiwe ohlelweni (kodwa hhayi isibonelo zokuqeqesha) kuseva edidiyelayo, lapho ikalwe khona nokunye ukuthuthukisa ukuze kuphume uhlelo oluthuthukisiwe lomhlaba jikelele."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#federated-learning",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Federated Learning'"
+        }
+      },
+      "feedback_loop": {
+        "en": {
+          "term": "Feedback Loop",
+          "definition": "Feedback occurs when outputs of a system are routed back as inputs as part of a chain of cause-and-effect that forms a circuit or loop. The system can then be said to feed back into itself. For example, if the AI system is a chatbot, it might receive feedback from users on how well it is able to understand and respond to their queries. The AI system then uses this feedback to adjust its algorithms and improve its performance."
+        },
+        "sw": {
+          "term": "Uzio mrejesho",
+          "definition": "Mrejesho hufanyika wakati matokeo ya mfumo yanarejeshwa kuwa data inayoingizwa kama sehemu ya mfuatano wa kichocheo na matokeo katika mzunguko.  Hilo linapofanyika, inasemekana kwamba mfumo unasemekana kuwa umejipa data. Kwa mfano, ikiwa mfumo wa AI ni kijibu, kinaweza kupokea majibu kutoka kwa watumiaji kuhusu jinsi kinavyoelewa na kujibu hoja za watumiaji. Kisha mfumo huo wa AI hutumia maoni hayo kurekebisha algoriti zake na kuboresha utendakazi wake."
+        },
+        "af": {
+          "term": "terugvoerkring",
+          "definition": "Terugvoering vind plaas wanneer \u2019n stelsel se uitsette terugherlei word as insette as deel van \u2019n oorsaak-en-gevolgkettingverloop wat dan \u2019n kring of lusloop veroorsaak. Daar kan dus ges\u00ea word dat die stelsel in ditself in terug voer. Byvoorbeeld, as die KI-stelsel \u2019n kletsbot is, kan dit dalk terugvoer kry vannaf gebruikers oor hoe goed dit hul navrae kan verstaan en daarop reageer. Die KI-stelsel gebruik dan hierdie terugvoer om sy algoritmes aan te pas en sy werkverrigting te verbeter."
+        },
+        "xh": {
+          "term": "Iluphu yengxelo",
+          "definition": "Ingxelo yenzeka xa iziphumo zenkqubo zibuyiselwa umva njengenxalenye yekhonkco lesizathu nesiphumo esenza isekethe okanye iluphu. Ngoko kunokuthiwa inkqubo ibuyela kuyo ngokwayo. Umzekelo, ukuba inkqubo ye-AI yi-chatbot, inokufumana impendulo kubasebenzisi malunga nokuba ikwazi kangakanani ukuqonda nokuphendula imibuzo yabo. Emva koko, inkqubo yeAI isebenzisa le ngxelo ukulungisa iialgorithm zayo nokuphucula ukusebenza kwayo."
+        },
+        "zu": {
+          "term": "Iwuku Lezimvo",
+          "definition": "Ukuthola izimvo kwenzeka lapho okufakiwe ohlelweni kubuyiselwa njengezimvo njengengxenye yochungechunge lokwenzekile nomphumela olwakha isekhethi noma iwuku. Uhlelo lungathathwa ngokuthu luyizimvo ngokwalo. Isibonelo, uma uhlelo lwe-AI luyichatbot, lungase luthola izimvo ezivela kubasebenzisi ngokuthi lukwazi kangakanani ukuqonda nokuphendula imibuzo yalo. Uhlelo lwe-AI lube selusebenzisa lezi zimvo ukuchibiyela ama-algorithm futhi kuthuthukiswe ukusebenza kwawo."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Feedback&oldid=1305834142",
+          "text": "Adapted from the Wikipedia article 'Feedback'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Feedback&action=history"
+        }
+      },
+      "hyperparameter": {
+        "en": {
+          "term": "Hyperparameter",
+          "definition": "The variables that you or a hyperparameter tuning service adjust during successive runs of training a model. For example, learning rate is a hyperparameter. You could set the learning rate to 0.01 before one training session. If you determine that 0.01 is too high, you could perhaps set the learning rate to 0.003 for the next training session."
+        },
+        "sw": {
+          "term": "Parameta juu",
+          "definition": "Mabadiliko ambayo wewe au huduma ya kuweka vigezo hurekebisha wakati wa mifuatano ya kufundisha mfumo. Kwa mfano, kiwango cha kujifunza ni kigezo kikuu. Unaweza kuweka kiwango cha kujifunza kuwa 0.01 kabla ya kipindi cha mafunzo. Ukitambua kwamba 0.01 ni kiwango cha juu sana, unaweza kukibadili kwa 0.003 katika awamu inayofuata ya mafunzo."
+        },
+        "af": {
+          "term": "hiperparameter",
+          "definition": "Die veranderlikes wat jy of \u2019n hipergrensinstellingdiens aanpas tydens agtereenvolgende opleidingsessies van \u2019n model. Byvoorbeeld, leerkoers is \u2019n hipergrens. Jy kan die leerkoers op 0.01 stel voor een opleidingsessie. As jy bepaal dat 0.01 te hoog is, kan jy die leerkoers dan dalk na 0.003 toe stel vir die volgende opleidingsessie."
+        },
+        "xh": {
+          "term": "Ihyperparameter",
+          "definition": "Izinto eziguquguqukayo ozihlengahlengisa ngokwakho okanye yinkonzo yehyperparameter tuning ngexesha loqeqesho olulandelelanayo lwemodeli. Umzekelo, izinga lokufunda yi-hyperparameter. Unokuseta ireyithi yokufunda ibe yi-0.01 phambi kweseshoni yoqeqesho enye. Ukuba ufumanisa ukuba u-0.01 uphezulu kakhulu, usenokuseta ireyithi yokufunda ibe ngu-0.003 kwiseshoni yoqeqesho elandelayo."
+        },
+        "zu": {
+          "term": "Ilungiselelakuqeqesha",
+          "definition": "Izakhi ezisetshenziswa nguwe noma ihyperparameter ngasikhathi lapho uqeqesha uhlelo nempumelelo, Isibonelo, izinga lokufunda liyihyperparameter. Ungahlela izinga lokufunda libe u-0.01 ngaphambi kwesikhathi sokufundisa esisodwa. Uma unquma ukuthi u-0.01 uphezulu kakhulu, ungase umise izinga lokufunda ku-0.003 esikhathini sokuqeqesha esilandelayo."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#hyperparameter",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Hyperparameter'"
+        }
+      },
+      "image_recognition": {
+        "en": {
+          "term": "Image recognition",
+          "definition": "Also known as image classification, is a process that classifies object(s), pattern(s), or concept(s) in an image."
+        },
+        "sw": {
+          "term": "Utambuzi wa picha",
+          "definition": "Pia huita uanishaji wa picha, ni mchakati wa kuainisha vitu, michoro au dhana katika picha."
+        },
+        "af": {
+          "term": "beeldherkenning",
+          "definition": "Ook bekend as prentklassifisering. Dit is \u2019n proses wat voorwerp(e), patroon(e), of konsep(te) in \u2019n prent klassifiseer."
+        },
+        "xh": {
+          "term": "Ukuqondwa komfanekiso",
+          "definition": "Ikwaziwa njengohlelo lomfanekiso, yinkqubo ehlela into (izinto), ipatheni (iipatheni), okanye inkalo (iinkalo) kumfanekiso."
+        },
+        "zu": {
+          "term": "Ukubona isithombe",
+          "definition": "Kubuye kwaziwe ngokuthi uhlelo lokubeka izithombe ngokwamazinga, inqubo ebeka izinto, amaphethini, noma imiqondo ngokwamazinga esithonjeni."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#image-recognition",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Image Recognition'"
+        }
+      },
+      "intelligent_agent_ia": {
+        "en": {
+          "term": "Intelligent agent (IA)",
+          "definition": "An agent that perceives its environment, takes actions autonomously in order to achieve goals, and may improve its performance with learning or acquiring knowledge. An intelligent agent may be simple or complex e.g. a thermostat, a human being..."
+        },
+        "sw": {
+          "term": "Wakalamaizi",
+          "definition": "Ni mfumo unaoweza kufahamu mazingira yake, kuchukua hatua kivyake ili kutimiza malengo na unaweza kuboresha utendakazi wake kwa kujifunza au kupata maarifa. Kipengee maizi kinaweza kuwa mfumo rahisi au changamano, k.m. binadamu, kirekebisha joto\u2026"
+        },
+        "af": {
+          "term": "intelligente agent (IA)",
+          "definition": "\u2019n Agent wat sy omgewing waarneem, voer selfstandig handelinge uit om doelwitte te bereik, en kan sy werkverrigting verbeter deur te leer of kennis in te win. \u2019n Intelligente agent kan eenvoudig of kompleks wees, byvoorbeeld \u2019n termostaat, \u2019n mens \u2026"
+        },
+        "xh": {
+          "term": "Iarhente yobukrelekrele (IA)",
+          "definition": "Iarhente ebona okuyingqongileyo, ithatha amanyathelo ngokuzimeleyo ukuze ifezekise iinjongo, kwaye inokuphucula ukusebenza kwayo ngokufunda okanye ngokufumana ulwazi. Iarhente ekrelekrele isenokuba lula okanye intsonkothe \u200b\u200bumz. ithermostat, umntu.."
+        },
+        "zu": {
+          "term": "Isimeleli esikhaliphile",
+          "definition": "Isimeleli esiqonda indawo esikuyo, esithatha isinyathlo ngokuzenzekela ukuze kuveze imogomo, futhi kuthuthukiswe ukusebenza ngokufunda noma ukuthola ulwazi. Isimeleli esikhaliphile singaba lula noma nzulu isib. isiklalizingakushisa, umuntu"
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Intelligent_agent&oldid=1300640508",
+          "text": "Adapted from the Wikipedia article 'Intelligent agent'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Intelligent_agent&action=history"
+        }
+      },
+      "memory_leak": {
+        "en": {
+          "term": "Memory leak",
+          "definition": "In computer science, a memory leak is a type of resource leak that occurs when a computer program incorrectly manages memory allocations in a way that memory which is no longer needed is not released. It reduces the performance of the computer by reducing the amount of available memory."
+        },
+        "sw": {
+          "term": "Uhodhi kumbukumbu",
+          "definition": "Katika sayansi ya kompyuta, kuvuja kwa kumbukumbu ni aina ya uvujaji wa nyenzi ambayo hutokea wakati programu ya kompyuta inaposimamia visivyo ugavi wa kumbukumbu kwa namna ambayo kumbukumbu isiyohitajika haiachiliwi. Hali hiyo hupunguza utendaji wa kompyuta kwa kupunguza kiasi cha kumbukumbu kinachopatikana."
+        },
+        "af": {
+          "term": "geheuelek",
+          "definition": "In rekenaarwetenskap is geheuesyfering \u2019n tipe hulpbronverlies wat voorkom wanner \u2019n rekenaarprogram verkeerdelik geheuetoewysing bestuur op s\u00f3 \u2019n wyse dat geheue wat nie meer benodig word nie, nie vrygestel word nie. Dit verminder die werkverrigting van die rekenaar deur die beskikbare geheue te verminder."
+        },
+        "xh": {
+          "term": "Ukuvuza kwememori",
+          "definition": "Kwisayensi yekhompyutha, ukuvuza kwememori luhlobo lokuvuza kwezixhobo okwenzekayo xa inkqubo yekhompyutha ilawula ngokungalunganga ukwabiwa kweememori ngendlela yokuba imemori engasadingekiyo ingakhutshwa. Kunciphisa ukusebenza kwekhompyutha ngokunciphisa inani lememori ekhoyo."
+        },
+        "zu": {
+          "term": "Ukuputshuka kolwazi olugciniwe",
+          "definition": "Kwezesayensi yamakhompyutha, ukuputshuka kolwazi kuwuhlobo lokuputshuka kwemithombo okwenzeka lapho uhlelo lwekhompyutha lulawula ukwabiwa kolwazi olugciniwe ngokungafanele ngendlela yokuthi ulwazi olugciniwe olungasadingeki lungakhishwa. Lunciphisa ukusebenza kwekhompyutha ngokunciphisa ubungako bolwazi olugciniwe olukhona."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Memory_leak&oldid=1276968710",
+          "text": "Adapted from the Wikipedia article 'Memory leak'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Memory_leak&action=history"
+        }
+      },
+      "overfitting": {
+        "en": {
+          "term": "Overfitting",
+          "definition": "In mathematical modeling, overfitting is \"the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably\""
+        },
+        "sw": {
+          "term": "Ujifunzaji banifu",
+          "definition": "Katika ufanyaji wa mifano ya kihisabati, kutoshea kupitiliza ni \u201cutoaji wa uchanganuzi unaokaribiana sana au unaolingana kabisa na kundi fulani la data na hivyo kutoweza kuchukua data ya ziada au kubashiri mifanyiko ya siku zijazo kwa uhakika\u201d"
+        },
+        "af": {
+          "term": "oormatige passing",
+          "definition": "In wiskundige modelleerwerk is oorpassing \u201cdie produsering van \u2019n ontleding wat te nou of presies ooreenstem met \u2019n datastel en daarom nie betroubaar by bykomende data kan pas of toekomstige waarnemens kan voorspel nie."
+        },
+        "xh": {
+          "term": "Ukungalingani okugqithileyo",
+          "definition": "Kwimodeli yemathematika, ukulingana ngokugqithisileyo \"kukuveliswa kohlalutyo oluhambelana ngokusondeleyo okanye ngokuthe ngqo kwiseti ethile yedatha, kwaye ke ngoko inokusilela ukulingana nedatha eyongezelelweyo okanye ukuqikelela imigqaliselo yexesha elizayo ngokuthembekileyo\""
+        },
+        "zu": {
+          "term": "Ukuhambisana ngqo",
+          "definition": "Ohlelweni lwezibalo, ukuhambisana ngqo \"kuwukukhiqizwa kocwaningo oluhambisana kakhulu noma ngqo nohlu lweminingwane ethile, futhi olungase lwahluleke ukungena kweminye imininingwane noma ukuqagela okuzohlolwa ngokuzayo ngokwethembeka\""
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Overfitting&oldid=1300617197",
+          "text": "Adapted from the Wikipedia article 'Overfitting'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Overfitting&action=history"
+        }
+      },
+      "oversampling": {
+        "en": {
+          "term": "Oversampling",
+          "definition": "Reusing the examples of a minority class in a class-imbalanced dataset in order to create a more balanced training set."
+        },
+        "sw": {
+          "term": "Usamplishaji ongezi",
+          "definition": "Kutumia tena mifano kwenye mkusanyiko wa data ulio na uchache wa mifano ya aina fulani kwa lengo la kuwa na usawa katika mkusanyiko wa data unaotumika katika mafunzo."
+        },
+        "af": {
+          "term": "opbalansering",
+          "definition": "Die hergebruik van voorbeelde van \u2019n minderheidklas in \u2019n klasongebalanseerde datastel om sodoende \u2019n meer gebalanseerde opleidingstel te skep."
+        },
+        "xh": {
+          "term": "Iisampuli egqithisileyo",
+          "definition": "Ukusebenzisa kwakhona imizekelo yeklasi encinci kwiseti yedatha kwiklasi yokungalingani ukwenzela ukudala isethi yoqeqesho olulungeleleneyo."
+        },
+        "zu": {
+          "term": "Ukusetshenziswa kwamasampula kabusha",
+          "definition": "Ukusebenzisa kabusha izibonelo ezingeni lokuncane ohlwini lwemininingwane olungalingene ngokufanele ukuze kwakhiwe uhlu lokuqeqesha olulingene."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#oversampling",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Oversampling'"
+        }
+      },
+      "precision": {
+        "en": {
+          "term": "Precision",
+          "definition": "Precision is the fraction of relevant instances among the retrieved instances. It is calculated by dividing relevant retrieved instances with all retrieved instances.\nFor example, a computer program for recognizing dogs (the relevant element) in a digital photograph processes a picture which contains 10 cats and 12 dogs. The program then identifies 8 dogs. Of the eight elements identified as dogs, only 5 actually are dogs (true positives), while the other 3 are cats (false positives). 7 dogs were missed (false negatives), and 7 cats were correctly excluded (true negatives). The program's precision is then 5/8 (true positives / selected elements)."
+        },
+        "sw": {
+          "term": "Ushabaha",
+          "definition": "Usahihi ni sehemu ya matukio sahihi kati ya matukio husika yaliyotolewa. Usahihi hukokotolewa kwa kugawanya matukio sahihi na matukio yote husika.\nKwa mfano, mfumo wa kompyuta wa kutambua mbwa (kipengele sahihi) kinachakata picha dijitali iliyo na paka 10 na mbwa 12. Mfumo unatambua mbwa 8. Kati ya vipengele vinane vilivyotambuliwa kuwa mbwa, ni 5 tu ndivyo mbwa (usahihi ulio kweli), huku vingine 3 vikiwa paka (usahihi usio kweli). Mbwa 7 hawakutambuliwa (ukosefu usio sahihi), na paka 7 hawakujumuishwa kwa usahihi (ukosefu ulio sahihi). Basi usahihi wa mfumo huo ni 5/8 (usahihi ulio kweli ukigawanywa na vipengele vilivyochaguliwa)"
+        },
+        "af": {
+          "term": "presisie",
+          "definition": "Presisie is die breukdeel van relevante gevalle uit die gerapporteerde gevalle. Dit word uitgewerk deur die relevante gerapporteerde gevalle te deel deur al die gerapporteerde gevalle. Byvoorbeeld, \u2019n rekenaarprogram wat honde (die relevante element) in digitale foto's identifiseer, prosesseer \u2019n foto wat 10 katte en 12 honde in het. Die program identifiseer dan 8 honde. Uit die 8 elemente wat as honde ge\u00efdentifiseer is, is net 5 regtig honde (werklike positief) , terwyl 3 katte is (vals positief). 7 honde is misgekyk (vals negatief) en 7 katte is korrek uitgesluit (werklike negatief). Die program se presisie is dan 5/8 (werklike positiewe / gerapporteerde elemente)."
+        },
+        "xh": {
+          "term": "Ukuchana",
+          "definition": "Ukuchaneka liqhezu leemeko ezifanelekileyo phakathi kweemeko ezifunyenweyo. Ibalwa ngokwahlula iimeko ezifanelekileyo kwezifunyenweyo nazo zonke iimeko ezifunyenweyo.\n\nUmzekelo, inkqubo yekhompyutha yokuqaphela izinja (into efanelekileyo) kwifoto yedijithali iprosesa umfanekiso oqulethe iikati ezili-10 nezinja eziyi-12. Inkqubo ke iye ichonge izinja ezisi-8. Kwizinto ezisibhozo ezichongwe njengezinja, zi-5 kuphela ezizinja (iiphozithivu zokwenyani), ngelixa ezinye ezi-3 izikati (iiphozithivu ezingeyonyani). Izinja ezisi-7 ziphosiwe (iinegethivu ezingeyonyani), zaze iikati ezisi-7 zangabandakanywa ngokuchanekileyo (iinegethivu eziyinyani). Ukuchaneka kwenkqubo ngu-5/8 (iiphozithivu eziyinyani / izinto ezikhethiweyo)."
+        },
+        "zu": {
+          "term": "ukuqonda ngqo",
+          "definition": "Ukugqonda ngqo kuyingcosana yezimo ezifanele phakathi kwezimo ezilandiwe. Kubalwa ngokuhlukanisa izimo ezilandiwe ezifanele nazo zonke izimo ezilandiwe.\n Isibonelo, uhlelo lwekhompyutha lokubona izinja (isakhi esifanele) esithombeni sedijithali izinqubo zesithombe eziqukethe amakati ayi-10 nezinja eziyi-12. Uhlelo lube seluhlonza izinja eziyi-8. Ezakhini eziyisishiyagalombili ezihlonzwe njengezinja, zi-5 kuphela eziyizinja (umphumela wokuhle oyiqiniso), kube ezi-3 zingamakati (umphumela wokhlei oyinkohliso) Izinja eziyisi-7 azibonwanga (imiphumela yokubi eyinkohliso), kanye namakati ayisi-7abandakanywe ngokufanele (umphumela wokubi oyiqiniso) Ukuqonda ngqo kohlelo lube seluba ngu-5/8 (imiphumela emihle ngokweqiniso / izakhi ezikhethiwe)."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Precision_and_recall&oldid=1301054140",
+          "text": "Adapted from the Wikipedia article 'Precision and recall'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Precision_and_recall&action=history"
+        }
+      },
+      "predictive_analytics": {
+        "en": {
+          "term": "Predictive analytics",
+          "definition": "Predictive analytics is a form of analytics that uses machine learning or technology to predict what will happen in a specific time frame based on historical data and patterns."
+        },
+        "sw": {
+          "term": "Uchanganuzi bashirifu",
+          "definition": "Takwimu bashirifu ni aina ya takwimu zinazotumia mifumo ya mashine kujifunza au teknolojia ili kubashiri kitakachotokea katika kipindi fulani cha muda kwa kutegemea rekodi ya data au ruwaza."
+        },
+        "af": {
+          "term": "voorspelontleding",
+          "definition": "Voorspelontleding is \u2019n vorm van ontleding wat masjienleer of tegnologie gebruik om volgens historiese data en patrone te voorspel wat in \u2019n spesifieke tydperk sal gebeur."
+        },
+        "xh": {
+          "term": "Uhlalutyo oluqikelelayo",
+          "definition": "Uhlalutyo lokuqikelela luhlobo lohlalutyo olusebenzisa ukufundwa koomatshini okanye iteknoloji ukuze kuqikelelwe oko kuza kwenzeka kwixesha elithile ngokusekelwe kwidatha yembali neepatheni."
+        },
+        "zu": {
+          "term": "Ucubungulo oluqagelayo",
+          "definition": "Ucubungulo oluqagelayo wuhlobo lwezibalo olusebenzisa ukufunda ngemishini noma ubuchwepheshe ukuqagela okuzokwenzeka esikhathi esithile esimisiwe kususelwa kumininingwane esemlandweni kanye namaphethini."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Predictive analytics in AI'"
+        }
+      },
+      "privacy_impact_assessment_pia": {
+        "en": {
+          "term": "Privacy Impact Assessment (PIA)",
+          "definition": "A Privacy Impact Assessment (PIA) is a process which assists organizations in identifying and managing the privacy risks arising from new projects, initiatives, systems, processes, strategies, policies, business relationships etc."
+        },
+        "sw": {
+          "term": "Tathmini ya athari kwa faragha",
+          "definition": "Tathmini ya Athari kwa Faragha (PIA) ni mchakato unaoyasaidia mashirika kutambua na kudhibiti hatari za usalama unaoweza kutokana na miradi mipya, uvumbuzi, mifumo, michakato, mikakati, sera, uhusiano wa kibiashara, na kadhalika."
+        },
+        "af": {
+          "term": "privaatheidimpakassessering (PIA)",
+          "definition": "\u2019n Privaatheidimpakassessering (PIA) is \u2019n proses wat organisasies help om die privaatheidrisiko's te identifiseer en te bestuur wat kan voortspruit uit nuwe projekte, innisiatiewe, stelsels, prosesse, strategie\u00eb, beleide, besigheidsverhoudings ens."
+        },
+        "xh": {
+          "term": "UVavanyo lweMpembelelo yoBumfihlo (iPIA)",
+          "definition": "Uvavanyo Lwempembelelo Yobumfihlo (PIA) yinkqubo enceda imibutho ekuchongeni nasekulawuleni imingcipheko yobumfihlo evela kwiiprojekthi ezintsha, izinto ezintsha, iisistim, iinkqubo, izicwangciso, iipolisi, ubudlelwane boshishino njl.njl."
+        },
+        "zu": {
+          "term": "Ukuhlola Umthelela Wobumfihlo",
+          "definition": "Ukuhlola Umthelela Wobumfihlo (i-PAIA) kuyinqubo esiza izinhlangano ekuhlonzeni nasekuphatheni ingcuphe yobumfihlo evela kumaphrojekthi amasha, izinhlelo kanye nezinqubo, amaqhingasu, izinqubomgomo, ubudlelwano bebhizinisi njl."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Privacy_impact_assessment&oldid=1266264165",
+          "text": "Adapted from the Wikipedia article 'Privacy impact assessment'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Privacy_impact_assessment&action=history"
+        }
+      },
+      "prompt_injection": {
+        "en": {
+          "term": "Prompt injection",
+          "definition": "An attack that manipulates a large language model (LLM) by injecting malicious inputs designed to alter the model\u2019s output. This type of cyber-attack exploits the way LLMs process and generate text based on input prompts. By inserting carefully crafted text, an attacker can trick the model into producing unauthorized content, accessing restricted data, or executing specific actions."
+        },
+        "sw": {
+          "term": "Uchopekaji vidokezo hadaifu",
+          "definition": "Shambulizi linalovuruga mifumo mikubwa ya lugha (LMM) kwa kuingiza vidokezo hasidi vilivyobuniwa ili kubadilisha matokeo ya mfumo. Aina hii ya shambulizi la mtandaoni hutegemea jinsi mifumo mikubwa ya lugha huchakata na kutoa maandishi kutokana na vidokezo vilivyowekwa. Kwa kuingiza maandishi yaliyobuniwa kimahususi, mshambulizi anaweza kuuhadaa mfumo ili utoe maudhui yasiyoidhinishwa, kufikia data isiyoruhusiwa, au kutekeleza vitendo vingine mahususi."
+        },
+        "af": {
+          "term": "instruksieteksinvoeging",
+          "definition": "\u2019n Aanval wat \u2019n groottaalmodel (GTM) manipuleer deur kwaadwillige invoere in te voeg wat ontwerp is om die model se uitset te verander. Hierdie soort kuberaanval byt die manier uit waarop GTM'e teks met invoerporboodskappe prosesseer en genereer. Deur fyn saamgestelde teks in te voeg, kan \u2019n aanvaller die model flous om dit ongoedgekeurde inhoud te laat produseer, toegang te kry tot beperkte data, of om spesifieke handelinge uit te voer."
+        },
+        "xh": {
+          "term": "Utofomyalelo",
+          "definition": "Uhlaselo olusebenzisa imodeli yolwimi olukhulu (LLM) ngokutofa igalelo elibi eliyilelwe ukuguqula imveliso yemodeli. Olu hlobo lohlaselo lwecyber lusebenzisa indlela iiLLM eziprosesa zize zivelise ngayo itekisi ngosekelwe kumyalelo ofakiweyo. Ngokufaka itekisi eyenziwe ngobuchule, umhlaseli unokukhohlisa imodeli ukuba ivelise ikhontenti engagunyaziswanga, ifikelele kwidatha ethintelweyo, okanye ukwenza izenzo ezithile."
+        },
+        "zu": {
+          "term": "Ukufaka imiyalelo",
+          "definition": "Ukuhlasela okusebenzisa izinhlelo zolimi ezinkulu (ama-LLM) ngokufaka okumoshayo okwakhele ukuphazamisa umphumela wohlelo. Lolu hlobo lokuhlasela nge-inthanethi kuxhaphaza indlela ama-LLM alungisa futhi akhiqize ngayo izibizelo zokufakwayo. Ngokufaka ngokucophelela umbhalo obunjiwe, umhlaseli angadida uhlelo ukuze lukhiqize ulwazi olungagunyazwanga, lufinyelele emininingwaneni evinjelwe, noma lusebenise imiyalelo emisiwe."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Prompt injection in AI'"
+        }
+      },
+      "pseudonymization": {
+        "en": {
+          "term": "Pseudonymization",
+          "definition": "Pseudonymization is a data management and de-identification procedure by which personally identifiable information fields within a data record are replaced by one or more artificial identifiers, or pseudonyms."
+        },
+        "sw": {
+          "term": "Ulakabishaji data tambulishi",
+          "definition": "Kuficha utambulisho ni mchakato wa usimamizi wa data na uondoaji wa vitambulisho katika sehemu zenye taarifa binafsi zinazoweza kumtambulisha mtu. Sehemu hizo kwenye rekodi ya data hubadilishwa na kuwekwa vitambulisho bandia au majina ya lakabu."
+        },
+        "af": {
+          "term": "pseudonimisering",
+          "definition": "Pseudonimisering is \u2019n databestuur- en de\u00efdentifiseringprosedure waarmee velde met persoonlik identifiseerbare inligting binne datarekords deur een of meer kunsmatige identifiseerders, of pseudonieme, vervang word."
+        },
+        "xh": {
+          "term": "Ukufaka amagama angengawo",
+          "definition": "Ukufaka amagama angengawo lulawulo lwedatha nenkqubo yokuyekisa ukuchongwa apho iindawo zenkcazelo echonga umntu kwirekhodi yedatha zithathelwe indawo sisichongi esenziweyo esinye okanye ngaphezulu, okanye amagama angengawo."
+        },
+        "zu": {
+          "term": "Ukuzivezambumbulu",
+          "definition": "Ufihlomagama luwukuphathwa kwemininingwane nokususa imininingwane yokuhloza lapho izikhala zolwazi oluhlonzekayo lomuntu siqu kurekhodi lemininingwane lushintshwa kufakwe izindlela zokuhlonza ezingasizo ezempela, noma amagama aqanjiwe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Pseudonymization&oldid=1301181589",
+          "text": "Adapted from the Wikipedia article 'Pseudonymization'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Pseudonymization&action=history"
+        }
+      },
+      "recall": {
+        "en": {
+          "term": "Recall",
+          "definition": "Recall is the fraction of relevant instances that were retrieved. It is calculated by dividing relevant retrieved instances with all relevant instances. \nFor example, a computer program for recognizing dogs (the relevant element) in a digital photograph processes a picture which contains 10 cats and 12 dogs. The program then identifies 8 dogs. Of the eight elements identified as dogs, only 5 actually are dogs (true positives), while the other 3 are cats (false positives). 7 dogs were missed (false negatives), and 7 cats were correctly excluded (true negatives). The program's recall is 5/12 (true positives / relevant elements)."
+        },
+        "sw": {
+          "term": "Kumbuko tambuzi",
+          "definition": "Kukumbuka ni sehemu ya matukio sahihi yaliyotolewa. Hukokotolewa kwa kugawanya matukio sahihi yaliyotolewa na matukio yote husika.\nKwa mfano, mfumo wa kompyuta wa kutambua mbwa (kipengele sahihi) kinachakata picha dijitali iliyo na paka 10 na mbwa 12. Mfumo unatambua mbwa 8. Kati ya vipengele vinane vilivyotambuliwa kuwa mbwa, ni 5 tu ndivyo mbwa (usahihi ulio kweli), huku vingine 3 vikiwa paka (usahihi usio kweli). Mbwa 7 hawakutambuliwa (ukosefu usio sahihi), na paka 7 hawakujumuishwa kwa usahihi (ukosefu ulio sahihi). Uwezo wa mfumo kukumbuka ni 5/12 (usahihi ulio kweli ukigawanywa na matukio sahihi yaliyotambuliwa)."
+        },
+        "af": {
+          "term": "volledigheid",
+          "definition": "Volledigheid is die breukdeel van relevante gevalle wat gerapporteer is. Dit word uitgewerk deur die relevante gerapporteerde gevalle te deel deur die totale aantal relevante gevalle. Byvoorbeeld, \u2019n rekenaarprogram wat honde (die relevante element) in digitale foto's identifiseer, prosesseer \u2019n foto wat 10 katte en 12 honde in het. Die program identifiseer dan 8 honde. Uit die 8 elemente wat as honde ge\u00efdentifiseer is, is net 5 regtig honde (werklike positief) , terwyl 3 katte is (vals positief). 7 honde is misgekyk (vals negatief) en 7 katte is korrek uitgesluit (werklike negatief).  Die program se volledigheid is dan 5/12 (werklike positiewe / relevante elemente)."
+        },
+        "xh": {
+          "term": "Ukukhumbula",
+          "definition": "Ukukhumbula liqhezu leemeko ezifanelekileyo eziye zafunyanwa. Kubalwa ngokwahlula iimeko ezifanelekileyo kwezifunyenweyo nazo zonke iimeko ezifanelekileyo. \nUmzekelo, inkqubo yekhompyutha yokuqaphela izinja (into efanelekileyo) kwifoto yedijithali iprosesa umfanekiso oqulethe iikati ezili-10 nezinja eziyi-12. Inkqubo ke iye ichonge izinja ezisi-8. Kwizinto ezisibhozo ezichongwe njengezinja, zi-5 kuphela ezizinja (iiphozithivu zokwenyani), ngelixa ezinye ezi-3 izikati (iiphozithivu ezingeyonyani). Izinja ezisi-7 ziphosiwe (iinegethivu ezingeyonyani), zaze iikati ezisi-7 zangabandakanywa ngokuchanekileyo (iinegethivu eziyinyani). Ukukhumbula kwenkqubo ngu-5/12 (iiphozithivu eziyinyani / izinto ezifanelekileyo)."
+        },
+        "zu": {
+          "term": "Isibuyiseli",
+          "definition": "Ukubuyisa kuyingcosana yezimo ezifanele ezilandiwe. Kubalwa ngokuhlukanisa izimo ezilandiwe ezifanele nazo zonke izimo ezifanele. \n Isibonelo, uhlelo lwekhompyutha lokubona izinja (isakhi esifanele) esithombeni sedijithali izinqubo zesithombe eziqukethe amakati ayi-10 nezinja eziyi-12. Uhlelo lube seluhlonza izinja eziyi-8. Ezakhini eziyisishiyagalombili ezihlonzwe njengezinja, zi-5 kuphela eziyizinja (umphumela wokuhle oyiqiniso), kube ezi-3 zingamakati (umphumela wokhlei oyinkohliso) Izinja eziyisi-7 azibonwanga (imiphumela yokubi eyinkohliso), kanye namakati ayisi-7abandakanywe ngokufanele (umphumela wokubi oyiqiniso) Ukukhumbula kohlelo kube ngu-5/12 (imiphumela emihle ngokweqiniso / izakhi ezifanele)."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Precision_and_recall&oldid=1301054140",
+          "text": "Adapted from the Wikipedia article 'Precision and recall'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Precision_and_recall&action=history"
+        }
+      },
+      "reinforcement_learning_from_human_feedback": {
+        "en": {
+          "term": "Reinforcement Learning from human feedback",
+          "definition": "In machine learning, reinforcement learning from human feedback (RLHF) is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences, which can then be used to train other models through reinforcement learning."
+        },
+        "sw": {
+          "term": "Mafunzo yanayoimarishwa na maoni ya wanadamu",
+          "definition": "Katika fani ya mashine kujifunza, mafunzo yanayoimarishwa na maoni ya wanadamu (RLHF) ni mbinu ya kusawazisha kipengee maizi na mapendeleo ya binadamu. Mafunzo haya yanahusisha kufundisha mfumo wa kutuza ili kuwakilisha mapendeleo. Kisha mapendeleo hayo yatatumiwa kufundisha mifumo mingine kupitia mafunzo ya utekelezaji."
+        },
+        "af": {
+          "term": "versterkingleer uit menslike terugvoer",
+          "definition": "In masjienleer is verstekleer uit menseterugvoer (VLMT) \u2019n tegniek om \u2019n intelligente agent te belyn met mensevoorkeure."
+        },
+        "xh": {
+          "term": "Ukufunda okukhuthazwa yingxelo yabantu",
+          "definition": "Ekufundweni koomatshini, ukufunda okukhuthazwa yingxelo esuka kubantu (iRLHF) bubuchule bokulungelelanisa iarhente ekrelekrele nezinto ezikhethwa ngabantu. Ibandakanya ukuqeqesha imodeli yokuvuza ukuze imele izinto ezikhethwayo, ezinokuthi zisetyenziselwe ukuqeqesha ezinye iimodeli ngokufunda okukhuthazayo."
+        },
+        "zu": {
+          "term": "Ukufunda Ukuthatha Izinqumo ngebuyambiko elivela kubantu",
+          "definition": "Ekufundeni kwemishini, ukufunda kokugcizelela okususelwa ezimvweni zabantu (i-RLHF) kuyindlela yokuqondanisa isimeleli esikhaliphile nalokho okukhethwa abantu. Kubandakanya ukuqeqesha uhlelo lwemiphumela ukuze luveze okukhethwayo, okungasetshenziselwa ukuqeqesha ezinye izindlela zokugcizelela ukufunda."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Reinforcement_learning_from_human_feedback&oldid=1263568223",
+          "text": "Adapted from the Wikipedia article 'Reinforcement learning from human feedback'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Reinforcement_learning_from_human_feedback&action=history"
+        }
+      },
+      "retrieval_augmented_generation": {
+        "en": {
+          "term": "Retrieval augmented generation",
+          "definition": "Retrieval augmented generation (RAG) is a type of generative artificial intelligence that has information retrieval capabilities. It modifies interactions with a large language model (LLM) so that the model responds to user queries with reference to a specified set of documents, using this information in preference to information drawn from its own vast, static training data. This allows LLMs to use domain-specific and/or updated information."
+        },
+        "sw": {
+          "term": "Uzalishaji jalizi kwa upekuzi",
+          "definition": "Uzalishi unaokuzwa na utafutaji (RAG) ni aina ya akiliunde zalishi iliyo na uwezo wa kufikia na kurejesha taarifa. Inarekebisha mwingiliano na mfumo mkubwa wa lugha (LLM) ili mfumo ujubu hoja za mtumiaji kwa kurejelea hati zilizobainishwa, huipa aina hiyo ya maelezo kipaumbele ikilinganishwa na maelezo kutoka kwenye data yake pana isiyo nyumbufu iliyotumiwa kuifundisha. Kufanya hivyo huwezesha LLM kutumia taarifa zilizo mahususi kwa fani fulani au taarifa mpya kabisa."
+        },
+        "af": {
+          "term": "ophaalaangevulde generering",
+          "definition": "Aanvullendeophaalgenerering (AOG) is \u2019n tipe generatiewe kunsmatige intelligensie wat inligtingophaalvermo\u00ebns het. Dit verander interaksies met \u2019n groottaalmodel (GTM) sodat die model reageer op navrae met verwysing na \u2019n gespesifiseerde stel dokumente en hierdie inligting met voorkeur gebruik in plaas van inligting wat dit vanuit sy eie wye, onveranderde opleidingdata trek. Dit maak dat die GTM domeinspesifieke en/of opgedateerde inligting kan gebruik."
+        },
+        "xh": {
+          "term": "Ukuvelisa ukufumana okwandisiweyo",
+          "definition": "Ukuvelisa ukufumana okwandisiweyo (iRAG) luhlobo lobukrelekrele obenziweyo obuvelisayo obunesakhono sokufumana inkcazelo. Ilungisa unxibelelwano nemodeli yolwimi olukhulu (LLM) ukuze imodeli iphendule imibuzo yabasebenzisi ngokubhekisele kuluhlu oluthile lwamaxwebhu, isebenzisa le nkcazelo ngokukhetha inkcazelo ethathwe kwidatha yayo enkulu, engatshintshiyo yoqeqesho. Oku kuvumela iiLLM ukuba zisebenzise idomeyini ekhethekileyo kunye/okanye inkcazelo ehlaziyiweyo."
+        },
+        "zu": {
+          "term": "ukukhiqiza kokulanda ulwazi",
+          "definition": "Ukukhiqiza kokulnadna ulwazi (i-RAG) kuwuhlobo lobuchwepheshe obusebenza ngokungasikho okwemvelo obukhiqizayo olukwazi ukulanda ulwazi. Lulungisa ukuxhumana kwezinhlelo zolimi ezinkulu (ama-LLM) ukuze izinhlelo ziphendule imibuzo yomsebenzisi zisusela ulwazi ohlwini lwemibhalo, zisebenzisa lolu lwazi kunokukhetha ulwazi oluthathwe emininingwaneni yalo yokuqeqesha ebanzi ngemile. Lokhu kwenza ukuthi ama-LLM akwazi ukusebnezisa ulwazi oluqondene nomkhakha othile kanye/noma olubuyekeziwe."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Retrieval-augmented_generation&oldid=1247453061",
+          "text": "Adapted from the Wikipedia article 'Retrieval-augmented generation'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Retrieval-augmented_generation&action=history"
+        }
+      },
+      "robustness": {
+        "en": {
+          "term": "Robustness",
+          "definition": "In computer science, robustness is the ability of a computer system to cope with errors during execution and cope with erroneous input. It is tested using techniques such as fuzz testing (an automated software testing technique that involves providing invalid, unexpected, or random data as inputs to a computer program. The program is then monitored for exceptions such as crashes or potential memory leaks.)"
+        },
+        "sw": {
+          "term": "Uthabiti",
+          "definition": "Katika sayansi ya kompyuta, uimara ni uwezo wa mfumo wa kompyuta kustahimili makosa wakati wa utekelezaji na pia kustahimili uingizaji wa data yenye hitilafu. Uimara hupimwa kwa kutumia mbinu kama vile majaribu yasiyo bayana (mfumo wa kujaribu wa kiotomatiki unaohusisha kuweka data isiyo sahihi, isiyotarajiwa, au ya kubahatisha. Kisha mfumo unafuatiliwa ili kubainisha mambo yasiyo ya kawaida kama vile kuacha kufanya kazi au kuvuja kwa kumbukumbu)."
+        },
+        "af": {
+          "term": "robuustheid",
+          "definition": "In rekenaarwetenskap is robuustheid die vermo\u00eb van \u2019n rekenaarstelsel om foute tydens uitvoering en foutiewe invoer te kan hanteer. Dit word getoets met tegnieke soos donstoetse (\u2019n outomatiese sagtewaretoetstegniek waarin ongeldige, onverwagte of lukrake data as invoere vir \u2019n rekenaarprogram verskaf word. Die program word dan gemonitor vir uitsonderings soos omvalle of moontlike geheuesyferings)."
+        },
+        "xh": {
+          "term": "Ukomelela",
+          "definition": "Kwisayensi yekhompyutha, ukomelela kukukwazi kwenkqubo yekhompyutha ukumelana neengxaki ngexesha lokwenziwa nokujongana negalelo elinengxaki. Ivavanywa kusetyenziswa ubuchule obufana novavanyo lokufana (ubuchule bokuvavanya isoftwe ezenzekelayo ebandakanya ukunika idatha engasebenziyo, engalindelekanga, okanye engacwangciswanga njengegalelo kwinkqubo yekhompyutha. Inkqubo iye ibekwe iliso kwizinto ezisecaleni ezifana nokukhresha okanye ukuvuza kwememori okunokubakho.)"
+        },
+        "zu": {
+          "term": "Ubuqatha",
+          "definition": "Kwezesayensi yekhompyutha, ukubekeza kungamandla ohlelo lwekhompyutha lokubekezelela amaphutha lapho lusetshenziswa futhi lubekezelele okufakwe ngephutha. Luhlolwa kusetshenziswa izindlela ezinjengokuhlola ngokungaphelele (indlela yokuhlola ngesoftiwe ngokuzenzekela okubandakanya ukuhlinzeka ngemininingwane engasebenzi, engalindelekile, noma engavamile njengokufakwa ohlelweni lwekhompyutha. Uhlelo lube seluqashwa kubhekwe okuphuma eceleni njengokushayisa noma ukuputshuka kolwazi okungase kube khona.)"
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Robustness in AI'"
+        }
+      },
+      "selftraining": {
+        "en": {
+          "term": "Self-training",
+          "definition": "A variant of self-supervised learning that is particularly useful when all of the following conditions are true:\n- The ratio of unlabeled examples to labeled examples in the dataset is high.\n- This is a classification problem."
+        },
+        "sw": {
+          "term": "Kujifundisha",
+          "definition": "Ni aina ya mafunzo yanayosimamiwa kwa kiasi fulani ambayo huwa muhimu ikiwa hali zifuatazo zipo:\n- Kiwango cha mifano ya data isiyoainishwa ni kikubwa kikilinganishwa na mifano iliyoainishwa.\n- Jukumu ni la uanishaji."
+        },
+        "af": {
+          "term": "selfopleiding",
+          "definition": "\u2019n Variant van self-gekontrolleerde leer wat besonders nuttig is wanneer al die volgende toestannde waar is:\n- Die verhouding van onge\u00ebtiketteerde voorbeelde teenoor ge\u00ebtiketteerde voorbeelde in die datastel hoog is.\n- Dit \u2019n klassifiseringprobleem is."
+        },
+        "xh": {
+          "term": "Ukuziqeqeshela",
+          "definition": "Umahluko wokufunda okugadwe ngokuphakathi uluncedo ngakumbi xa zonke ezi meko zilandelayo ziyinyani:\n- Umlinganiselo wemizekelo engabhalwanga kwimizekelo enelebhile kuluhlu lwedatha uphezulu.\n- Le yingxaki yokuhlelwa."
+        },
+        "zu": {
+          "term": "Ukuziqeqesha",
+          "definition": "Igatsha lokuzifundela oluwusiza lapho okulandelayo kuyiqiniso:\n - Lokhu kuyinkinga yokubeka ngokwamazinga."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Self-training in AI'"
+        }
+      },
+      "superintelligence": {
+        "en": {
+          "term": "Superintelligence",
+          "definition": "A superintelligence is a hypothetical agent that possesses intelligence surpassing that of the brightest and most gifted human minds."
+        },
+        "sw": {
+          "term": "Akiliunde pevu",
+          "definition": "Akiliunde pevu ni mfumo wa kidhahania ulio na werevu unaozidi wa wanadamu werevu na wenye vipaji zaidi."
+        },
+        "af": {
+          "term": "superintelligensie",
+          "definition": "\u2019n Superintelligensie is \u2019n hipotetiese agent wat intelligensievermo\u00ebns het wat ver bo di\u00e9 van die slimste en mees begaafde menslike denke is."
+        },
+        "xh": {
+          "term": "Ubukrelekrele obuphezulu",
+          "definition": "Ubukrelekrele obuphezulu yiarhente ecingelwayo enobukrelekrele obudlula ezona ngqondo ziqaqambileyo nezinesiphiwo zomntu."
+        },
+        "zu": {
+          "term": "Ubuhlakani obukhulukazi",
+          "definition": "Ubuhlakani obukhulukazi buyisimeleli esingasiso esangempela esiqukethe ubuhlakani obudlula abantu abahlakaniphe kakhulu kakhulu."
+        },
+        "attribution": {
+          "source_author": "Wikipedia contributors",
+          "source_license": "CC BY-SA 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://en.wikipedia.org/w/index.php?title=Superintelligence&oldid=1306987848",
+          "text": "Adapted from the Wikipedia article 'Superintelligence'",
+          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Superintelligence&action=history"
+        }
+      },
+      "temperature": {
+        "en": {
+          "term": "Temperature",
+          "definition": "A hyperparameter that controls the degree of randomness of a model's output. Higher temperatures result in more random output, while lower temperatures result in less random output. \nChoosing the best temperature depends on the specific application and the preferred properties of the model's output. For example, you would probably raise the temperature when creating an application that generates creative output. Conversely, you would probably lower the temperature when building a model that classifies images or text in order to improve the model's accuracy and consistency."
+        },
+        "sw": {
+          "term": "Jotoridi",
+          "definition": "Kigezo kikuu kinachodhibiti unasibu wa matokeo yanayotolewa na mfumo. Joto la juu zaidi husababisha matokeo ya kinasibu zaidi, huku joto la chini likiwa na matokeo yasiyo ya kinasibu sana. \nUteuzi wa kiwango cha joto kinachofaa hutegemea matumizi mahususi na sifa za matokeo yanayopendelewa. Kwa mfano, unaweza kuongeza kiasi cha joto ikiwa unabuni mfumo wa kutoa matokeo bunifu.\nKwa upande mwingine, utapunguza joto ikiwa unabuni mfumo wa kuainisha picha au maanidishi ili kuboresha usahihi na uhakika wa mfumo huo."
+        },
+        "af": {
+          "term": "temperatuur",
+          "definition": "\u2019n Hipergrens wat die mate van lukraakheid van \u2019n model se uitset beheer. Ho\u00ebr temperature veroorsaak meer lukrake uitsette, terwyl laer temperature minder lukrake uitsette veroorsaak. Om die beste temperatuur te kies hang af van die spesifieke toepassing en die voorkeureienskappe van die model se uitset. Byvoorbeeld, jy sal waarskynlik die temperatuur verhoog wanneer jy \u2019n toepassing skep wat kreatiewe uitsette genereer. Omgekeerd, sal jy waarskynlik die temperatuur verlaag wanneer jy \u2019n model bou wat prente of teks klassifiseer om sodoende die model se akkuraatheid en konsekwentheid te verbeter."
+        },
+        "xh": {
+          "term": "Ubushushu",
+          "definition": "Ihyperparameter elawula iqondo lokungakhethi kwemveliso yemodeli. Amaqondo obushushu aphezulu abangela imveliso engacwangciswanga ngakumbi, ngelixa amaqondo obushushu asezantsi ephumela kwimveliso engacwangciswanga ngokuncinci. \nUkukhetha obona bushushu kuxhomekeke kwiaplikheyshini ethile neempawu ezikhethiweyo zemveliso yemodeli. Umzekelo, unganyusa ubushushu xa usenza iaplikheyshini evelisa imveliso yokuyila. Ngokuchaseneyo, ubuya kuthoba iqondo lobushushu xa usakha imodeli ehlela imifanekiso okanye umbhalo ukuze kuphuculwe ukuchaneka kwemodeli nokuhambelana."
+        },
+        "zu": {
+          "term": "Iqaphasimo",
+          "definition": "Uhlelo lokulawula ukufunda ngemishini olulawula izinga lokungavami kwemiphumela yohlelo. Umphumela wezinga eliphezulu luwumphumela ongavamile kakhulu, kube umphumela wamadszingakushisa aphansi wumphumela ongavamile kancane. \n Ukukhetha izingakushisa eliphuma phambili kuncike ohlweni olubaluliwe kanye nezakhi ezikhethwayo emphumeleni wohlelo. isibonelo, ungase unyuse izingakushisa uma wakha uhlelo olukhiqiza umphumela wobuciko. Kungenjalo, ungase wehlise izingakushisa lapho wakha uhlelo olubeka izithombe ngokwamazinga ukuze kuthuthukiswe ukunemba nokuhambisana kohlelo."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://gemini.google.com/",
+          "text": "Adapted from a Gemini response to the prompt, 'Tell me about Temperature in AI'"
+        }
+      },
+      "true_negative_tn": {
+        "en": {
+          "term": "True negative (TN)",
+          "definition": "An example in which the model correctly predicts the negative class. For example, the model infers that a particular email message is not spam, and that email message really is not spam."
+        },
+        "sw": {
+          "term": "Hasi halisi",
+          "definition": "Mfano ni pale ambapo mfumo utabashiri kwa usahihi kutokuwepo kwa kitu fulani. Kwa mfano, mfumo unaofahamu kwamba ujumbe kwenye barua pepe fulani si taka, na kwa hakika barua pepe hiyo si taka."
+        },
+        "af": {
+          "term": "ware negatief (WN)",
+          "definition": "\u2019n Voorbeeld waarin die model die negatiewe klas korrek voorspel. Byvoorbeeld, die model lei af dat \u2019n spesifieke e-posboodskap nie gemorspos is nie, en die e-pos dan werklik nie gemorspos is nie."
+        },
+        "xh": {
+          "term": "Inegethivu eyinyani (TN)",
+          "definition": "Umzekelo apho imodeli iqikelela ngokuchanekileyo udidi olunegethivu. Umzekelo, imodeli ichaza ukuba umyalezo othile weimeyile ayisospem, ube loo myalezo weimeyile ungesospem nyhani."
+        },
+        "zu": {
+          "term": "Okungekuhle ngokweqiniso (i-TN)",
+          "definition": "Isibonelo sokuqagela kohlelo ngokufanele ezingeni lokungekuhle. Isibonelo, uhlelo lusho ukuthi umyalezo we-imeyli othile awusiwo ugaxekile, futhi umyalezo we-imeyli awusiwo ngempela ugaxekile."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#true-negative-tn",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'True Negative Tn'"
+        }
+      },
+      "true_positive_tp": {
+        "en": {
+          "term": "True positive (TP)",
+          "definition": "An example in which the model correctly predicts the positive class. For example, the model infers that a particular email message is spam, and that email message really is spam."
+        },
+        "sw": {
+          "term": "Chanya halisi",
+          "definition": "Mfano ni pale ambapo mfumo utabashiri kwa usahihi kuwepo kwa kitu fulani. Kwa mfano, mfumo unaofahamu kwamba ujumbe kwenye barua pepe fulani ni taka, na kwa hakika barua pepe hiyo ni taka."
+        },
+        "af": {
+          "term": "ware positief (WP)",
+          "definition": "\u2019n Voorbeeld waarin die model die positiewe klas korrek voorspel. Byvoorbeeld, die model lei af dat \u2019n spesifieke e-posboodskap gemorspos is, en die e-pos dan werklik gemorspos is."
+        },
+        "xh": {
+          "term": "Iphozithivu eyinyani (TP)",
+          "definition": "Umzekelo apho imodeli iqikelela ngokuchanekileyo udidi oluphozithivu. Umzekelo, imodeli ithi umyalezo othile weimeyile sispem, ibe loo myalezo weimeyile ube usisipem nyhani."
+        },
+        "zu": {
+          "term": "Okuhle ngokweqiniso (i-TP)",
+          "definition": "Isibonelo sokuqagela kohlelo ngokufanele ezingeni lokuhle. Isibonelo, uhlelo lusho ukuthi umyalezo we-imeyli othile uwugaxekile, futhi umyalezo we-imeyli ngempela uwugaxekile."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#true-positive-tp",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'True Positive Tp'"
+        }
+      },
+      "underfitting": {
+        "en": {
+          "term": "Underfitting",
+          "definition": "Producing a model with poor predictive ability because the model hasn't fully captured the complexity of the training data."
+        },
+        "sw": {
+          "term": "Ujifunzaji usokamilifu",
+          "definition": "Kubuni mfumo ulio na uwezo duni wa kubashiri kwa sababu mfumo huo haujaelewa kikamilifu uchangamano wa data ya mafunzo."
+        },
+        "af": {
+          "term": "onderpassing",
+          "definition": "Om \u2019n model te produseer met swak voorspellingvermo\u00eb omdat die model nie die kompleksiteit van die opleidingdata ten volle aangeteken het nie."
+        },
+        "xh": {
+          "term": "Ukungalingani okunganeno",
+          "definition": "Ukuvelisa imodeli enesakhono esilambathayo sokuqikelela ngenxa yokuba imodeli khange ibambe ngokupheleleyo ubunzima bedatha yoqeqesho."
+        },
+        "zu": {
+          "term": "uhlelo olubuthaka",
+          "definition": "Ukukhiqiza uhlelo olungaqinile kwezokuqagela ngoba uhlelo longakayiqophi imininingwane yokuqeqesha enzulu."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#underfitting",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Underfitting'"
+        }
+      },
+      "undersampling": {
+        "en": {
+          "term": "Undersampling",
+          "definition": "Removing examples from the majority class in a class-imbalanced dataset in order to create a more balanced training set."
+        },
+        "sw": {
+          "term": "Usampulishaji finyu",
+          "definition": "Kuondoa mifano iliyo mingi kwenye mkusanyiko wa data ya aina fulani kwa lengo la kuwa na usawa katika mkusanyiko wa data unaotumika katika mafunzo."
+        },
+        "af": {
+          "term": "afbalansering",
+          "definition": "Die verwydering van voorbeelde van die meerderheidklas in \u2019n klasongebalanseerde datastel om sodoende \u2019n meer gebalanseerde opleidingstel te skep."
+        },
+        "xh": {
+          "term": "Isampuli enganeno",
+          "definition": "Ukususa imizekelo kwiklasi yesininzi kwiseti yedatha kwiklasi elinganayo ukwenzela ukudala isethi yoqeqesho olulungeleleneyo."
+        },
+        "zu": {
+          "term": "Ukususa amasampula amakhulu",
+          "definition": "Ukususa izibonelo ezingeni lokukhulu ohlwini lwemininingwane olungalingene ngokufanele ukuze kwakhiwe uhlu lokuqeqesha olulingene."
+        },
+        "attribution": {
+          "source_author": "Google",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_url": "https://developers.google.com/machine-learning/glossary#undersampling",
+          "text": "Adapted from the Google for Developers, Machine Learning Glossary entry 'Undersampling'"
+        }
+      }
+    }
+  },
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "metadata": {
+    "headings": {
+      "term": {
+        "en": {
+          "en": "Term in English",
+          "sw": "Istilahi ya Kiingereza",
+          "yo": "Oro ni ede Geesi",
+          "am": "\u12e8\u12a5\u1295\u130d\u120a\u12dd\u129b \u1243\u120d",
+          "ha": "Kalma a cikin Turanci",
+          "af": "Term in Engels",
+          "xh": "Igama ngesiNgesi",
+          "ig": "Okwu n'as\u1ee5s\u1ee5 Bekee",
+          "pcm": "W\u1ecdd f\u1ecd \u00cdnglish"
+        },
+        "sw": {
+          "sw": "Istilahi ya Kiswahili"
+        },
+        "ha": {
+          "ha": "Kalma a cikin Hausa"
+        },
+        "yo": {
+          "yo": "Oro ni ede Yoruba"
+        },
+        "am": {
+          "am": "\u12e8\u12a0\u121b\u122d\u129b \u1243\u120d"
+        },
+        "af": {
+          "af": "Term in Afrikaans"
+        },
+        "xh": {
+          "xh": "Igama ngesiXhosa"
+        },
+        "ig": {
+          "ig": "Okwu n'as\u1ee5s\u1ee5 Igbo"
+        },
+        "pcm": {
+          "pcm": "W\u1ecdd f\u1ecd Pijin"
+        }
+      },
+      "definition": {
+        "en": {
+          "en": "Definition in English",
+          "sw": "Ufafanuzi kwa Kiingereza",
+          "ha": "Ma'anar a cikin Turanci",
+          "yo": "Itum\u1ecd ni ede Geesi",
+          "am": "\u12e8\u12a5\u1295\u130d\u120a\u12dd\u129b \u1275\u122d\u1309\u121d",
+          "af": "Definisie in Engels",
+          "xh": "Inkcazelo ngesiNgesi",
+          "ig": "Nk\u1ecdwa n'as\u1ee5s\u1ee5 Bekee",
+          "pcm": "M\u00edn\u00edn f\u1ecd \u00cdnglish"
+        },
+        "sw": {
+          "sw": "Ufafanuzi kwa Kiswahili"
+        },
+        "ha": {
+          "ha": "Definition in Hausa"
+        },
+        "yo": {
+          "yo": "Definition in Yoruba"
+        },
+        "am": {
+          "am": "\u12e8\u12a0\u121b\u122d\u129b \u1275\u122d\u1309\u121d"
+        },
+        "af": {
+          "af": "Definisie in Afrikaans"
+        },
+        "xh": {
+          "xh": "Inkcazelo ngesiXhosa"
+        },
+        "ig": {
+          "ig": "Nk\u1ecdwa n'as\u1ee5s\u1ee5 Igbo"
+        },
+        "pcm": {
+          "pcm": "M\u00edn\u00edn f\u1ecd Pijin"
+        }
+      }
+    }
+  }
+}
