@@ -1,0 +1,100 @@
+<!--
+ * Copyright 2025 Google LLC.
+ * SPDX-License-Identifier: Apache-2.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Example AI Terminology Visualizer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fade-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .animate-fade-in { animation: fade-in 0.4s ease-out forwards; }
+  </style>
+</head>
+<body class="bg-slate-100 font-sans text-slate-800 p-4 sm:p-6 md:p-8">
+
+  <div class="max-w-4xl mx-auto">
+    <header class="bg-white rounded-t-2xl shadow-lg p-6 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+      <h1 class="text-2xl sm:text-3xl tracking-tight">Example AI Terminology Visualizer</h1>
+      <p class="mt-1 text-blue-100">Explore the multilingual world of AI terminology.</p>
+    </header>
+    <main class="p-6 bg-white rounded-b-2xl shadow-lg space-y-6">
+      <div>
+        <label for="termSelector" class="block text-sm font-medium text-gray-700 mb-2">Select a Term</label>
+        <select id="termSelector" class="block w-full p-3 bg-white border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-500" disabled>
+          <option value="">Loading terms...</option>
+        </select>
+      </div>
+      <div id="details-container"></div>
+      <footer class="pt-4 text-center text-xs text-slate-500 border-t">
+        <p>Viewer code © 2025 Google LLC, licensed under Apache-2.0.<br>Glossary data is licensed under CC BY-SA 4.0 by the  <a href="https://github.com/google-research-datasets/ssa-ai-terminologies" target="_blank" rel="noopener" class="text-blue-600 hover:underline">AI Terminologies Contributors</a>.
+  </p>
+        <p>Built with HTML5, Tailwind CSS, and some help from aistudio.google.com</p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const DATA_URL = "https://google-research-datasets.github.io/ssa-ai-terminologies/glossary_output.json";
+      const LANG_NAMES = { en: 'English', sw: 'Swahili', yo: 'Yoruba', am: 'Amharic', ha: 'Hausa', af: 'Afrikaans', xh: 'Xhosa', ig: 'Igbo', pcm: 'Nigerian Pidgin', zu: 'Zulu' };
+      let data, term, lang = 'en';
+      const selector = document.getElementById('termSelector'), container = document.getElementById('details-container');
+
+      const getHeading = (key, l) => data?.metadata?.headings?.[key]?.[l]?.[l] || key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      const getEnLabel = (l) => data?.metadata?.headings?.term?.en?.[l] || 'English';
+      const render = () => {
+        if (!term) { container.innerHTML = ''; return; }
+        const currentLangData = term[lang];
+        const availableLangs = Object.keys(term).filter(k => term[k]?.term);
+        const detailsSection = (title, items) => !items?.length ? '' : `<div><h4 class="font-semibold text-slate-600 mb-2 border-b pb-1">${title}</h4><ul class="list-disc list-inside space-y-1 pl-2">${items.map(i => `<li>${i}</li>`).join('')}</ul></div>`;
+        const attrSection = (attr) => !attr ? '' : `<div class="border-t pt-4 mt-6 text-xs text-slate-600"><h3 class="text-sm font-semibold mb-2">Attribution</h3><p class="italic">"${attr.text}"</p><div class="flex flex-wrap gap-x-4 mt-1"><span><b>Author:</b> ${attr.source_author_url ? `<a href="${attr.source_author_url}" class="text-blue-600 hover:underline">${attr.source_author}</a>` : attr.source_author}</span><span><b>License:</b> <a href="${attr.source_license_url}" class="text-blue-600 hover:underline">${attr.source_license}</a></span><span><b>Source:</b> <a href="${attr.source_url}" class="text-blue-600 hover:underline">View Original</a></span></div></div>`;
+        
+        const detailsHTML = currentLangData ? `<div class="space-y-4 animate-fade-in">
+          <h3 class="text-2xl font-bold text-indigo-700">${currentLangData.term}</h3>
+          ${lang !== 'en' && term.en?.term ? `<p class="text-slate-500 -mt-1 mb-2">(${getEnLabel(lang)}: <b>${term.en.term}</b>)</p>` : ''}
+          <div><h4 class="font-semibold text-slate-600 mb-2 border-b pb-1">${getHeading('definition', lang)}</h4><p class="leading-relaxed">${currentLangData.definition}</p></div>
+          ${detailsSection(getHeading('examples', lang), currentLangData.examples)}
+          ${detailsSection(getHeading('related_terms', lang), currentLangData.related_terms)}
+          ${detailsSection(getHeading('synonyms', lang), currentLangData.synonyms)}
+        </div>` : `<p class="text-center py-8 text-slate-500">No data for this language.</p>`;
+
+        container.innerHTML = `<div class="border-t pt-6"><section class="bg-slate-50 p-4 sm:p-6 rounded-lg border space-y-5">
+            <label class="block text-sm font-medium">Language</label><div class="flex flex-wrap gap-2">
+            ${availableLangs.map(l => `<button data-lang="${l}" class="lang-btn px-4 py-2 text-sm rounded-md transition ${lang===l ? 'bg-indigo-600 text-white shadow' : 'bg-white hover:bg-slate-200 border'}">${LANG_NAMES[l] || l}</button>`).join('')}
+            </div> ${detailsHTML} ${attrSection(term.attribution)}</section></div>`;
+        
+        container.querySelectorAll('.lang-btn').forEach(btn => btn.addEventListener('click', e => { lang = e.target.dataset.lang; render(); }));
+      };
+      selector.addEventListener('change', e => {
+        const path = e.target.value;
+        if (!path) { term = null; render(); return; }
+        const [level, key] = path.split("___");
+        term = data.glossary_by_level[level]?.[key];
+        lang = 'en'; render();
+      });
+
+      (async () => {
+        try {
+          const res = await fetch(DATA_URL);
+          data = await res.json();
+          const levelOrder = ["Basic", "Advanced"];
+          const sortedLevels = Object.entries(data.glossary_by_level).sort(([a], [b]) => levelOrder.indexOf(a) - levelOrder.indexOf(b));
+          const optionsHTML = sortedLevels.map(([level, terms]) => `<optgroup label="${level}">${Object.entries(terms)
+              .sort(([,a],[,b]) => (a.en?.term||'').localeCompare(b.en?.term||''))
+              .map(([key, termData]) => `<option value="${level}___${key}">${termData.en?.term||key}</option>`).join('')}
+            </optgroup>`).join('');
+          selector.innerHTML = `<option value="">-- Select a Term --</option>${optionsHTML}`;
+          selector.disabled = false;
+        } catch (err) {
+          selector.innerHTML = `<option value="">Error loading terms</option>`;
+          console.error("Failed to load:", err);
+        }
+      })();
+    });
+  </script>
+</body>
+</html>
