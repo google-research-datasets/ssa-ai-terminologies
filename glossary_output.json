@@ -2544,7 +2544,8 @@
           "af": "Term in Engels",
           "xh": "Igama ngesiNgesi",
           "ig": "Okwu n'as\u1ee5s\u1ee5 Bekee",
-          "pcm": "W\u1ecdd f\u1ecd \u00cdnglish"
+          "pcm": "W\u1ecdd f\u1ecd \u00cdnglish",
+          "zu": "Igama ngesiNgesi"
         },
         "sw": {
           "sw": "Istilahi ya Kiswahili"
@@ -2569,6 +2570,9 @@
         },
         "pcm": {
           "pcm": "W\u1ecdd f\u1ecd Pijin"
+        },
+        "zu": {
+          "zu": "Igama ngesiZulu"
         }
       },
       "definition": {
@@ -2581,7 +2585,8 @@
           "af": "Definisie in Engels",
           "xh": "Inkcazelo ngesiNgesi",
           "ig": "Nk\u1ecdwa n'as\u1ee5s\u1ee5 Bekee",
-          "pcm": "M\u00edn\u00edn f\u1ecd \u00cdnglish"
+          "pcm": "M\u00edn\u00edn f\u1ecd \u00cdnglish",
+          "zu": "Incazelo ngesiNgesi"
         },
         "sw": {
           "sw": "Ufafanuzi kwa Kiswahili"
@@ -2606,6 +2611,9 @@
         },
         "pcm": {
           "pcm": "M\u00edn\u00edn f\u1ecd Pijin"
+        },
+        "zu": { 
+          "zu": "Incazelo ngesiZulu"
         }
       }
     }
