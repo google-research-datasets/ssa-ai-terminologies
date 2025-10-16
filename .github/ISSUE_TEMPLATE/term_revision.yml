@@ -1,0 +1,73 @@
+name: "✍️ Revision or Correction to Existing Term"
+description: Propose a correction, clarification, or update to an existing term or definition in any language.
+title: "Revision: [Term in English] - [Language Code]"
+labels: ["revision", "needs review", "legal check"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use this form for corrections to existing glossary entries. For entirely new terms, please use the 'New Term Suggestion' template.
+
+  - type: input
+    id: term-english
+    attributes:
+      label: "1. Term in English (Required Anchor)"
+      description: "The official English term whose data you are revising (e.g., 'Algorithmic transparency')."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language-code
+    attributes:
+      label: "2. Language Code for Revision (Required)"
+      description: "The language where the term or definition needs to be revised."
+      options:
+        - sw (Swahili)
+        # ... include all language codes
+    validations:
+      required: true
+      
+  - type: textarea
+    id: revision-reason
+    attributes:
+      label: "3. Reason for Revision (Required)"
+      description: "Explain why the current entry is incorrect, outdated, or needs clarification."
+      placeholder: "e.g., The current definition contains a grammatical error in Swahili."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-revision
+    attributes:
+      label: "4. Proposed Revised Text (Required)"
+      description: "Paste the COMPLETE, CORRECTED version of the definition or term translation here."
+    validations:
+      required: true
+
+  - type: input
+    id: source-reference
+    attributes:
+      label: "5. Source/URL for Correction (Required if new information is used)"
+      description: "The URL or document reference for the source used to make this correction/revision."
+      placeholder: "e.g., Official standards document from [Organization URL]"
+    validations:
+      required: false # Changed to false, as some revisions are purely grammatical fixes.
+
+  - type: input
+    id: source-license
+    attributes:
+      label: "6. License of the New Source (If applicable)"
+      description: "What is the license of the source material provided in #5? (e.g., CC BY-SA 4.0, CC0, Public Domain)."
+      placeholder: "e.g., CC BY 4.0"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: license-compliance
+    attributes:
+      label: "7. License Compliance Checklist (REQUIRED)"
+      options:
+        - label: "I have verified that the source for this revision (if provided) is compatible with the project's **CC BY-SA 4.0** license."
+          required: true
+        - label: "I understand my contribution will be licensed under the project's CC BY-SA 4.0 data license."
+          required: true
