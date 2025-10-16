@@ -1,0 +1,72 @@
+name: "💡 New Term/Definition Suggestion"
+description: Suggest a new AI term, provide a new definition, or add a translation.
+title: "Term Suggestion: [Term in English] - [Language Code]"
+labels: ["enhancement", "new term", "needs review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us expand the SSA AI Terminologies glossary! Please provide as much detail as possible.
+
+  - type: input
+    id: term-english
+    attributes:
+      label: "1. Term in English (Required)"
+      description: "The official English term you are suggesting (e.g., 'Algorithmic transparency')."
+      placeholder: "e.g., Algorithmic bias"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language-code
+    attributes:
+      label: "2. Language Code (Required)"
+      description: "The language for which the new definition/term is provided."
+      options:
+        - sw (Swahili)
+        - ha (Hausa)
+        - yo (Yoruba)
+        - am (Amharic)
+        - af (Afrikaans)
+        - xh (Xhosa)
+        - ig (Igbo)
+        - pcm (Pijin)
+        - zu (Zulu)
+        - en (English)
+    validations:
+      required: true
+
+  - type: textarea
+    id: new-term-translation
+    attributes:
+      label: "3. New Term Translation (Required)"
+      description: "The literal translation of the term in the selected language. If suggesting a new English term, paste the English term here again."
+      placeholder: "e.g., Ukuthobeka ngesiZulu (for 'Fairness')"
+    validations:
+      required: true
+
+  - type: textarea
+    id: new-definition
+    attributes:
+      label: "4. Proposed Definition/Description"
+      description: "The full translated definition for the term in the selected language. Please be accurate and include a source, if possible."
+      placeholder: "e.g., Incazelo: Imigomo yokubeka izinqumo ezithathwa..."
+
+  - type: textarea
+    id: definition-source
+    attributes:
+      label: "5. Source/Context/Reference (Required)"
+      description: "Where did this definition come from? (e.g., Academic paper, Government document, Official translation dictionary). If adapted from another language, state that."
+      placeholder: "e.g., Adapted from the English Wikipedia entry; Official Xhosa terminology list from [Organization Name]."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "6. Contributor Checklist"
+      options:
+        - label: "I have verified that this term/definition does not already exist in the glossary."
+          required: true
+        - label: "I understand that my contribution will be licensed under the project's CC BY-SA 4.0 data license."
+          required: true
