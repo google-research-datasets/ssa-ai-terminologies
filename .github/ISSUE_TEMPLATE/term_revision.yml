@@ -23,7 +23,15 @@ body:
       description: "The language where the term or definition needs to be revised."
       options:
         - sw (Swahili)
-        # ... include all language codes
+        - ha (Hausa)
+        - yo (Yoruba)
+        - am (Amharic)
+        - af (Afrikaans)
+        - xh (Xhosa)
+        - ig (Igbo)
+        - pcm (Pijin)
+        - zu (Zulu)
+        - en (English)
     validations:
       required: true
       
