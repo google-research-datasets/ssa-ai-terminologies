@@ -524,7 +524,7 @@
         },
         "xh": {
           "term": "Ideepfake",
-          "definition": "Imifanekiso, iividiyo, okanye okumanyelwayo okuedithiweyo okanye okuveliswa kusetyenziswa izixhobo zobukrelekrele ezenziweyo, ezinokuthi zimele abantu bokwenyani okanye abangekhoyo. Ziluhlobo lwemidiya eyenziweyo."
+          "definition": "Imifanekiso, iividiyo, okanye okumanyelwayo okuedithiweyo okanye okuveliswa kusetyenziswa izixhobo zobungqondi bekhompyutha, ezinokuthi zimele abantu bokwenyani okanye abangekhoyo. Ziluhlobo lwemidiya eyenziweyo."
         },
         "zu": {
           "term": "Ifihlabuwuwa",
@@ -673,7 +673,7 @@
         },
         "xh": {
           "term": "I-AI yokuvelisa",
-          "definition": "I-artificial intelligence ekwazi ukuvelisa umbhalo, imifanekiso, iividiyo, okanye enye idatha isebenzisa imodeli yokuzivelisela, ehlala iphendula imiyalelo. Iimodeli ze-AI Yokuvelisa zifunda iiphatheni nolwakhiwo lwedatha yoqeqesho lwazo zize emva koko zivelise idatha entsha eneempawu ezifanayo."
+          "definition": "Ubungqondi bekhompyutha obukwazi ukuvelisa umbhalo, imifanekiso, iividiyo, okanye enye idatha isebenzisa imodeli yokuzivelisela, ehlala iphendula imiyalelo. Iimodeli zeAI Yokuvelisa zifunda iiphatheni nolwakhiwo lwedatha yoqeqesho lwazo zize emva koko zivelise idatha entsha eneempawu ezifanayo."
         },
         "zu": {
           "term": "Ubuhlakani Obakhiwe Obukhiqizayo",
@@ -793,7 +793,7 @@
         },
         "xh": {
           "term": "IMachine Learning (ML)",
-          "definition": "Icandelo lokufunda kwi-artificial intelligence ejongene nophuhliso nokufunda ii-algorithim zamanani anokuthi afunde kwidatha kwaye enze ngokubanzi kwidatha engabonakaliyo kwaye ngaloo ndlela enze imisebenzi ngaphandle kwemiyalelo ecacileyo."
+          "definition": "Icandelo lokufunda ubungqondi bekhompyutha elijongene nophuhliso nokufunda iialgorithim zamanani anokuthi afunde kwidatha kwaye enze ngokubanzi kwidatha engabonakaliyo kwaye ngaloo ndlela enze imisebenzi ngaphandle kwemiyalelo ecacileyo."
         },
         "zu": {
           "term": "Ukufunda Komshini",
@@ -853,7 +853,7 @@
         },
         "xh": {
           "term": "UkuSetyenzwa koLwimi lweNdalo (NLP)",
-          "definition": "Indawo engaphantsi kwezifundo zenzululwazi yekhompyutha ne-artificial intelligence, yeyona nto ijongene nokubonelela iikhompyutha ngesakhono sokucubungula idatha efakwe ngekhowudi ngolwimi lwendalo. \n Imisebenzi ephambili ekusetyenzweni kolwimi lwendalo kukunakanwa kwentetho, ukuhlelwa kwemibhalo, ukuqonda ulwimi lwendalo, nokuveliswa kolwimi lwendalo."
+          "definition": "Indawo engaphantsi kwezifundo zenzululwazi yekhompyutha nobungqondi bekhompyutha, yeyona nto ijongene nokubonelela iikhompyutha ngesakhono sokucubungula idatha efakwe ngekhowudi ngolwimi lwendalo. Imisebenzi ephambili ekusetyenzweni kolwimi lwendalo kukunakanwa kwentetho, ukuhlelwa kwemibhalo, ukuqonda ulwimi lwendalo, nokuveliswa kolwimi lwendalo."
         },
         "zu": {
           "term": "Ukucubungula Kolimi Lwemvelo (NLP)",
@@ -1390,7 +1390,7 @@
         },
         "xh": {
           "term": "Ukukhutshwa",
-          "definition": "Kubukrelekrele obenziweyo (iAI), ngokukodwa ukufundwa komatshini (ML), ukukhutshwa kukukhutshwa kwecandelo lenkqubo yeAI. Uphononongo lokuchithwa luphanda ukusebenza kwenkqubo yeAI ngokususa amacandelo athile ukuqonda igalelo lecandelo kwinkqubo yonke."
+          "definition": "Kubungqondi bekhompyutha (iAI), ngokukodwa ukufundwa komatshini (ML), ukukhutshwa kukukhutshwa kwecandelo lenkqubo yeAI. Uphononongo lokuchithwa luphanda ukusebenza kwenkqubo yeAI ngokususa amacandelo athile ukuqonda igalelo lecandelo kwinkqubo yonke."
         },
         "zu": {
           "term": "ukukhipha izakhi",
@@ -1627,7 +1627,7 @@
         },
         "xh": {
           "term": "Ibhokisi yeAI eMnyama",
-          "definition": "Ibinzana elisetyenziselwa ukuchaza iinkqubo zobukrelekrele obenziweyo apho iindlela zangaphakathi zokusebenza kwazo neenkqubo zazo zokwenza izigqibo zingacacanga okanye zingaqondwa lula ngabantu."
+          "definition": "Ibinzana elisetyenziselwa ukuchaza iinkqubo zobungqondi bekhompyutha apho iindlela zangaphakathi zokusebenza kwazo neenkqubo zazo zokwenza izigqibo zingacacanga okanye zingaqondwa lula ngabantu."
         },
         "zu": {
           "term": "Ubuhlakani Obakhiwe obungeqondwe abantu",
@@ -2280,7 +2280,7 @@
         },
         "xh": {
           "term": "Ukuvelisa ukufumana okwandisiweyo",
-          "definition": "Ukuvelisa ukufumana okwandisiweyo (iRAG) luhlobo lobukrelekrele obenziweyo obuvelisayo obunesakhono sokufumana inkcazelo. Ilungisa unxibelelwano nemodeli yolwimi olukhulu (LLM) ukuze imodeli iphendule imibuzo yabasebenzisi ngokubhekisele kuluhlu oluthile lwamaxwebhu, isebenzisa le nkcazelo ngokukhetha inkcazelo ethathwe kwidatha yayo enkulu, engatshintshiyo yoqeqesho. Oku kuvumela iiLLM ukuba zisebenzise idomeyini ekhethekileyo kunye/okanye inkcazelo ehlaziyiweyo."
+          "definition": "Ukuvelisa ukufumana okwandisiweyo (iRAG) luhlobo lobungqondi bekhompyutha obuvelisayo obunesakhono sokufumana inkcazelo. Ilungisa unxibelelwano nemodeli yolwimi olukhulu (LLM) ukuze imodeli iphendule imibuzo yabasebenzisi ngokubhekisele kuluhlu oluthile lwamaxwebhu, isebenzisa le nkcazelo ngokukhetha inkcazelo ethathwe kwidatha yayo enkulu, engatshintshiyo yoqeqesho. Oku kuvumela iiLLM ukuba zisebenzise idomeyini ekhethekileyo kunye/okanye inkcazelo ehlaziyiweyo."
         },
         "zu": {
           "term": "ukukhiqiza kokulanda ulwazi",
