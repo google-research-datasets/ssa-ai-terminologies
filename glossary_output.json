@@ -41,7 +41,7 @@
         },
         "af": {
           "term": "aktiewe leer",
-          "definition": "\u2019n Spesiale geval van masjienleer waarin \u2019n leeralgoritme interaktief navraag by \u2019n menslike gebruiker (of \u2019n ander inligtingbron) kan doen om nuwe datapunte met die verlangde uitsette te etiketteer."
+          "definition": "\u2019n Spesiale geval van masjienleer waarin \u2019n leeralgoritme interaktief navraag by \u2019n menslike gebruiker (of \u2019n ander inligtingbron) kan doen om nuwe datapunte met die verlangde afvoer te merk."
         },
         "xh": {
           "term": "Ukufunda ngokusebenza",
@@ -2246,7 +2246,7 @@
         },
         "af": {
           "term": "versterkingleer uit menslike terugvoer",
-          "definition": "In masjienleer is verstekleer uit menseterugvoer (VLMT) \u2019n tegniek om \u2019n intelligente agent te belyn met mensevoorkeure."
+          "definition": "In masjienleer is versterkingleer uit menslike terugvoer (VLMT) \u2019n tegniek om \u2019n intelligente agent met menslike voorkeure te belyn. Dit behels dat \u2019n beloningsmodel opgelei word om voorkeure te verteenwoordig, wat dan gebruik kan om ander modelle deur versterkingsleer op te lei."
         },
         "xh": {
           "term": "Ukufunda okukhuthazwa yingxelo yabantu",
