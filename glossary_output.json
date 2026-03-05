@@ -12,11 +12,11 @@
         },
         "af": {
           "term": "akkuraatheid",
-          "definition": "Dit is die gedeelte van alle klassifikasies wat korrek was, ongeag of dit positief of negatief was. \n E-posvoorbeeld: In die strooiposklassifikasievoorbeeld meet akkuraatheid die breukdeel van alle e-posse wat korrek geklassifiseer is."
+          "definition": "Dit is die gedeelte van alle klassifikasies wat korrek was, ongeag of dit positief of negatief was. \nE-posvoorbeeld: In die strooiposklassifikasievoorbeeld meet akkuraatheid die breukdeel van alle e-posse wat korrek geklassifiseer is."
         },
         "xh": {
           "term": "Ukuchaneka",
-          "definition": "Ngumlinganiselo wazo zonke iindidi zokuhlela ebezichanekile, nokuba bezilungile okanye zingalunganga. \n Umzekelo we-imeyile: Kumzekelo wokuhlelwa kwe-spam, ukuchaneka kulinganisa iqhezu lazo zonke ii-imeyile ezihlelwe ngokuchanekileyo."
+          "definition": "Ngumlinganiselo wazo zonke iindidi zokuhlela ebezichanekile, nokuba bezilungile okanye zingalunganga. \n Umzekelo weimeyile: Kumzekelo wokuhlelwa kwespam, ukuchaneka kulinganisa iqhezu lazo zonke imeyile ezihlelwe ngokuchanekileyo."
         },
         "zu": {
           "term": "Ukunemba",
@@ -41,11 +41,11 @@
         },
         "af": {
           "term": "aktiewe leer",
-          "definition": "\u2019n Spesiale geval van masjienleer waarin \u2019n leeralgoritme interaktief navraag by \u2019n menslike gebruiker (of \u2019n ander inligtingbron) kan doen om nuwe datapunte met die verlangde afvoer te merk."
+          "definition": "\u2019n Spesiale geval van masjienleer waarin \u2019n leeralgoritme interaktief navraag by \u2019n menslike gebruiker (of \u2019n ander inligtingsbron) kan doen om nuwe datapunte met die verlangde afvoer te merk."
         },
         "xh": {
           "term": "Ukufunda ngokusebenza",
-          "definition": "Imeko ekhethekileyo yokufunda koomatshini apho i-algorithm yokufunda inokubuza ngokudibeneyo kumsebenzisi ongumntu (okanye omnye umthombo wolwazi), ukulebheyila amanqaku amatsha edatha kunye neziphumo ezifunwayo."
+          "definition": "Imeko ekhethekileyo yokufunda koomatshini apho ialgorithm yokufunda inokubuza ngokudibeneyo kumsebenzisi ongumntu (okanye omnye umthombo wolwazi), ukulebheyila amanqaku amatsha edatha kunye neziphumo ezifunwayo."
         },
         "zu": {
           "term": "Ukufunda okusebenzayo",
@@ -71,11 +71,11 @@
         },
         "af": {
           "term": "KI-belyning",
-          "definition": "Dit is daarop gemik om AI-stelsels in die rigting van \u2019n persoon of groep se bedoelde doelwitte, voorkeure en etiese beginsels te stuur. \u2019n AI-stelsel word as gerig beskou as dit die bedoelde doelwitte bevorder. \u2019n Wangerigte AI-stelsel streef onbedoelde doelwitte na."
+          "definition": "Dit is daarop gemik om KI-stelsels in die rigting van \u2019n persoon of groep se bedoelde doelwitte, voorkeure en etiese beginsels te stuur. \u2019n AI-stelsel word as gerig beskou as dit die bedoelde doelwitte bevorder. \u2019n Wangerigte KI-stelsel streef onbedoelde doelwitte na."
         },
         "xh": {
           "term": "Ulungelelwaniso lweAI",
-          "definition": "Ijolise ekuqhubeni iinkqubo ze-AI ukuya kwiinjongo ezijoliswe kumntu okanye iqela, ukhetho, nemigaqo yokuziphatha. Inkqubo ye-AI ithathwa njengelungelelanisiweyo ukuba iqhubela phambili iinjongo ekujoliswe kuzo. Inkqubo ye-AI engalunganga ilandela iinjongo ezingalindelekanga."
+          "definition": "Ijolise ekuqhubeni iinkqubo zeAI ukuya kwiinjongo ezijoliswe kumntu okanye iqela, ukhetho, nemigaqo yokuziphatha. Inkqubo yeAI ithathwa njengelungelelanisiweyo ukuba iqhubela phambili iinjongo ekujoliswe kuzo. Inkqubo yeAI engalunganga ilandela iinjongo ezingalindelekanga."
         },
         "zu": {
           "term": "Ukuqondanisa kwe-AI",
@@ -105,7 +105,7 @@
         },
         "xh": {
           "term": "Ukuthatha icala kwealgorithm",
-          "definition": "Iimpazamo ezicwangcisiweyo neziphindaphindwayo kwinkqubo yekhompyutha edala iziphumo \"ezingalunganga\", ezifana \"nokubeka phambili\" olunye udidi ngaphezulu kolunye ngeendlela ezahlukileyo kumsebenzi ocetyiweyo we-algorithm."
+          "definition": "Iimpazamo ezicwangcisiweyo neziphindaphindwayo kwinkqubo yekhompyutha edala iziphumo \"ezingalunganga\", ezifana \"nokubeka phambili\" olunye udidi ngaphezulu kolunye ngeendlela ezahlukileyo kumsebenzi ocetyiweyo wealgorithm."
         },
         "zu": {
           "term": "Ukuchema ngokwe-algorithmic",
@@ -131,11 +131,11 @@
         },
         "af": {
           "term": "algoritmedeursigtigheid",
-          "definition": "Die beginsel dat die faktore wat die besluite be\u00efnvloed wat deur algoritmes geneem word, sigbaar, of deursigtig, moet wees vir die mense wat stelsels wat daardie algoritmes benut, gebruik en reguleer en daardeur geraak word."
+          "definition": "Die beginsel dat die faktore wat die besluite be\u00efnvloed wat deur algoritmes geneem word, sigbaar of deursigtig moet wees vir die mense wat stelsels wat daardie algoritmes benut, gebruik, reguleer en daardeur geraak word."
         },
         "xh": {
           "term": "Ukubonakala kwealgorithm",
-          "definition": "Umgaqo wokuba izinto ezichaphazela izigqibo ezenziwe ziialgorithm kufuneka zibonakale, okanye zibe lubala kubantu abazisebenzisayo, abazilawulayo, nabachaphazelekayo ziinkqubo ezisebenzisa ezo zixhobo."
+          "definition": "UmGaqo wokuba izinto ezichaphazela izigqibo ezenziwe ziialgorithm kufuneka zibonakale, okanye zibe lubala kubantu abazisebenzisayo, abazilawulayo, nabachaphazelekayo ziinkqubo ezisebenzisa ezo zixhobo."
         },
         "zu": {
           "term": "Ukungafihlwa ngokwe-algorithmic",
@@ -161,11 +161,11 @@
         },
         "af": {
           "term": "kunsmatige intelligensie (KI)",
-          "definition": "Dit is in die wydste betekenis intelligensie wat deur masjiene, veral rekenaarstelsels, getoon word. Dit is \u2019n navorsingsveld in rekenaarwetenskap wat studiemetodes en sagteware ontwikkel wat dit vir masjiene moontlik maak om hul omgewing waar te neem en leer en intelligensie te gebruik om handelinge uit te voer wat hul kans so groot moontlik maak om gedefinieerde doelwitte te bereik."
+          "definition": "Dit is in die wydste betekenis intelligensie wat deur masjiene, veral rekenaarstelsels, getoon word. Dit is \u2019n navorsingsveld in rekenaarwetenskap wat studiemetodes en sagteware ontwikkel en bestudeer wat dit vir masjiene moontlik maak om hul omgewing waar te neem en van leer en intelligensie gebruik maak om handelinge uit te voer wat hul kans so groot moontlik maak om gedefinieerde doelwitte te bereik."
         },
         "xh": {
           "term": "Ubungqondi bekhompyutha (AI)",
-          "definition": "Xa ichazwa ngeyona ndlele igabalala, bubukrelekrele obubonakaliswa ngoomatshini, ingakumbi iinkqubo zekhompyutha. Licandelo lophando kwisayensi yekhompyutha ephuhlisa ize ifunda iindlela nesoftware eyenza ukuba oomatshini babone okuwungqongileyo kwaye usebenzise ukufunda nobukrelekrele ukuthatha iintshukumo ezandisa amathuba awo okufikelela kwiinjongo ezichaziweyo."
+          "definition": "Xa ichazwa ngeyona ndlela igabalala, bubukrelekrele obubonakaliswa ngoomatshini, ingakumbi iinkqubo zekhompyutha. Licandelo lophando kwisayensi yekhompyutha ephuhlisa ize ifunda iindlela nesoftware eyenza ukuba oomatshini babone okuwungqongileyo kwaye usebenzise ukufunda nobukrelekrele ukuthatha iintshukumo ezandisa amathuba awo okufikelela kwiinjongo ezichaziweyo."
         },
         "zu": {
           "term": "Ubuhlakani Bokwakhiwe",
@@ -195,7 +195,7 @@
         },
         "xh": {
           "term": "INethiwekhi yeNgqondo Eyenziweyo (ANN)",
-          "definition": "Ekufundweni koomatshini, i-neural nethwekhi (ne-artificial neural nethwekhi okanye i-neural net, i-ANN xa ifinyeziwe okanye i-NN) yimodeli engumzekelo ekhuthazwa sisakhiwo nomsebenzi we-biological neural networks kubuchopho bezilwanyana. I-ANN iqulathe iiyunithi ezidityanisiweyo okanye iindawo ezibizwa ngokuba zii-neuron ezenziweyo, ezibonisa ngokukhululekileyo imithambo-luvo ebuchotsheni."
+          "definition": "Ekufundweni koomatshini, ineural nethwekhi (neartificial neural nethwekhi okanye ineural net, iANN xa ifinyeziwe okanye iNN) yimodeli engumzekelo ekhuthazwa sisakhiwo nomsebenzi webiological neural networks kubuchopho bezilwanyana. IANN iqulathe iiyunithi ezidityanisiweyo okanye iindawo ezibizwa ngokuba ziineuron ezenziweyo, ezibonisa ngokukhululekileyo imithamboluvo ebuchotsheni."
         },
         "zu": {
           "term": "Ubuxhakaxhaka Bokunikezelana Obakhiwe",
@@ -221,7 +221,7 @@
         },
         "af": {
           "term": "outonome voertuig",
-          "definition": "Dit verwys na \u2019n motor wat in staat is om met verminderde of geen menslike insette nie te werk. \n Sinonieme: selfbestuurmotor, bestuurderlose motor, robottaxi, robotiese motor of robotmotor."
+          "definition": "Dit verwys na \u2019n voertuig wat in staat is om met verminderde of geen menslike toevoer te funksioneer. \nSinonieme: selfbesturende motor, bestuurderlose motor, robotaxi, robotiese motor of robo-motor."
         },
         "xh": {
           "term": "Izithuthi ezizilawulayo",
@@ -251,7 +251,7 @@
         },
         "af": {
           "term": "sydigheid-variansie-afruiling",
-          "definition": "Dit beskryf die verhouding tussen \u2019n model se kompleksiteit, die akkuraatheid van die voorspellings daarvan, en hoe goed dit voorspellings kan doen op grond van data wat nie vroe\u00ebr gesien is nie en nie gebruik is om die model op te lei nie."
+          "definition": "Dit beskryf die verhouding tussen \u2019n model se kompleksiteit, die akkuraatheid van die voorspellings daarvan, en hoe goed dit voorspellings kan doen op grond van data wat nie vroe\u00ebr gesien is nie en nie gebruik is om die model mee op te lei nie."
         },
         "xh": {
           "term": "Ukuthatha icala kwiyantlukwano yorhwebo",
@@ -281,11 +281,11 @@
         },
         "af": {
           "term": "kletsbot",
-          "definition": "\u2019n Sagtewareapp of webkoppelvlak wat ontwerp is om menslike gesprek deur teks- of steminteraksies na te boots. In Engels gespel as \u201cchatbot\u201d of \u201cchat bot\u201d."
+          "definition": "\u2019n Toepassing of webkoppelvlak wat ontwerp is om menslike gesprek deur teks- of steminteraksies na te boots."
         },
         "xh": {
           "term": "Ichatbot",
-          "definition": "Iaplikheyshini yesoftware okanye ujongano lwewebhu eyilelwe ukulinganisa incoko yabantu ngokubhaliweyo okanye ukusetyenziswa kwelizwi. Ikwapelwe ngokuthi chat bot."
+          "definition": "Ujongano lwewebhu eyilelwe ukulinganisa incoko yabantu ngokubhaliweyo okanye ukusetyenziswa kwelizwi. Ikwapelwe ngokuthi YyiTshati bhoti."
         },
         "zu": {
           "term": "Ifuzelankulumo",
@@ -311,11 +311,11 @@
         },
         "af": {
           "term": "rekenaarvisie",
-          "definition": "\u2019n Interdissiplin\u00eare vakgebied wat gaan oor hoe rekenaars gemaak kan word om ho\u00ebvlakbegrip van digitale prente of video\u2019s te kry. Uit \u2019n ingenieursoogpunt is dit daarop gemik om take te outomatiseer wat die menslike visuele stelsel kan verrig.\n As \u2019n wetenskaplike dissipline is rekenaarvisie gemoeid met die teorie agter kunsmatige stelsels wat inligting uit prente haal."
+          "definition": "\u2019n Interdissiplin\u00eare vakgebied wat daaroor gaan om take wat die menslike visuele stelsel kan verrig, te outomatiseer. Uit \u2019n ingenieursoogpunt is dit daarop gemik om take te outomatiseer wat die menslike visuele stelsel kan verrig.\nAs \u2019n wetenskaplike dissipline is rekenaarvisie gemoeid met die teorie agter kunsmatige stelsels wat inligting uit beelde onttrek."
         },
         "xh": {
           "term": "Umbono wekhompyutha",
-          "definition": "Inkalo yezifundo ezahlukeneyo ejongene nendlela iikhompyutha ezinokuthi zenziwe ngayo ukufumana ukuqonda okuphezulu kwimifanekiso yedijithali okanye iividiyo. Ngokwembono yobunjineli, ifuna ukuzenzela imisebenzi enokwenziwa yinkqubo yokubona yomntu.\n Njengoqeqesho lwezenzululwazi, umbono wekhompyutha ujongene nethiyori esemva kweenkqubo ezenziweyo ezikhupha inkcazelo kwimifanekiso."
+          "definition": "Inkalo yezifundo ezahlukeneyo ejongene nendlela iikhompyutha ezinokuthi zenziwe ngayo ukufumana ulwazi oluphezulu kwimifanekiso yedijithali okanye iividiyo. Ngokwembono yobunjineli, ifuna ukuzenzela imisebenzi enokwenziwa yinkqubo yokubona yomntu.\n Njengoqeqesho lwezenzululwazi, umbono wekhompyutha ujongene nethiyori esemva kweenkqubo ezenziweyo ezikhupha inkcazelo kwimifanekiso."
         },
         "zu": {
           "term": "Umbono wekhompyutha",
@@ -341,7 +341,7 @@
         },
         "af": {
           "term": "gesprek-KI",
-          "definition": "\u2019n Soort kunsmatige intelligensie (AI) wat menslike gesprekke kan naboots danksy tegnologie vir natuurlike taalverwerking (NTV)."
+          "definition": "\u2019n Soort kunsmatige intelligensie (KI) wat menslike gesprekke kan naboots danksy tegnologie vir natuurlike taalverwerking (NTV)."
         },
         "xh": {
           "term": "I-AI yokuncokola",
@@ -370,7 +370,7 @@
         },
         "af": {
           "term": "data-anonimisering",
-          "definition": "\u2019n Proses waardeur persoonlike data s\u00f3 gewysig word dat \u2019n datasubjek nie meer direk of indirek deur \u00f3f die databeheerder alleen, \u00f3f in samewerking met enige ander party ge\u00efdentifiseer kan word nie."
+          "definition": "\u2019n Proses waardeur persoonlike data s\u00f3 gewysig word dat \u2019n datasubjek nie meer direk of indirek deur \u00f3f die databeheerder alleen, \u00f3f in samewerking met enige ander party, ge\u00efdentifiseer kan word nie."
         },
         "xh": {
           "term": "Ukwenza idatha ifihlwe iinkcukacha",
@@ -404,7 +404,7 @@
         },
         "xh": {
           "term": "Ukwandiswa kwedatha",
-          "definition": "Ubuchule beenkcukacha-manani obuvumela uqikelelo lokunokwenzeka okukhulu okusuka kwidatha engaphelelanga."
+          "definition": "Ubuchule beenkcukachamanani obuvumela uqikelelo lokunokwenzeka okukhulu okusuka kwidatha engaphelelanga."
         },
         "zu": {
           "term": "Isandisamininingo",
@@ -430,7 +430,7 @@
         },
         "af": {
           "term": "datadeanonimisering",
-          "definition": "Dit is die praktyk om anonieme data (ook bekend as gede\u00efdentifiseerde data) te pas by inligting wat publiek beskikbaar is, of aanvullende data, om uit te vind aan watter persoon die data behoort. Dit is ook bekend as \u201cdataheridentifisering\u201d."
+          "definition": "Dit is die praktyk om anonieme data (ook bekend as gede\u00efdentifiseerde data) te pas by inligting wat in die openbaar beskikbaar is, of by aanvullende data, om uit te vind aan watter persoon die data behoort. Dit is ook bekend as dataheridentifisering."
         },
         "xh": {
           "term": "Ukwaziwa kwedatha yaziwe kwakhona",
@@ -460,11 +460,11 @@
         },
         "af": {
           "term": "dataontginning",
-          "definition": "\u2019n Interdissiplin\u00eare subvakgebied van rekenaarwetenskap en statistiek waarvan die oorkoepelende doel is om inligting (met intelligente metodes) uit \u2019n datastel te haal en die inligting tot \u2019n verstaanbare struktuur te omskep vir verdere gebruik."
+          "definition": "\u2019n Interdissiplin\u00eare subvakgebied van die rekenaarwetenskap en statistiek waarvan die oorkoepelende doel is om inligting (met intelligente metodes) uit \u2019n datastel te haal en die inligting tot \u2019n verstaanbare struktuur vir verdere gebruik te omskep."
         },
         "xh": {
           "term": "Ukwembiwa kweenkcukacha",
-          "definition": "Icandelo elingaphantsi kwezifundo zesayensi yekhompyutha neenkcukacha-manani enenjongo yokukhupha inkcazelo (ngeendlela ezikrelekrele) ukusuka kwiseti yedatha nokuguqula inkcazelo kwisakhiwo esiqondakalayo ukuze sisetyenziswe ngakumbi."
+          "definition": "ICandelo elingaphantsi kwezifundo zesayensi yekhompyutha neenkcukachamanani enenjongo yokukhupha inkcazelo (ngeendlela ezikrelekrele) ukusuka kwiseti yedatha nokuguqula inkcazelo kwisakhiwo esiqondakalayo ukuze sisetyenziswe ngakumbi."
         },
         "zu": {
           "term": "Ukuhlwaya imininingo",
@@ -490,7 +490,7 @@
         },
         "af": {
           "term": "diepleer",
-          "definition": "Diepleer verwys na \u2019n klas masjienleeralgoritmes waarin \u2019n hi\u00ebrargie lae gebruik word om invoerdata tot \u2019n effens meer abstrakte en saamgestelde verteenwoordiging te omskep. Byvoorbeeld, in \u2019n prentherkenningmodel kan die onverwerkte invoer \u2019n prent wees (wat as \u2019n tensor pieksels verteenwoordig word). Die eerste verteenwoordigende laag kan probeer om basiese vorms, soos lyne en sirkels, te identifiseer; die tweede laag kan rangskikkings van rande saamstel en enkodeer; die derde laag kan neuse en o\u00eb enkodeer; en die vierde laag kan herken dat die prent \u2019n gesig bevat."
+          "definition": "Diepleer verwys na \u2019n klas masjienleeralgoritmes waarin \u2019n hi\u00ebrargie van lae gebruik word om toevoerdata tot \u2019n effens meer abstrakte en saamgestelde voorstelling te omskep. Byvoorbeeld, in \u2019n beeldherkenningmodel kan die onverwerkte toevoer \u2019n beeld wees (wat as \u2019n tensor pieksels verteenwoordig word). Die eerste verteenwoordigende laag kan probeer om basiese vorms, soos lyne en sirkels, te identifiseer; die tweede laag kan rangskikkings van rande saamstel en enkodeer; die derde laag kan neuse en o\u00eb enkodeer; en die vierde laag kan herken dat die beeld \u2019n gesig bevat."
         },
         "xh": {
           "term": "Ukufunda nzulu",
@@ -520,7 +520,7 @@
         },
         "af": {
           "term": "diepvervalsing",
-          "definition": "Prente, video\u2019s of oudio wat met gebruik van nutsgoed met kunsmatige intelligensie geredigeer of gegenereer is, en wat regte of niebestaande mense kan uitbeeld. Dit is \u2019n soort sintetiese media."
+          "definition": "Beelde, video\u2019s of oudio wat met gebruik van nutsgoed met kunsmatige intelligensie geredigeer of gegenereer is, en wat regte of niebestaande mense kan uitbeeld. Dit is \u2019n soort sintetiese media."
         },
         "xh": {
           "term": "Ideepfake",
@@ -550,7 +550,7 @@
         },
         "af": {
           "term": "verklaarbare KI (VKI)",
-          "definition": "Dit verwys \u00f3f na \u2019n stelsel met kunsmatige intelligensie (AI) waaroor dit vir mense moontlik is om intellektuele toesig te behou, \u00f3f dit verwys na die metodes om dit reg te kry."
+          "definition": "Dit verwys \u00f3f na \u2019n stelsel kunsmatige-intelligensiestelsel (KI) waaroor mense intellektueel toesig kan hou, \u00f3f dit verwys na die metodes om dit reg te kry."
         },
         "xh": {
           "term": "I-AI ecacisekayo (XAI)",
@@ -580,11 +580,11 @@
         },
         "af": {
           "term": "regverdigheid (in KI)",
-          "definition": "Regverdigheid in masjienleer verwys na die verskillende pogings om algoritmiese vooroordeel in geoutomatiseerde besluitnemingprosesse op grond van masjienleermodelle reg te stel. Besluite wat n\u00e1 \u2019n masjienleerproses deur rekenaars geneem word, kan as onregverdig beskou word as hulle gegrond is op veranderlikes wat as sensitief beskou word. Byvoorbeeld gender, etnisiteit, seksuele ori\u00ebntasie of gestremdheid."
+          "definition": "Regverdigheid in masjienleer verwys na die verskillende pogings om algoritmesydigheid in geoutomatiseerde besluitnemingprosesse op grond van masjienleermodelle reg te stel. Besluite wat n\u00e1 \u2019n masjienleerproses deur rekenaars geneem word, kan as onregverdig beskou word as dit gegrond is op veranderlikes wat as sensitief beskou word, byvoorbeeld gender, etnisiteit, seksuele ori\u00ebntasie of gestremdheid."
         },
         "xh": {
           "term": "Ubulungisa (kwi-AI)",
-          "definition": "I-Fairness ekufundweni koomatshini ibhekiselele kwiinzame ezahlukeneyo zokulungisa ukuthatha icala kweealgorithm kwiinkqubo zezigqibo ezizenzekelayo ezisekelwe kwiimodeli zokufundwa koomatshini. Izigqibo ezenziwe ziikhompyutha emva kwenkqubo yokufunda koomatshini zinokujongwa njengezingafanelekanga ukuba bezisekelwe kwizinto ezithathwa njengezinovakalelo. Umzekelo isini, ubuhlanga, ukuziqhelanisa ngesondo okanye ukukhubazeka."
+          "definition": "IFairness ekufundweni koomatshini ibhekiselele kwiinzame ezahlukeneyo zokulungisa ukuthatha icala kweealgorithm kwiinkqubo zezigqibo ezizenzekelayo ezisekelwe kwiimodeli zokufundwa koomatshini. Izigqibo ezenziwe ziikhompyutha emva kwenkqubo yokufunda koomatshini zinokujongwa njengezingafanelekanga ukuba bezisekelwe kwizinto ezithathwa njengezinovakalelo. Umzekelo isini, ubuhlanga, ukuziqhelanisa ngesondo okanye ukukhubazeka."
         },
         "zu": {
           "term": "Ukungachemi (ku-AI)",
@@ -602,7 +602,7 @@
       "fewshot_prompting": {
         "en": {
           "term": "Few-shot prompting",
-          "definition": "A prompting strategy that includes two or more examples of the desired input and output"
+          "definition": "A prompting strategy that includes two or more examples of the desired input and output."
         },
         "sw": {
           "term": "Udokezaji kwa mifano",
@@ -610,15 +610,15 @@
         },
         "af": {
           "term": "veelvoorbeeldinstruksieteks",
-          "definition": "\u2019n Porboodskapstrategie wat twee of meer voorbeelde van die verlangde invoer en uitvoer insluit"
+          "definition": "\u2019n Instruksieteksstrategie wat twee of meer voorbeelde van die verlangde toevoer en afvoer insluit."
         },
         "xh": {
           "term": "Uyalelo olumizekelo mininzi",
-          "definition": "Isicwangciso esiyalelayo esibandakanya imizekelo emibini okanye ngaphezulu yokufakwayo okufunekayo nesiphumo"
+          "definition": "Isicwangciso esiyalelayo esibandakanya imizekelo emibini okanye ngaphezulu yokufakwayo okufunekayo nesiphumo."
         },
         "zu": {
           "term": "Ukuyalela ngokumbalwa",
-          "definition": "Isu leprompting oluhlanganisa izibonelo ezimbili noma ngaphezulu zokufakwayo nomphumela ofunwayo"
+          "definition": "Isu leprompting oluhlanganisa izibonelo ezimbili noma ngaphezulu zokufakwayo nomphumela ofunwayo."
         },
         "attribution": {
           "source_author": "Google",
@@ -639,11 +639,11 @@
         },
         "af": {
           "term": "verfyning",
-          "definition": "In diepleer is fyn instelling \u2019n benadering om leer oor te dra waarin die parameters van \u2019n voorafopgeleide model met nuwe data opgelei word."
+          "definition": "In diepleer is verfyning \u2019n benadering om leer oor te dra waarin die parameters van \u2019n voorafopgeleide model met nuwe data opgelei word."
         },
         "xh": {
           "term": "Ukutyhuna kakuhle",
-          "definition": "Ekufundeni nzulu, i-fine-tuning yindlela yokudlulisa ukufunda apho iipharamitha zemodeli eqeqeshwe kwangaphambili ziqeqeshelwe idatha entsha."
+          "definition": "Ekufundeni nzulu, ifanityhuningi  yindlela yokudlulisa ukufunda apho iipharamitha zemodeli eqeqeshwe kwangaphambili ziqeqeshelwe idatha entsha."
         },
         "zu": {
           "term": "Ukucolisisa",
@@ -669,7 +669,7 @@
         },
         "af": {
           "term": "generatiewe KI",
-          "definition": "Kunsmatige intelligensie wat die vermo\u00eb het om teks, prente, video\u2019s of ander data met gebruik van generatiewe modelle te genereer, dikwels in reaksie op porboodskappe. Generatiewe-AI-modelle leer die patrone en struktuur van hul invoeropleidingdata en genereer dan nuwe data wat soortgelyke kenmerke het."
+          "definition": "Kunsmatige intelligensie wat die vermo\u00eb het om teks, beelde, video\u2019s of ander data met gebruik van generatiewe modelle te genereer, dikwels in reaksie op instruksieteks. Generatiewe-KI-modelle leer die patrone en struktuur van hul toevoeropleidingsdata en genereer dan nuwe data wat soortgelyke kenmerke het."
         },
         "xh": {
           "term": "I-AI yokuvelisa",
@@ -699,11 +699,11 @@
         },
         "af": {
           "term": "hallusinasie",
-          "definition": "\u2019n Antwoord gegenereer deur AI wat vals of misleidende inligting bevat, maar as \u2019n feit voorgehou word."
+          "definition": "\u2019n Antwoord gegenereer deur KI wat vals of misleidende inligting bevat, maar as \u2019n feit voorgehou word."
         },
         "xh": {
           "term": "Ukubona izinto ezingekhoyo",
-          "definition": "Impendulo eveliswa yi-AI equlethe inkcazelo engeyonyani okanye elahlekisayo eboniswe njengenyaniso."
+          "definition": "Impendulo eveliswa yiAI equlethe inkcazelo engeyonyani okanye elahlekisayo eboniswe njengenyaniso."
         },
         "zu": {
           "term": "Ukudideka",
@@ -733,7 +733,7 @@
         },
         "xh": {
           "term": "Ihuman-in-the-Loop (HITL)",
-          "definition": "Ekufundeni koomatshini, i-HITL isetyenziswa kwingqiqo yabantu encedisa ikhompyutha ekwenzeni izigqibo ezichanekileyo ekwakheni imodeli."
+          "definition": "Ekufundeni koomatshini, iHITL isetyenziswa kwingqiqo yabantu encedisa ikhompyutha ekwenzeni izigqibo ezichanekileyo ekwakheni imodeli."
         },
         "zu": {
           "term": "Inxumano Yomuntu Nomshini",
@@ -759,11 +759,11 @@
         },
         "af": {
           "term": "groot taalmodel (GTM)",
-          "definition": "\u2019n Rekenaarmodel wat taal kan genereer of ander take met natuurlike taalverwerking kan uitvoer. As taalmodelle verkry GTM\u2019e hierdie vermo\u00ebns deur statistiese verhoudings uit ontsaglike hoeveelhede teks te leer tydens \u2019n opleidingproses onder selftoesig of semitoesig."
+          "definition": "\u2019n Rekenaarmodel wat taal kan genereer of ander take met natuurliketaalverwerking kan uitvoer. As taalmodelle verkry GTM\u2019e hierdie vermo\u00ebns deur statistiese verhoudings uit ontsaglike hoeveelhede teks te leer tydens \u2019n opleidingproses onder selftoesig of semitoesig."
         },
         "xh": {
           "term": "IModeli yoLwimi eNkulu (LLM)",
-          "definition": "Imodeli yekhompyutha ekwaziyo ukuvelisa ulwimi okanye eminye imisebenzi yokulungisa ulwimi lwendalo. Njengeemodeli zolwimi, ii-LLM zifumana obu buchule ngokufunda unxulumano lwamanani ukusuka kumthamo omkhulu wezibhalo ngexesha lenkqubo yoqeqesho oluzigadelayo noluphantsi kweliso eliphakathi."
+          "definition": "Imodeli yekhompyutha ekwaziyo ukuvelisa ulwimi okanye eminye imisebenzi yokulungisa ulwimi lwendalo. Njengeemodeli zolwimi, iiLLM zifumana obu buchule ngokufunda unxulumano lwamanani ukusuka kumthamo omkhulu wezibhalo ngexesha lenkqubo yoqeqesho oluzigadelayo noluphantsi kweliso eliphakathi."
         },
         "zu": {
           "term": "Insuselakuyo Yolimi Ngokubanzi",
@@ -793,7 +793,7 @@
         },
         "xh": {
           "term": "IMachine Learning (ML)",
-          "definition": "Icandelo lokufunda ubungqondi bekhompyutha elijongene nophuhliso nokufunda iialgorithim zamanani anokuthi afunde kwidatha kwaye enze ngokubanzi kwidatha engabonakaliyo kwaye ngaloo ndlela enze imisebenzi ngaphandle kwemiyalelo ecacileyo."
+          "definition": "Icandelo lokufunda ubungqondi bekhompyutha elijongene nophuhliso nokufunda iialgorithim zamanani anokuthi afunde kwidatha kwaye enze ngokubanzi kwidatha engabonakaliyo kwaye ngaloo ndlela enze imisebenzi ngaphandle kwemiyalelo ecacileyo"
         },
         "zu": {
           "term": "Ukufunda Komshini",
@@ -819,11 +819,11 @@
         },
         "af": {
           "term": "multimodale leer",
-          "definition": "\u2019n Soort diepleer wat veelvuldige modaliteite data, soos teks, oudio of prente, gebruik."
+          "definition": "\u2019n Soort diepleer wat veelvuldige modaliteite data, soos teks, oudio of beelde, gebruik."
         },
         "xh": {
           "term": "Ukufunda ngeeModali ezininzi",
-          "definition": "Uhlobo lokufunda olunzulu usebenzisa iindela ezininzi zedatha, ezinjengemibhalo, okumanyelwayo, okanye imifanekiso."
+          "definition": "Uhlobo lokufunda olunzulu usebenzisa iindlela ezininzi zedatha, ezinjengemibhalo, okumanyelwayo, okanye imifanekiso."
         },
         "zu": {
           "term": "Ukufunda ngezinsuselakuyo eziningi",
@@ -849,11 +849,11 @@
         },
         "af": {
           "term": "natuurliketaalverwerking (NTV)",
-          "definition": "\u2019n Interdissiplin\u00eare subvakgebied in rekenaarwetenskap en kunsmatige intelligensie wat hoofsaaklik daarop ingestel is om aan rekenaars die vermo\u00eb te gee om data te verwerk wat in natuurlike taal ge\u00ebnkodeer is. \n Belangrike take in natuurlike taalverwerking is spraakherkenning, teksklassifikasie, natuurlike taalbegrip en natuurlike taalgenerering."
+          "definition": "\u2019n Interdissiplin\u00eare subvakgebied in rekenaarwetenskap en kunsmatige intelligensie wat hoofsaaklik daarop ingestel is om aan rekenaars die vermo\u00eb te gee om data te verwerk wat in natuurlike taal ge\u00ebnkodeer is. \nHooftake in natuurliketaalverwerking is spraakherkenning, teksklassifikasie, natuurliketaalbegrip en natuurliketaalgenerering."
         },
         "xh": {
           "term": "UkuSetyenzwa koLwimi lweNdalo (NLP)",
-          "definition": "Indawo engaphantsi kwezifundo zenzululwazi yekhompyutha nobungqondi bekhompyutha, yeyona nto ijongene nokubonelela iikhompyutha ngesakhono sokucubungula idatha efakwe ngekhowudi ngolwimi lwendalo. Imisebenzi ephambili ekusetyenzweni kolwimi lwendalo kukunakanwa kwentetho, ukuhlelwa kwemibhalo, ukuqonda ulwimi lwendalo, nokuveliswa kolwimi lwendalo."
+          "definition": "Indawo engaphantsi kwezifundo zenzululwazi yekhompyutha nobungqondi bekhompyutha, yeyona nto ijongene nokubonelela iikhompyutha ngesakhono sokucubungula idatha efakwe ngekhowudi ngolwimi lwendalo. \n Imisebenzi ephambili ekusetyenzweni kolwimi lwendalo kukunakanwa kwentetho, ukuhlelwa kwemibhalo, ukuqonda ulwimi lwendalo, nokuveliswa kolwimi lwendalo."
         },
         "zu": {
           "term": "Ukucubungula Kolimi Lwemvelo (NLP)",
@@ -879,11 +879,11 @@
         },
         "af": {
           "term": "raserige data",
-          "definition": "Data met \u2019n groot hoeveelheid bykomende, betekenislose inligting daarin wat geraas genoem word."
+          "definition": "Data met \u2019n groot hoeveelheid bykomende, niksseggende inligting daarin wat geraas genoem word."
         },
         "xh": {
           "term": "Idatha eninzi engelo ncedo",
-          "definition": "Idatha enesixa esikhulu senkcazelo eyongezelelweyo engenantsingiselo kuyo ibizwa ngokuba yi-noise."
+          "definition": "Idatha enesixa esikhulu senkcazelo eyongezelelweyo engenantsingiselo kuyo ibizwa ngokuba yinoise."
         },
         "zu": {
           "term": "Imininingo enolwazi olungadingeki",
@@ -909,15 +909,15 @@
         },
         "af": {
           "term": "eenvoorbeeldinstruksieteks",
-          "definition": "\u2019n Porboodskapstrategie wat een voorbeeld van die verlangde invoer en uitvoer insluit"
+          "definition": "\u2019n Instruksieteksstrategie wat een voorbeeld van die verlangde toevoer en afvoer insluit."
         },
         "xh": {
           "term": "Uyalelo olumzekelo mnye",
-          "definition": "Isicwangciso sokuyalela esibandakanya umzekelo omnye wento efakwayo efunekayo nesiphumo"
+          "definition": "Isicwangciso sokuyalela esibandakanya umzekelo omnye wento efakwayo efunekayo nesiphumo."
         },
         "zu": {
           "term": "Ukuyalelela ngokukodwa",
-          "definition": "Isu lomyalelo elibandakanya isibonelo esisodwa sokufakwayo nomphumela ofiselekayo"
+          "definition": "Isu lomyalelo elibandakanya isibonelo esisodwa sokufakwayo nomphumela ofiselekayo."
         },
         "attribution": {
           "source_author": "Google",
@@ -938,7 +938,7 @@
         },
         "af": {
           "term": "oopbron",
-          "definition": "\u2019n Bronkode (\u2019n rekenaarprogram in skoonteks wat in \u2019n programmeertaal geskryf is) wat vrylik beskikbaar gestel word vir moontlike wysiging en herverspreiding."
+          "definition": "\u2019n Bronkode (\u2019n rekenaarprogram in skoon teks wat in \u2019n programmeertaal geskryf is) wat vrylik beskikbaar gestel word vir moontlike wysiging en herverspreiding."
         },
         "xh": {
           "term": "Umthombo ovulelekileyo",
@@ -960,7 +960,7 @@
       "output": {
         "en": {
           "term": "Output",
-          "definition": "The information or creative work that an AI tool produces after it is prompted, such as an answer to a question, a text summary, an image, or a piece of music"
+          "definition": "The information or creative work that an AI tool produces after it is prompted, such as an answer to a question, a text summary, an image, or a piece of music."
         },
         "sw": {
           "term": "Matokeo",
@@ -968,11 +968,11 @@
         },
         "af": {
           "term": "afvoer",
-          "definition": "Die inligting of kreatiewe werk wat \u2019n AI-nutsding lewer nadat dit gepor is, soos \u2019n antwoord op \u2019n vraag, \u2019n teksopsomming, \u2019n prent of \u2019n stuk musiek"
+          "definition": "Die inligting of kreatiewe werk wat \u2019n KI-nutsding lewer nadat dit gepor is, soos \u2019n antwoord op \u2019n vraag, \u2019n teksopsomming, \u2019n beeld of \u2019n stuk musiek."
         },
         "xh": {
           "term": "Imveliso",
-          "definition": "Inkcazelo okanye umsebenzi wokudala oveliswa sisixhobo se-AI emva kokuyalelwa, njengempendulo yombuzo, isishwankathelo sombhalo, umfanekiso, okanye isiqwenga somculo"
+          "definition": "Inkcazelo okanye umsebenzi wokudala oveliswa sisixhobo seAI emva kokuyalelwa, njengempendulo yombuzo, isishwankathelo sombhalo, umfanekiso, okanye isiqwenga somculo."
         },
         "zu": {
           "term": "Umkhiqizo",
@@ -986,7 +986,7 @@
           "text": "Adapted from a Gemini response to the prompt, 'Tell me about Output in AI'"
         }
       },
-      "prompt__": {
+      "prompt": {
         "en": {
           "term": "Prompt",
           "definition": "An instruction, usually expressed in natural language, used to get the desired output from a generative AI engine."
@@ -997,11 +997,11 @@
         },
         "af": {
           "term": "instruksieteks",
-          "definition": "\u2019n Instruksie, gewoonlik uitgedruk in natuurlike taal, wat gebruik word om die verlangde uitvoer van \u2019n generatiewe-AI-enjin te kry."
+          "definition": "\u2019n Instruksie, gewoonlik uitgedruk in natuurlike taal, wat gebruik word om die verlangde afvoer van \u2019n generatiewe-KI-enjin te kry."
         },
         "xh": {
           "term": "Umyalelo",
-          "definition": "Umyalelo, odla ngokuchazwa ngolwimi lwendalo, osetyenziselwa ukufumana imveliso efunekayo kwi-injini ye-AI yokuvelisa."
+          "definition": "Umyalelo, odla ngokuchazwa ngolwimi lwendalo, osetyenziselwa ukufumana imveliso efunekayo kwiinjini yeAI yokuvelisa."
         },
         "zu": {
           "term": "Umyalelo",
@@ -1026,11 +1026,11 @@
         },
         "af": {
           "term": "instruksieteksontwerp",
-          "definition": "Die proses om \u2019n instruksie te struktureer wat deur \u2019n generatiewe-AI-model ge\u00efnterpreteer en verstaan kan word."
+          "definition": "Die proses om \u2019n instruksie te struktureer wat deur \u2019n generatiewe-KI-model ge\u00efnterpreteer en verstaan kan word."
         },
         "xh": {
           "term": "Ubunjinelimyalelo",
-          "definition": "Inkqubo yokumisela umyalelo onokutolikwa uze uqondwe yimodeli ye-AI yokuvelisa."
+          "definition": "Inkqubo yokumisela umyalelo onokutolikwa uze uqondwe yimodeli yeAI yokuvelisa."
         },
         "zu": {
           "term": "Ubunjiniyela bemiyalelo",
@@ -1045,7 +1045,7 @@
           "source_author_url": "https://en.wikipedia.org/w/index.php?title=Prompt_engineering&action=history"
         }
       },
-      "pseudonymization_": {
+      "pseudonymization": {
         "en": {
           "term": "Pseudonymization",
           "definition": "The process of obscuring data with the ability to re-identify it later. Personally identifiable information fields within a data record are replaced by one or more artificial identifiers, or pseudonyms."
@@ -1059,8 +1059,8 @@
           "definition": "Die proses om data te verdoesel met die vermo\u00eb om dit later te heridentifiseer. Velde met persoonlik identifiseerbare inligting in \u2019n datarekord word vervang met een of meer kunsmatige identifiseerders, of pseudonieme."
         },
         "xh": {
-          "term": "IPseudonymization",
-          "definition": "Inkqubo yokufihla idatha nokwazi ukuyichonga kwakhona kamva. Indawo yenkcazelo echongiweyo ngokobuqu kwirekhodi yedatha ethathelwe indawo sisifanisi esinye, okanye ngapezulu, okanye ii-pseudonym."
+          "term": "Ukufaka amagama angengawo",
+          "definition": "Inkqubo yokufihla idatha nokwazi ukuyichonga kwakhona kamva. Indawo yenkcazelo echongiweyo ngokobuqu kwirekhodi yedatha ethathelwe indawo sisifanisi esinye, okanye ngaphezulu, okanye iipseudonym."
         },
         "zu": {
           "term": "Ukuzivezambumbulu",
@@ -1086,11 +1086,11 @@
         },
         "af": {
           "term": "onverwerkte data",
-          "definition": "Ook bekend as prim\u00eare data \u2013 dit is data (byvoorbeeld nommers, instrumentlesings, syfers, ensovoorts) wat van \u2019n bron af ingesamel is, voordat dit opgeruim of ontleed is."
+          "definition": "Ook bekend as prim\u00eare data. Dit is data (bv. nommers, instrumentlesings, figure, ens.) wat van \u2019n bron af ingesamel is voordat dit skoongemaak of ontleed is."
         },
         "xh": {
           "term": "Idatha ekrwada",
-          "definition": "Ekwabizwa ngokuba yidatha yangaphambili, yidatha (umzekelo, amanani, ukufundwa kwezixhobo, amanani, njalo-njalo.) eqokelelwe kumthombo ngaphambi kokucoca okanye uhlalutyo."
+          "definition": "Ekwabizwa ngokuba yidatha yangaphambili, yidatha (umzekelo, amanani, ukufundwa kwezixhobo, amanani, njalonjalo.) eqokelelwe kumthombo ngaphambi kokucoca okanye uhlalutyo."
         },
         "zu": {
           "term": "Imininingo engahlungiwe",
@@ -1150,7 +1150,7 @@
         },
         "xh": {
           "term": "Irobhothiksi",
-          "definition": "Uphononongo lwezifundo ezahlukahlukeneyo nokusebenza koyilo, ukwakhiwa, ukusebenza, kunye nokusetyenziswa kweerobhothi (umatshini\u2013ngakumbi omnye ocwangciswayo yikhompyutha\u2013ekwaziyo ukwenza uluhlu olunzima lwezenzo ngokuzenzekelayo)."
+          "definition": "Uphononongo lwezifundo ezahlukahlukeneyo nokusebenza koyilo, ukwakhiwa, ukusebenza, kunye nokusetyenziswa kweerobhothi (umatshini ongakumbi omnye ocwangciswayo yikhompyutha  ekwaziyo ukwenza uluhlu olunzima lwezenzo ngokuzenzekela)."
         },
         "zu": {
           "term": "IRobotiksi",
@@ -1176,11 +1176,11 @@
         },
         "af": {
           "term": "spraakherkenning",
-          "definition": "\u2019n Interdissiplin\u00eare subvakgebied van rekenaarwetenskap en rekenaarlinguistiek wat metodologie\u00eb en tegnologie\u00eb ontwikkel wat die herkenning en vertaling van gesproke taal in teks deur rekenaars moontlik maak."
+          "definition": "\u2019n Interdissiplin\u00eare subvakgebied van die rekenaarwetenskap en rekenaarlinguistiek wat metodologie\u00eb en tegnologie\u00eb ontwikkel wat die herkenning en vertaling van gesproke taal in teks deur rekenaars moontlik maak."
         },
         "xh": {
           "term": "Ukunakanwa kwentetho",
-          "definition": "Icandelo elingaphantsi kwezifundo ezahlukeneyo zenzululwazi yekhompyutha neelwimi zekhompyutha eziphuhlisa iindlela nobuchwepheshe obuvumela ukuqondwa nokuguqulelwa kolwimi oluthethwayo kwisicatshulwa ngeekhompyutha."
+          "definition": "ICandelo elingaphantsi kwezifundo ezahlukeneyo zenzululwazi yekhompyutha neelwimi zekhompyutha eziphuhlisa iindlela nobuchwepheshe obuvumela ukuqondwa nokuguqulelwa kolwimi oluthethwayo kwisicatshulwa ngeekhompyutha."
         },
         "zu": {
           "term": "Inzwagezwi",
@@ -1206,11 +1206,11 @@
         },
         "af": {
           "term": "leer onder toesig",
-          "definition": "\u2019n Paradigma in masjienleer waar invoervoorwerpe en \u2019n verlangde uitvoerwaarde \u2019n model oplei."
+          "definition": "\u2019n Paradigma in masjienleer waar toevoervoorwerpe en \u2019n verlangde afvoerwaarde \u2019n model oplei."
         },
         "xh": {
           "term": "Ukufunda okujongiweyo",
-          "definition": "I-paradigm ekufundeni koomatshini apho izinto ezifakwayo nexabiso elifunekayo lemveliso liqeqesha imodeli."
+          "definition": "Iparadigm ekufundeni koomatshini apho izinto ezifakwayo nexabiso elifunekayo lemveliso liqeqesha imodeli."
         },
         "zu": {
           "term": "Ukufunda okuqashelwe",
@@ -1236,11 +1236,11 @@
         },
         "af": {
           "term": "sintetiese media",
-          "definition": "\u2019n Versamelterm vir die kunsmatige produksie, manipulasie en modifikasie van data en media deur geoutomatiseerde metodes, veral deur die gebruik van algoritmes met kunsmatige intelligensie, soos met die doel om mense te mislei of om \u2019n oorspronklike betekenis te verander. Ook bekend as AI-gegenereerde media."
+          "definition": "\u2019n Versamelterm vir die kunsmatige produksie, manipulasie en modifikasie van data en media deur geoutomatiseerde metodes, veral deur die gebruik van algoritmes met kunsmatige intelligensie, soos met die doel om mense te mislei of om \u2019n oorspronklike betekenis te verander. Ook bekend as KI-gegenereerde media."
         },
         "xh": {
           "term": "Imidiya yokwenziwayo",
-          "definition": "Intetho ehlala isetyenziswa yemveliso eyenziweyo , ukwenziwa nokuguqulwa kwedatha kunye nemidiya ngeendlela ezizenzekelayo, ngokukodwa ngokusetyenziswa kwee-algorithms ze-artificial intelligence, njengenjongo yokulahlekisa abantu okanye ukutshintsha intsingiselo yangaphambili. Ekwabizwa ngokuba yimidiya eveliswe yi-AI."
+          "definition": "Intetho ehlala isetyenziswa yemveliso eyenziweyo , ukwenziwa nokuguqulwa kwedatha kunye nemidiya ngeendlela ezizenzekelayo, ngokukodwa ngokusetyenziswa kweealgorithms zeartificial intelligence, njengenjongo yokulahlekisa abantu okanye ukutshintsha intsingiselo yangaphambili. Ekwabizwa ngokuba yimidiya eveliswe yiAI."
         },
         "zu": {
           "term": "Ezokwazisa ezikhiqizwa umshini",
@@ -1266,7 +1266,7 @@
         },
         "af": {
           "term": "oordragleer",
-          "definition": "Oordragleer (OL) is \u2019n tegniek in masjienleer (ML) waarin kennis wat uit \u2019n taak geleer is, weer gebruik word om die prestasie met \u2019n verwante taak te verbeter.[1] Byvoorbeeld, vir prentklassifikasie kan die kennis wat verkry is terwyl daar geleer is om motors te herken, toegepas word wanneer daar geprobeer word om vragmotors te herken."
+          "definition": "Oordragleer (OL) is \u2019n tegniek in masjienleer (ML) waarin kennis wat uit \u2019n taak geleer is, weer gebruik word om die prestasie met \u2019n verwante taak te verbeter. Byvoorbeeld, vir beeldklassifikasie kan die kennis wat verkry is terwyl daar geleer is om motors te herken, toegepas word wanneer daar probeer word om vragmotors te herken."
         },
         "xh": {
           "term": "Udluliselo lokufundiweyo",
@@ -1300,7 +1300,7 @@
         },
         "xh": {
           "term": "Ukufunda okungajongwangwa",
-          "definition": "Isakhelo ekufundweni koomatshini apho, ngokuchaseneyo nokufunda okugadiweyo, ii-algorithm zifunda iipateni ngokukodwa kwiidatha ezingabhalwanga."
+          "definition": "Isakhelo ekufundweni koomatshini apho, ngokuchaseneyo nokufunda okugadiweyo, iialgorithm zifunda iipateni ngokukodwa kwiidatha ezingabhalwanga."
         },
         "zu": {
           "term": "Ukufunda okungagadiwe",
@@ -1318,7 +1318,7 @@
       "zeroshot_prompting": {
         "en": {
           "term": "Zero-shot prompting",
-          "definition": "A prompting strategy that doesn\u2019t include any examples about the desired input and output"
+          "definition": "A prompting strategy that doesn\u2019t include any examples about the desired input and output."
         },
         "sw": {
           "term": "Udokezaji bila mfano",
@@ -1326,7 +1326,7 @@
         },
         "af": {
           "term": "geenvoorbeeldinstruksieteks",
-          "definition": "\u2019n Porboodskapstrategie wat geen voorbeelde van die verlangde invoer en uitvoer insluit nie"
+          "definition": "\u2019n Instruksieteksstrategie wat geen voorbeelde van die verlangde toevoer en afvoer insluit nie"
         },
         "xh": {
           "term": "Uyalelo olungena mizekelo",
@@ -1334,7 +1334,7 @@
         },
         "zu": {
           "term": "Ukuyalela ngeze",
-          "definition": "Isu lokukhumbuza elingabandakanyi noma iziphi izibonelo ezimayelana nokufakwayo kanye nomphumela ofiswayo"
+          "definition": "Isu lokukhumbuza elingabandakanyi noma iziphi izibonelo ezimayelana nokufakwayo kanye nomphumela ofiswayo."
         },
         "attribution": {
           "source_author": "Google",
@@ -1357,11 +1357,11 @@
         },
         "af": {
           "term": "A/B-toetsing",
-          "definition": "\u2019n Statistiese manier om twee (of meer) tegnieke te vergelyk - die A en die B. Gewoonlik is die A \u2019n bestaande tegniek en die B \u2019n nuwe tegniek. A/B-toetse bepaal nie net watter tegniek beter presteer nie, maar ook of die verskil wel statisties relevant is."
+          "definition": "\u2019n Statistiese manier om twee (of meer) tegnieke te vergelyk - die A en die B. Gewoonlik is die A \u2019n bestaande tegniek en die B \u2019n nuwe tegniek. A/B-toetsing bepaal nie net watter tegniek beter presteer nie, maar ook of die verskil wel statisties relevant is."
         },
         "xh": {
           "term": "Uvavanyo lweA/B",
-          "definition": "Indlela yezibalo yokuthelekisa iindlela ezimbini (okanye ngaphezulu)-i-A kunye ne-B. Ngokuqhelekileyo, i-A yinkqubo ekhoyo, kwaye i-B yindlela entsha. Uvavanyo lwe-A/B alubonisi nje kuphela ukuba boluphi na ubugcisa obusebenza ngcono kodwa nokuba umahluko ubalulekile ngokwezibalo."
+          "definition": "Indlela yezibalo yokuthelekisa iindlela ezimbini (okanye ngaphezulu)-i-A kunye neB. Ngokuqhelekileyo, iA yinkqubo ekhoyo, kwaye iB yindlela entsha. Uvavanyo lweA/B alubonisi nje kuphela ukuba boluphi na ubugcisa obusebenza ngcono kodwa nokuba umahluko ubalulekile ngokwezibalo."
         },
         "zu": {
           "term": "Ukuhlolakuqhathanisa imikhiqizo",
@@ -1386,7 +1386,7 @@
         },
         "af": {
           "term": "ablasie",
-          "definition": "In kunsmatige intelligensie (KI), spesifiek masjienleer (ML), is ablasie die verwydering van \u2019n komponent van \u2019n KI-stelsel. \u2019n Ablasiestudie ondersoek die werkverrigting van \u2019n KI-stelsel deur sekere komponente te verwyder om die bydrae van die komponent tot die algehele stelsel te verstaan."
+          "definition": "In kunsmatige intelligensie (KI), veral masjienleer (ML), is ablasie die verwydering van \u2019n komponent van \u2019n KI-stelsel. \u2019n Ablasiestudie ondersoek die werkverrigting van \u2019n KI-stelsel deur sekere komponente te verwyder om die bydrae van die komponent tot die algehele stelsel te verstaan."
         },
         "xh": {
           "term": "Ukukhutshwa",
@@ -1408,7 +1408,7 @@
       "ai_adoption": {
         "en": {
           "term": "AI Adoption",
-          "definition": "In computing, adoption means the transfer (conversion) between an old system and a target system in an organization (or more broadly, by anyone). In regard to AI, it means using artificial intelligence to improve workflows and decision-making processes"
+          "definition": "In computing, adoption means the transfer (conversion) between an old system and a target system in an organization (or more broadly, by anyone). In regard to AI, it means using artificial intelligence to improve workflows and decision-making processes."
         },
         "sw": {
           "term": "Usimilishaji akiliunde",
@@ -1424,7 +1424,7 @@
         },
         "zu": {
           "term": "Ukwamukela Ubuhlakani Obakhiwe",
-          "definition": "Kwezocwaningo lwamakhompyutha, ukuguqukela kusho ukudlulisa (ukushintsha) usuke ohlelweni oludala kanye nohlelo okuphokophelwe kulo esikhungweni (noma kabanzi, okwenziwa yinoma wubani). Maqondana ne-AI, kusho ukusebenzisa ubuchwephe obusebenza ngokungasikho okwemvelo ukuthuthukisa umsebenzi kanye nezinqubo zokuthatha izinqumo"
+          "definition": "Kwezocwaningo lwamakhompyutha, ukuguqukela kusho ukudlulisa (ukushintsha) usuke ohlelweni oludala kanye nohlelo okuphokophelwe kulo esikhungweni (noma kabanzi, okwenziwa yinoma wubani). Maqondana ne-AI, kusho ukusebenzisa ubuchwephe obusebenza ngokungasikho okwemvelo ukuthuthukisa umsebenzi kanye nezinqubo zokuthatha izinqumo."
         },
         "attribution": {
           "source_author": "Wikipedia contributors",
@@ -1446,7 +1446,7 @@
         },
         "af": {
           "term": "afwykingbespeuring",
-          "definition": "In masjienleer is dit die proses waardeur masjienleermodelle gebruik word om onre\u00eblmatighede vinnig te identifiseer. Dit dien verskeie doele, onder andere die behoud van skoon, ho\u00ebgehaltedata wat gebruik word vir prosessering of spesifieke besigheidsdoeleindes."
+          "definition": "In masjienleer is dit die proses waardeur masjienleermodelle gebruik word om onre\u00eblmatighede vinnig te identifiseer. Dit dien verskeie doele, hetsy die behoud van skoon, ho\u00ebgehaltedata wat vir prosessering gebruik word, of spesifieke besigheidsdoeleindes."
         },
         "xh": {
           "term": "Ufunyaniso lokungaqhelekanga",
@@ -1504,11 +1504,11 @@
         },
         "af": {
           "term": "kunsmatige beperkte intelligensie (KBI)",
-          "definition": "Beperkte KI kan geklassifiseer word as \"beperk tot \u2019n enkel, noukeurig gedefinieerde taak\". Meeste moderne KI-stelsels sal in hierdie kategorie geklassifiseer word\". \u2019n Paar voorbeelde van beperkte KI is selfbestuurkarre en robotstelsels wat in die mediese veld gebruik word."
+          "definition": "Beperkte KI kan geklassifiseer word as \"beperk tot \u2019n enkele, noukeurig gedefinieerde taak\". Die meeste moderne KI-stelsels sal in hierdie kategorie geklassifiseer word. \u2019n Paar voorbeelde van beperkte KI is selfbesturende motors en robotstelsels wat in die mediese veld gebruik word."
         },
         "xh": {
           "term": "Ubukrelekrele oBenziweyo oBumxinwa (ANI)",
-          "definition": "I-AI Emxinwa inokuhlelwa \u201cnjengesikelwe umda kumsebenzi omnye ochaziweyo. Uninzi lweenkqubo ze-AI zanamhlanje zingahlelwa kolu didi\". Eminye imizekelo ye-AI emxinwa ziimoto eziziqhubayo neenkqubo zerobhothi ezisetyenziswa kwicandelo lezonyango."
+          "definition": "IAI Emxinwa inokuhlelwa \u201cnjengesikelwe umda kumsebenzi omnye ochaziweyo. Uninzi lweenkqubo zeAI zanamhlanje zingahlelwa kolu didi\". Eminye imizekelo yeAI emxinwa ziimoto eziziqhubayo neenkqubo zerobhothi ezisetyenziswa kwicandelo lezonyango."
         },
         "zu": {
           "term": "Ubuhlakani Obakhiwe Obubhuncene",
@@ -1534,7 +1534,7 @@
         },
         "af": {
           "term": "OutoML (outomatiese masjienleer)",
-          "definition": "Outomatiese masjienleer (OutoML) is die proses waardeur die take waarin masjienleer op regtew\u00eareldprobleme toegepas word, geoutomatiseer word. Dis die kombinasie van outomatisering en masjienleer."
+          "definition": "Outomatiese masjienleer (OutoML) is die proses waardeur die take waarin masjienleer op regtew\u00eareldprobleme toegepas word, geoutomatiseer word. Dis die kombinering van outomatisering en masjienleer."
         },
         "xh": {
           "term": "iAutoML (ukuFunda ngoMatshini okuZenzekelayo)",
@@ -1564,7 +1564,7 @@
         },
         "af": {
           "term": "groot data",
-          "definition": "Verwys hoofsaaklik na datastelle wat te groot of kompleks is om deur tradisionele appsagteware vir dataprosessering gehanteer te word. Grootdata sluit gewoonlik datastelle in met groottes b\u00f3 die vermo\u00ebns van sagtewarenutsgoed wat gewoonlik gebruik word om data binne \u2019n draaglike tydsduur vas te vang, saam te stel, te bestuur en te prosesseer."
+          "definition": "Dit verwys hoofsaaklik na datastelle wat te groot of kompleks is om deur tradisionele sagteware vir dataprosessering gehanteer te word. Groot data sluit gewoonlik datastelle in met groottes b\u00f3 die vermo\u00ebns van sagtewarenutsgoed wat algemeen gebruik word om data binne \u2019n redelike tydsverloop vas te l\u00ea, saam te stel, te bestuur en te verwerk."
         },
         "xh": {
           "term": "Idatha enkulu",
@@ -1623,7 +1623,7 @@
         },
         "af": {
           "term": "swartboks-KI",
-          "definition": "\u2019n Term wat gebruik word om KI-stelsels te beskryf waarvan die interne bewerkinge en besluitnemingprosesse ondeursigtig is en nie maklik deur mense verstaan kan word nie."
+          "definition": "Dit is \u2019n term wat gebruik word om KI-stelsels te beskryf waarvan die interne bewerkinge en besluitnemingprosesse ondeursigtig is en nie maklik deur mense verstaan kan word nie."
         },
         "xh": {
           "term": "Ibhokisi yeAI eMnyama",
@@ -1652,7 +1652,7 @@
         },
         "af": {
           "term": "dataminimalisering",
-          "definition": "Dataminimalisering is die prinsiep waarin net die persoonlike inligting wat vir \u2019n spesifieke doel nodig is, ingesamel, verwerk en geberg word."
+          "definition": "Dataminimalisering is die beginsel waarvolgens net die persoonlike inligting wat vir \u2019n spesifieke doel nodig is, ingesamel, verwerk en geberg word."
         },
         "xh": {
           "term": "unciphisozinkcukacha",
@@ -1712,7 +1712,7 @@
         },
         "af": {
           "term": "differensi\u00eble privaatheid",
-          "definition": "Differensi\u00eble privaatheid (DP) is \u2019n wiskundige, strawwe raamwerk vir die vrystelling van statistiese inligting oor datastelle, terwyl die privaatheid van individuele data-onderwerpe beskerm word. Dit maak dat \u2019n datahouer aggregaatpatrone van die groep kan deel en terselfde tyd die inligting kan beperk wat deursyfer oor die spesifieke individue."
+          "definition": "Differensi\u00eble privaatheid (DP) is \u2019n wiskundige, strawwe raamwerk vir die vrystelling van statistiese inligting oor datastelle, terwyl die privaatheid van individuele data-onderwerpe beskerm word. Dit veroorsaak dat \u2019n datahouer aggregaatpatrone van die groep kan deel en terselfdertyd die inligting kan beperk wat oor die spesifieke individue uitlek."
         },
         "xh": {
           "term": "Ukugcinwa kuyimfihlo kokwahlukileyo",
@@ -1742,7 +1742,7 @@
         },
         "af": {
           "term": "periferale berekening",
-          "definition": "Periferale berekening is \u2019n verspreide berekeningmodel wat berekeninge en databerging nader aan databronne bring. Periferaal behels dat data geprosesseer word nader aan waar dit gegenereer word. Dit maak dit moontlik om teen ho\u00ebr spoed en groter volumes data te prosesseer, en daardeur intyds beter handelinggedrewe resultate te kry."
+          "definition": "Periferale berekening is \u2019n verspreide berekeningmodel wat berekeninge en databerging nader aan databronne bring. Periferale berekening behels dat data verwerk word nader aan waar dit gegenereer word. Dit maak dit moontlik om teen ho\u00ebr spoed en groter volumes data te verwerk, en daardeur intyds beter handelinggedrewe resultate te kry."
         },
         "xh": {
           "term": "Usondezomphethelweni ngekhompuyutha",
@@ -1802,7 +1802,7 @@
         },
         "af": {
           "term": "vals positief",
-          "definition": "\u2019n Uitslag wat aandui dat \u2019n gegewe kondisie bestaan terwyl dit nie bestaan nie. Byvoorbeeld, in \u2019n mediesebeeldscenario kan \u2019n vals positief veroorsaak dat \u2019n gesonde area gevlag word as kankeragtig, wat onnodige bekommernis en mediese prosedures vir die pasient kan veroorsaak."
+          "definition": "\u2019n Uitslag wat aandui dat \u2019n gegewe kondisie bestaan terwyl dit nie bestaan nie. Byvoorbeeld, in \u2019n mediesebeeldscenario kan \u2019n vals positief veroorsaak dat \u2019n gesonde area ge\u00ebien word as kankeragtig, wat onnodige bekommernis en mediese prosedures vir die pasi\u00ebnt kan veroorsaak."
         },
         "xh": {
           "term": "Iphozithivu engeyonyani",
@@ -1832,7 +1832,7 @@
         },
         "af": {
           "term": "gefedereerde leer",
-          "definition": "\u2019n Verspreide masjienleerbenadering wat masjienleermodelle oplei met gedesentraliseerde voorbeelde wat op toestelle soos slimfone gestoor is. In gefedereerde leer laai \u2019n substel toestelle die huidige model van \u2019n sentrale, ko\u00f6rdineringbediener af. Die toestelle gebruik die voorbeelde wat op die toestelle gestoor is om verbeteringe aan die model te maak. Die toestelle laai dan die modelverbeteringe op (maar nie die opleidingvoorbeelde nie) na die ko\u00f6rdineringbediener toe, waar dit alles saam met ander opdaterings saamgevoeg word om \u2019n verbeterde algehele model te lewer."
+          "definition": "\u2019n Verspreidemasjienleerbenadering wat masjienleermodelle oplei met gedesentraliseerde voorbeelde wat op toestelle soos slimfone gestoor is. In gefedereerde leer laai \u2019n substel toestelle die huidige model van \u2019n sentrale ko\u00f6rdineringbediener af. Die toestelle gebruik die voorbeelde wat op die toestelle gestoor is om verbeteringe aan die model te maak. Die toestelle laai dan die modelverbeteringe op (maar nie die opleidingvoorbeelde nie) na die ko\u00f6rdineringbediener toe, waar dit alles saam met ander opdaterings saamgevoeg word om \u2019n verbeterde algehele model te lewer."
         },
         "xh": {
           "term": "Ukufunda okudityanisiweyo",
@@ -1861,11 +1861,11 @@
         },
         "af": {
           "term": "terugvoerkring",
-          "definition": "Terugvoering vind plaas wanneer \u2019n stelsel se uitsette terugherlei word as insette as deel van \u2019n oorsaak-en-gevolgkettingverloop wat dan \u2019n kring of lusloop veroorsaak. Daar kan dus ges\u00ea word dat die stelsel in ditself in terug voer. Byvoorbeeld, as die KI-stelsel \u2019n kletsbot is, kan dit dalk terugvoer kry vannaf gebruikers oor hoe goed dit hul navrae kan verstaan en daarop reageer. Die KI-stelsel gebruik dan hierdie terugvoer om sy algoritmes aan te pas en sy werkverrigting te verbeter."
+          "definition": "Terugvoering vind plaas wanneer \u2019n stelsel se afvoer terugherlei word as toevoer as deel van \u2019n oorsaak-en-gevolgkettingverloop wat dan \u2019n kring veroorsaak. Daar kan dus ges\u00ea word dat die stelsel aan homself terugvoer voorsien. Byvoorbeeld, as die KI-stelsel \u2019n kletsbot is, kan dit dalk terugvoer kry vannaf gebruikers oor hoe goed dit hul navrae kan verstaan en daarop reageer. Die KI-stelsel gebruik dan hierdie terugvoer om sy algoritmes aan te pas en sy werkverrigting te verbeter."
         },
         "xh": {
           "term": "Iluphu yengxelo",
-          "definition": "Ingxelo yenzeka xa iziphumo zenkqubo zibuyiselwa umva njengenxalenye yekhonkco lesizathu nesiphumo esenza isekethe okanye iluphu. Ngoko kunokuthiwa inkqubo ibuyela kuyo ngokwayo. Umzekelo, ukuba inkqubo ye-AI yi-chatbot, inokufumana impendulo kubasebenzisi malunga nokuba ikwazi kangakanani ukuqonda nokuphendula imibuzo yabo. Emva koko, inkqubo yeAI isebenzisa le ngxelo ukulungisa iialgorithm zayo nokuphucula ukusebenza kwayo."
+          "definition": "Ingxelo yenzeka xa iziphumo zenkqubo zibuyiselwa umva njengenxalenye yekhonkco lesizathu nesiphumo esenza isekethe okanye iluphu. Ngoko kunokuthiwa inkqubo ibuyela kuyo ngokwayo. Umzekelo, ukuba inkqubo yeAI yitshati bhoti, inokufumana impendulo kubasebenzisi malunga nokuba ikwazi kangakanani ukuqonda nokuphendula imibuzo yabo. Emva koko, inkqubo yeAI isebenzisa le ngxelo ukulungisa iialgorithm zayo nokuphucula ukusebenza kwayo."
         },
         "zu": {
           "term": "Iwuku Lezimvo",
@@ -1891,11 +1891,11 @@
         },
         "af": {
           "term": "hiperparameter",
-          "definition": "Die veranderlikes wat jy of \u2019n hipergrensinstellingdiens aanpas tydens agtereenvolgende opleidingsessies van \u2019n model. Byvoorbeeld, leerkoers is \u2019n hipergrens. Jy kan die leerkoers op 0.01 stel voor een opleidingsessie. As jy bepaal dat 0.01 te hoog is, kan jy die leerkoers dan dalk na 0.003 toe stel vir die volgende opleidingsessie."
+          "definition": "Die veranderlikes wat jy of \u2019n hiperparameterinstellingsdiens aanpas tydens agtereenvolgende opleidingsessies van \u2019n model. Byvoorbeeld, leerkoers is \u2019n hiperparameter. Jy kan die leerkoers voor een opleidingsessie op 0.01 stel. As jy bepaal dat 0.01 te hoog is, kan jy die leerkoers dalk vir die volgende opleidingsessie na 0.003 stel."
         },
         "xh": {
           "term": "Ihyperparameter",
-          "definition": "Izinto eziguquguqukayo ozihlengahlengisa ngokwakho okanye yinkonzo yehyperparameter tuning ngexesha loqeqesho olulandelelanayo lwemodeli. Umzekelo, izinga lokufunda yi-hyperparameter. Unokuseta ireyithi yokufunda ibe yi-0.01 phambi kweseshoni yoqeqesho enye. Ukuba ufumanisa ukuba u-0.01 uphezulu kakhulu, usenokuseta ireyithi yokufunda ibe ngu-0.003 kwiseshoni yoqeqesho elandelayo."
+          "definition": "Izinto eziguquguqukayo ozihlengahlengisa ngokwakho okanye yinkonzo yehyperparameter tuning ngexesha loqeqesho olulandelelanayo lwemodeli. Umzekelo, izinga lokufunda yihyperparameter. Unokuseta ireyithi yokufunda ibe yi0.01 phambi kweseshoni yoqeqesho enye. Ukuba ufumanisa ukuba u0.01 uphezulu kakhulu, usenokuseta ireyithi yokufunda ibe ngu-0.003 kwiseshoni yoqeqesho elandelayo."
         },
         "zu": {
           "term": "Ilungiselelakuqeqesha",
@@ -1920,7 +1920,7 @@
         },
         "af": {
           "term": "beeldherkenning",
-          "definition": "Ook bekend as prentklassifisering. Dit is \u2019n proses wat voorwerp(e), patroon(e), of konsep(te) in \u2019n prent klassifiseer."
+          "definition": "Ook bekend as beeldklassifisering. Dit is \u2019n proses wat \u2019n voorwerp, patroon, of konsep in \u2019n beeld klassifiseer."
         },
         "xh": {
           "term": "Ukuqondwa komfanekiso",
@@ -1949,15 +1949,15 @@
         },
         "af": {
           "term": "intelligente agent (IA)",
-          "definition": "\u2019n Agent wat sy omgewing waarneem, voer selfstandig handelinge uit om doelwitte te bereik, en kan sy werkverrigting verbeter deur te leer of kennis in te win. \u2019n Intelligente agent kan eenvoudig of kompleks wees, byvoorbeeld \u2019n termostaat, \u2019n mens \u2026"
+          "definition": "\u2019n Agent wat sy omgewing waarneem, voer selfstandig handelinge uit om doelwitte te bereik, en kan sy werkverrigting verbeter deur te leer of kennis in te win. \u2019n Intelligente agent kan eenvoudig of kompleks wees, byvoorbeeld \u2019n termostaat of \u2019n mens."
         },
         "xh": {
           "term": "Iarhente yobukrelekrele (IA)",
-          "definition": "Iarhente ebona okuyingqongileyo, ithatha amanyathelo ngokuzimeleyo ukuze ifezekise iinjongo, kwaye inokuphucula ukusebenza kwayo ngokufunda okanye ngokufumana ulwazi. Iarhente ekrelekrele isenokuba lula okanye intsonkothe \u200b\u200bumz. ithermostat, umntu.."
+          "definition": "Iarhente ebona okuyingqongileyo, ithatha amanyathelo ngokuzimeleyo ukuze ifezekise iinjongo, kwaye inokuphucula ukusebenza kwayo ngokufunda okanye ngokufumana ulwazi. Iarhente ekrelekrele isenokuba lula okanye intsonkothe \u200b\u200bumz ithermostat, umntu.."
         },
         "zu": {
           "term": "Isimeleli esikhaliphile",
-          "definition": "Isimeleli esiqonda indawo esikuyo, esithatha isinyathlo ngokuzenzekela ukuze kuveze imogomo, futhi kuthuthukiswe ukusebenza ngokufunda noma ukuthola ulwazi. Isimeleli esikhaliphile singaba lula noma nzulu isib. isiklalizingakushisa, umuntu"
+          "definition": "Isimeleli esiqonda indawo esikuyo, esithatha isinyathlo ngokuzenzekela ukuze kuveze imogomo, futhi kuthuthukiswe ukusebenza ngokufunda noma ukuthola ulwazi. Isimeleli esikhaliphile singaba lula noma nzulu isib. isiklalizingakushisa, umuntu."
         },
         "attribution": {
           "source_author": "Wikipedia contributors",
@@ -1979,7 +1979,7 @@
         },
         "af": {
           "term": "geheuelek",
-          "definition": "In rekenaarwetenskap is geheuesyfering \u2019n tipe hulpbronverlies wat voorkom wanner \u2019n rekenaarprogram verkeerdelik geheuetoewysing bestuur op s\u00f3 \u2019n wyse dat geheue wat nie meer benodig word nie, nie vrygestel word nie. Dit verminder die werkverrigting van die rekenaar deur die beskikbare geheue te verminder."
+          "definition": "In die rekenaarwetenskap is geheuelek \u2019n tipe hulpbronverlies wat voorkom wanneer \u2019n rekenaarprogram geheuetoewysing verkeerdelik op s\u00f3 \u2019n wyse bestuur dat geheue wat nie meer benodig word nie, nie vrygestel word nie. Dit verminder die werkverrigting van die rekenaar deur die beskikbare hoeveelheid geheue te verminder."
         },
         "xh": {
           "term": "Ukuvuza kwememori",
@@ -2001,7 +2001,7 @@
       "overfitting": {
         "en": {
           "term": "Overfitting",
-          "definition": "In mathematical modeling, overfitting is \"the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably\""
+          "definition": "In mathematical modeling, overfitting is \"the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably\"."
         },
         "sw": {
           "term": "Ujifunzaji banifu",
@@ -2009,15 +2009,15 @@
         },
         "af": {
           "term": "oormatige passing",
-          "definition": "In wiskundige modelleerwerk is oorpassing \u201cdie produsering van \u2019n ontleding wat te nou of presies ooreenstem met \u2019n datastel en daarom nie betroubaar by bykomende data kan pas of toekomstige waarnemens kan voorspel nie."
+          "definition": "In wiskundige modelleerwerk is oormatige passing \u201cdie produsering van \u2019n ontleding wat te nou of presies ooreenstem met \u2019n datastel en daarom nie betroubaar by bykomende data kan pas of toekomstige waarnemens kan voorspel nie."
         },
         "xh": {
           "term": "Ukungalingani okugqithileyo",
-          "definition": "Kwimodeli yemathematika, ukulingana ngokugqithisileyo \"kukuveliswa kohlalutyo oluhambelana ngokusondeleyo okanye ngokuthe ngqo kwiseti ethile yedatha, kwaye ke ngoko inokusilela ukulingana nedatha eyongezelelweyo okanye ukuqikelela imigqaliselo yexesha elizayo ngokuthembekileyo\""
+          "definition": "Kwimodeli yemathematika, ukulingana ngokugqithisileyo \"kukuveliswa kohlalutyo oluhambelana ngokusondeleyo okanye ngokuthe ngqo kwiseti ethile yedatha, kwaye ke ngoko inokusilela ukulingana nedatha eyongezelelweyo okanye ukuqikelela imigqaliselo yexesha elizayo ngokuthembekileyo\"."
         },
         "zu": {
           "term": "Ukuhambisana ngqo",
-          "definition": "Ohlelweni lwezibalo, ukuhambisana ngqo \"kuwukukhiqizwa kocwaningo oluhambisana kakhulu noma ngqo nohlu lweminingwane ethile, futhi olungase lwahluleke ukungena kweminye imininingwane noma ukuqagela okuzohlolwa ngokuzayo ngokwethembeka\""
+          "definition": "Ohlelweni lwezibalo, ukuhambisana ngqo \"kuwukukhiqizwa kocwaningo oluhambisana kakhulu noma ngqo nohlu lweminingwane ethile, futhi olungase lwahluleke ukungena kweminye imininingwane noma ukuqagela okuzohlolwa ngokuzayo ngokwethembeka\"."
         },
         "attribution": {
           "source_author": "Wikipedia contributors",
@@ -2068,11 +2068,11 @@
         },
         "af": {
           "term": "presisie",
-          "definition": "Presisie is die breukdeel van relevante gevalle uit die gerapporteerde gevalle. Dit word uitgewerk deur die relevante gerapporteerde gevalle te deel deur al die gerapporteerde gevalle. Byvoorbeeld, \u2019n rekenaarprogram wat honde (die relevante element) in digitale foto's identifiseer, prosesseer \u2019n foto wat 10 katte en 12 honde in het. Die program identifiseer dan 8 honde. Uit die 8 elemente wat as honde ge\u00efdentifiseer is, is net 5 regtig honde (werklike positief) , terwyl 3 katte is (vals positief). 7 honde is misgekyk (vals negatief) en 7 katte is korrek uitgesluit (werklike negatief). Die program se presisie is dan 5/8 (werklike positiewe / gerapporteerde elemente)."
+          "definition": "Presisie is die breukdeel van relevante gevalle uit die gerapporteerde gevalle. Dit word uitgewerk deur die relevante gerapporteerde gevalle te deel deur al die gerapporteerde gevalle. Byvoorbeeld, \u2019n rekenaarprogram wat honde (die relevante element) in digitale foto's identifiseer, verwerk \u2019n foto wat 10 katte en 12 honde in het. Die program identifiseer dan 8 honde. Uit die 8 elemente wat as honde ge\u00efdentifiseer is, is net 5 regtig honde (ware positief), terwyl 3 katte is (vals positief). 7 honde is misgekyk (vals negatief) en 7 katte is korrek uitgesluit (ware negatief). Die program se presisie is dan 5/8 (ware positiewe/gerapporteerde elemente)."
         },
         "xh": {
           "term": "Ukuchana",
-          "definition": "Ukuchaneka liqhezu leemeko ezifanelekileyo phakathi kweemeko ezifunyenweyo. Ibalwa ngokwahlula iimeko ezifanelekileyo kwezifunyenweyo nazo zonke iimeko ezifunyenweyo.\n\nUmzekelo, inkqubo yekhompyutha yokuqaphela izinja (into efanelekileyo) kwifoto yedijithali iprosesa umfanekiso oqulethe iikati ezili-10 nezinja eziyi-12. Inkqubo ke iye ichonge izinja ezisi-8. Kwizinto ezisibhozo ezichongwe njengezinja, zi-5 kuphela ezizinja (iiphozithivu zokwenyani), ngelixa ezinye ezi-3 izikati (iiphozithivu ezingeyonyani). Izinja ezisi-7 ziphosiwe (iinegethivu ezingeyonyani), zaze iikati ezisi-7 zangabandakanywa ngokuchanekileyo (iinegethivu eziyinyani). Ukuchaneka kwenkqubo ngu-5/8 (iiphozithivu eziyinyani / izinto ezikhethiweyo)."
+          "definition": "Ukuchaneka liqhezu leemeko ezifanelekileyo phakathi kweemeko ezifunyenweyo. Ibalwa ngokwahlula iimeko ezifanelekileyo kwezifunyenweyo nazo zonke iimeko ezifunyenweyo.\n\nUmzekelo, inkqubo yekhompyutha yokuqaphela izinja (into efanelekileyo) kwifoto yedijithali iprosesa umfanekiso oqulethe iikati ezili10 nezinja eziyi12. Inkqubo ke iye ichonge izinja ezisi8. Kwizinto ezisibhozo ezichongwe njengezinja, zi5 kuphela ezizinja (iiphozithivu zokwenyani), ngelixa ezinye ezi3 izikati (iiphozithivu ezingeyonyani). Izinja ezisi7 ziphosiwe (iinegethivu ezingeyonyani), zaze iikati ezisi7 zangabandakanywa ngokuchanekileyo (iinegethivu eziyinyani). Ukuchaneka kwenkqubo ngu5/8 (iiphozithivu eziyinyani / izinto ezikhethiweyo)."
         },
         "zu": {
           "term": "ukuqonda ngqo",
@@ -2127,7 +2127,7 @@
         },
         "af": {
           "term": "privaatheidimpakassessering (PIA)",
-          "definition": "\u2019n Privaatheidimpakassessering (PIA) is \u2019n proses wat organisasies help om die privaatheidrisiko's te identifiseer en te bestuur wat kan voortspruit uit nuwe projekte, innisiatiewe, stelsels, prosesse, strategie\u00eb, beleide, besigheidsverhoudings ens."
+          "definition": "\u2019n Privaatheidsimpakassessering (PIA) is \u2019n proses wat organisasies help om die privaatheidrisiko's te identifiseer en te bestuur wat kan voortspruit uit nuwe projekte, inisiatiewe, stelsels, prosesse, strategie\u00eb, beleide, besigheidsverhoudings, ens."
         },
         "xh": {
           "term": "UVavanyo lweMpembelelo yoBumfihlo (iPIA)",
@@ -2157,7 +2157,7 @@
         },
         "af": {
           "term": "instruksieteksinvoeging",
-          "definition": "\u2019n Aanval wat \u2019n groottaalmodel (GTM) manipuleer deur kwaadwillige invoere in te voeg wat ontwerp is om die model se uitset te verander. Hierdie soort kuberaanval byt die manier uit waarop GTM'e teks met invoerporboodskappe prosesseer en genereer. Deur fyn saamgestelde teks in te voeg, kan \u2019n aanvaller die model flous om dit ongoedgekeurde inhoud te laat produseer, toegang te kry tot beperkte data, of om spesifieke handelinge uit te voer."
+          "definition": "\u2019n Aanval wat \u2019n groot taalmodel (GTM) manipuleer deur kwaadwillige toevoer in te voeg wat ontwerp is om die model se afvoer te verander. Hierdie soort kuberaanval byt die manier uit waarop GTM'e teks met behulp van toevoerinstruksieteks verwerk en genereer. Deur versigtig saamgestelde teks in te voeg, kan \u2019n aanvaller die model flous sodat dit ongemagtigde inhoud produseer, toegang kry tot beperkte data, of spesifieke handelinge uitvoer."
         },
         "xh": {
           "term": "Utofomyalelo",
@@ -2175,36 +2175,6 @@
           "text": "Adapted from a Gemini response to the prompt, 'Tell me about Prompt injection in AI'"
         }
       },
-      "pseudonymization": {
-        "en": {
-          "term": "Pseudonymization",
-          "definition": "Pseudonymization is a data management and de-identification procedure by which personally identifiable information fields within a data record are replaced by one or more artificial identifiers, or pseudonyms."
-        },
-        "sw": {
-          "term": "Ulakabishaji data tambulishi",
-          "definition": "Kuficha utambulisho ni mchakato wa usimamizi wa data na uondoaji wa vitambulisho katika sehemu zenye taarifa binafsi zinazoweza kumtambulisha mtu. Sehemu hizo kwenye rekodi ya data hubadilishwa na kuwekwa vitambulisho bandia au majina ya lakabu."
-        },
-        "af": {
-          "term": "pseudonimisering",
-          "definition": "Pseudonimisering is \u2019n databestuur- en de\u00efdentifiseringprosedure waarmee velde met persoonlik identifiseerbare inligting binne datarekords deur een of meer kunsmatige identifiseerders, of pseudonieme, vervang word."
-        },
-        "xh": {
-          "term": "Ukufaka amagama angengawo",
-          "definition": "Ukufaka amagama angengawo lulawulo lwedatha nenkqubo yokuyekisa ukuchongwa apho iindawo zenkcazelo echonga umntu kwirekhodi yedatha zithathelwe indawo sisichongi esenziweyo esinye okanye ngaphezulu, okanye amagama angengawo."
-        },
-        "zu": {
-          "term": "Ukuzivezambumbulu",
-          "definition": "Ufihlomagama luwukuphathwa kwemininingwane nokususa imininingwane yokuhloza lapho izikhala zolwazi oluhlonzekayo lomuntu siqu kurekhodi lemininingwane lushintshwa kufakwe izindlela zokuhlonza ezingasizo ezempela, noma amagama aqanjiwe."
-        },
-        "attribution": {
-          "source_author": "Wikipedia contributors",
-          "source_license": "CC BY-SA 4.0",
-          "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source_url": "https://en.wikipedia.org/w/index.php?title=Pseudonymization&oldid=1301181589",
-          "text": "Adapted from the Wikipedia article 'Pseudonymization'",
-          "source_author_url": "https://en.wikipedia.org/w/index.php?title=Pseudonymization&action=history"
-        }
-      },
       "recall": {
         "en": {
           "term": "Recall",
@@ -2216,11 +2186,11 @@
         },
         "af": {
           "term": "volledigheid",
-          "definition": "Volledigheid is die breukdeel van relevante gevalle wat gerapporteer is. Dit word uitgewerk deur die relevante gerapporteerde gevalle te deel deur die totale aantal relevante gevalle. Byvoorbeeld, \u2019n rekenaarprogram wat honde (die relevante element) in digitale foto's identifiseer, prosesseer \u2019n foto wat 10 katte en 12 honde in het. Die program identifiseer dan 8 honde. Uit die 8 elemente wat as honde ge\u00efdentifiseer is, is net 5 regtig honde (werklike positief) , terwyl 3 katte is (vals positief). 7 honde is misgekyk (vals negatief) en 7 katte is korrek uitgesluit (werklike negatief).  Die program se volledigheid is dan 5/12 (werklike positiewe / relevante elemente)."
+          "definition": "Volledigheid is die breukdeel van relevante gevalle wat gerapporteer is. Dit word uitgewerk deur die relevante gerapporteerde gevalle te deel deur die totale aantal relevante gevalle. Byvoorbeeld, \u2019n rekenaarprogram wat honde (die relevante element) in digitale foto's identifiseer, verwerk \u2019n foto wat 10 katte en 12 honde in het. Die program identifiseer dan 8 honde. Uit die 8 elemente wat as honde ge\u00efdentifiseer is, is net 5 regtig honde (ware positief) , terwyl 3 katte is (vals positief). 7 honde is misgekyk (vals negatief) en 7 katte is korrek uitgesluit (ware negatief).  Die program se volledigheid is dan 5/12 (ware positiewe/relevante elemente)."
         },
         "xh": {
           "term": "Ukukhumbula",
-          "definition": "Ukukhumbula liqhezu leemeko ezifanelekileyo eziye zafunyanwa. Kubalwa ngokwahlula iimeko ezifanelekileyo kwezifunyenweyo nazo zonke iimeko ezifanelekileyo. \nUmzekelo, inkqubo yekhompyutha yokuqaphela izinja (into efanelekileyo) kwifoto yedijithali iprosesa umfanekiso oqulethe iikati ezili-10 nezinja eziyi-12. Inkqubo ke iye ichonge izinja ezisi-8. Kwizinto ezisibhozo ezichongwe njengezinja, zi-5 kuphela ezizinja (iiphozithivu zokwenyani), ngelixa ezinye ezi-3 izikati (iiphozithivu ezingeyonyani). Izinja ezisi-7 ziphosiwe (iinegethivu ezingeyonyani), zaze iikati ezisi-7 zangabandakanywa ngokuchanekileyo (iinegethivu eziyinyani). Ukukhumbula kwenkqubo ngu-5/12 (iiphozithivu eziyinyani / izinto ezifanelekileyo)."
+          "definition": "Ukukhumbula liqhezu leemeko ezifanelekileyo eziye zafunyanwa. Kubalwa ngokwahlula iimeko ezifanelekileyo kwezifunyenweyo nazo zonke iimeko ezifanelekileyo. \nUmzekelo, inkqubo yekhompyutha yokuqaphela izinja (into efanelekileyo) kwifoto yedijithali iprosesa umfanekiso oqulethe iikati ezili10 nezinja eziyi12. Inkqubo ke iye ichonge izinja ezisi8. Kwizinto ezisibhozo ezichongwe njengezinja, zi5 kuphela ezizinja (iiphozithivu zokwenyani), ngelixa ezinye ezi3 izikati (iiphozithivu ezingeyonyani). Izinja ezisi7 ziphosiwe (iinegethivu ezingeyonyani), zaze iikati ezisi7 zangabandakanywa ngokuchanekileyo (iinegethivu eziyinyani). Ukukhumbula kwenkqubo ngu5/12 (iiphozithivu eziyinyani / izinto ezifanelekileyo)."
         },
         "zu": {
           "term": "Isibuyiseli",
@@ -2276,7 +2246,7 @@
         },
         "af": {
           "term": "ophaalaangevulde generering",
-          "definition": "Aanvullendeophaalgenerering (AOG) is \u2019n tipe generatiewe kunsmatige intelligensie wat inligtingophaalvermo\u00ebns het. Dit verander interaksies met \u2019n groottaalmodel (GTM) sodat die model reageer op navrae met verwysing na \u2019n gespesifiseerde stel dokumente en hierdie inligting met voorkeur gebruik in plaas van inligting wat dit vanuit sy eie wye, onveranderde opleidingdata trek. Dit maak dat die GTM domeinspesifieke en/of opgedateerde inligting kan gebruik."
+          "definition": "Ophaalaangevulde generering (OAG) is \u2019n tipe generatiewe kunsmatige intelligensie wat inligtingontsluitingsvermo\u00eb het. Dit verander interaksies met \u2019n groot taalmodel (GTM) sodat die model op gebruikersnavrae reageer met verwysing na \u2019n gespesifiseerde stel dokumente, en eerder hierdie inligting gebruik as inligting wat uit sy eie omvangryke, statiese opleidingdata onttrek is. Dit dit stel die GTM in staat om domeinspesifieke en/of opgedateerde inligting te gebruik."
         },
         "xh": {
           "term": "Ukuvelisa ukufumana okwandisiweyo",
@@ -2306,7 +2276,7 @@
         },
         "af": {
           "term": "robuustheid",
-          "definition": "In rekenaarwetenskap is robuustheid die vermo\u00eb van \u2019n rekenaarstelsel om foute tydens uitvoering en foutiewe invoer te kan hanteer. Dit word getoets met tegnieke soos donstoetse (\u2019n outomatiese sagtewaretoetstegniek waarin ongeldige, onverwagte of lukrake data as invoere vir \u2019n rekenaarprogram verskaf word. Die program word dan gemonitor vir uitsonderings soos omvalle of moontlike geheuesyferings)."
+          "definition": "In die rekenaarwetenskap is robuustheid die vermo\u00eb van \u2019n rekenaarstelsel om foute tydens uitvoering en foutiewe toevoer te hanteer. Dit word getoets met tegnieke soos vae toetsing (\u2019n outomatiese sagtewaretoetstegniek wat behels dat ongeldige, onverwagte of lukrake data as toevoer vir \u2019n rekenaarprogram verskaf word. Die program word dan gemonitor vir uitsonderings soos ineenstortings of moontlike geheuelekke)."
         },
         "xh": {
           "term": "Ukomelela",
@@ -2335,7 +2305,7 @@
         },
         "af": {
           "term": "selfopleiding",
-          "definition": "\u2019n Variant van self-gekontrolleerde leer wat besonders nuttig is wanneer al die volgende toestannde waar is:\n- Die verhouding van onge\u00ebtiketteerde voorbeelde teenoor ge\u00ebtiketteerde voorbeelde in die datastel hoog is.\n- Dit \u2019n klassifiseringprobleem is."
+          "definition": "\u2019n Variant van selfgekontroleerde leer wat besonder nuttig is wanneer al die volgende toestande waar is:\n- Die verhouding van ongemerkte voorbeelde teenoor gemerkte voorbeelde in die datastel is hoog.\n- Dit is \u2019n klassifiseringsprobleem."
         },
         "xh": {
           "term": "Ukuziqeqeshela",
@@ -2394,7 +2364,7 @@
         },
         "af": {
           "term": "temperatuur",
-          "definition": "\u2019n Hipergrens wat die mate van lukraakheid van \u2019n model se uitset beheer. Ho\u00ebr temperature veroorsaak meer lukrake uitsette, terwyl laer temperature minder lukrake uitsette veroorsaak. Om die beste temperatuur te kies hang af van die spesifieke toepassing en die voorkeureienskappe van die model se uitset. Byvoorbeeld, jy sal waarskynlik die temperatuur verhoog wanneer jy \u2019n toepassing skep wat kreatiewe uitsette genereer. Omgekeerd, sal jy waarskynlik die temperatuur verlaag wanneer jy \u2019n model bou wat prente of teks klassifiseer om sodoende die model se akkuraatheid en konsekwentheid te verbeter."
+          "definition": "\u2019n Hiperparameter wat die mate van lukraakheid van \u2019n model se afvoer beheer. Ho\u00ebr temperature veroorsaak meer lukrake afvoere, terwyl laer temperature minder lukrake afvoere veroorsaak. Om die beste temperatuur te kies, hang af van die spesifieke toepassing en die voorkeureienskappe van die model se afvoer. Byvoorbeeld, jy sal waarskynlik die temperatuur verhoog wanneer jy \u2019n toepassing skep wat kreatiewe afvoere genereer. Daarteenoor sal jy waarskynlik die temperatuur verlaag wanneer jy \u2019n model bou wat beelde of teks klassifiseer ten einde die model se akkuraatheid en konsekwentheid te verbeter."
         },
         "xh": {
           "term": "Ubushushu",
@@ -2423,7 +2393,7 @@
         },
         "af": {
           "term": "ware negatief (WN)",
-          "definition": "\u2019n Voorbeeld waarin die model die negatiewe klas korrek voorspel. Byvoorbeeld, die model lei af dat \u2019n spesifieke e-posboodskap nie gemorspos is nie, en die e-pos dan werklik nie gemorspos is nie."
+          "definition": "\u2019n Voorbeeld waar die model die negatiewe klas korrek voorspel. Byvoorbeeld, die model lei af dat \u2019n spesifieke e-posboodskap nie gemorspos is nie, en die e-pos dan werklik nie gemorspos is nie."
         },
         "xh": {
           "term": "Inegethivu eyinyani (TN)",
@@ -2452,7 +2422,7 @@
         },
         "af": {
           "term": "ware positief (WP)",
-          "definition": "\u2019n Voorbeeld waarin die model die positiewe klas korrek voorspel. Byvoorbeeld, die model lei af dat \u2019n spesifieke e-posboodskap gemorspos is, en die e-pos dan werklik gemorspos is."
+          "definition": "\u2019n Voorbeeld waar die model die positiewe klas korrek voorspel. Byvoorbeeld, die model lei af dat \u2019n spesifieke e-posboodskap gemorspos is, en die e-pos dan werklik gemorspos is."
         },
         "xh": {
           "term": "Iphozithivu eyinyani (TP)",
@@ -2481,7 +2451,7 @@
         },
         "af": {
           "term": "onderpassing",
-          "definition": "Om \u2019n model te produseer met swak voorspellingvermo\u00eb omdat die model nie die kompleksiteit van die opleidingdata ten volle aangeteken het nie."
+          "definition": "Onderpassing vind plaas wanneer \u2019n model met swak voorspellingvermo\u00eb geproduseer word omdat die model nie die kompleksiteit van die opleidingsdata ten volle vasgel\u00ea het nie."
         },
         "xh": {
           "term": "Ukungalingani okunganeno",
@@ -2612,7 +2582,7 @@
         "pcm": {
           "pcm": "M\u00edn\u00edn f\u1ecd Pijin"
         },
-        "zu": { 
+        "zu": {
           "zu": "Incazelo ngesiZulu"
         }
       }
