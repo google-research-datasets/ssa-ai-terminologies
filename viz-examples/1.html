@@ -57,7 +57,7 @@
       const render = () => {
         if (!term) { container.innerHTML = ''; return; }
         const currentLangData = term[lang];
-        const availableLangs = Object.keys(term).filter(k => term[k]?.term && ['en', 'sw'].includes(k));
+        const availableLangs = Object.keys(term).filter(k => term[k]?.term);
         const detailsSection = (title, items) => !items?.length ? '' : `<div><h4 class="font-semibold text-slate-600 mb-2 border-b pb-1">${title}</h4><ul class="list-disc list-inside space-y-1 pl-2">${items.map(i => `<li>${i}</li>`).join('')}</ul></div>`;
         const attrSection = (attr) => !attr ? '' : `<div class="border-t pt-4 mt-6 text-xs text-slate-600"><h3 class="text-sm font-semibold mb-2">Attribution</h3><p class="italic">"${attr.text}"</p><div class="flex flex-wrap gap-x-4 mt-1"><span><b>Author:</b> ${attr.source_author_url ? `<a href="${attr.source_author_url}" class="text-blue-600 hover:underline">${attr.source_author}</a>` : attr.source_author}</span><span><b>License:</b> <a href="${attr.source_license_url}" class="text-blue-600 hover:underline">${attr.source_license}</a></span><span><b>Source:</b> <a href="${attr.source_url}" class="text-blue-600 hover:underline">View Original</a></span></div></div>`;
         
