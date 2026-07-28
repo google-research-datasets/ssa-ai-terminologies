@@ -4,7 +4,7 @@
       "accuracy": {
         "en": {
           "term": "Accuracy",
-          "definition": "It is the proportion of all classifications that were correct, whether positive or negative. \nEmails example: In the spam classification example, accuracy measures the fraction of all emails correctly classified."
+          "definition": "It is the proportion of all model outputs that were correct, whether positive or negative. \nIn a spam classification example, accuracy refers to the fraction of all emails correctly classified as spam or not spam."
         },
         "sw": {
           "term": "Usahihi",
@@ -153,7 +153,7 @@
       "artificial_intelligence_ai": {
         "en": {
           "term": "Artificial Intelligence (AI)",
-          "definition": "In its broadest sense, is intelligence exhibited by machines, particularly computer systems. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals."
+          "definition": "Intelligence exhibited by machines, particularly computer systems. It is also a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals."
         },
         "sw": {
           "term": "Akiliunde (AI)",
@@ -183,7 +183,7 @@
       "artificial_neural_network_ann": {
         "en": {
           "term": "Artificial Neural Network (ANN)",
-          "definition": "In machine learning, a neural network (also artificial neural network or neural net, abbreviated ANN or NN) is a model inspired by the structure and function of biological neural networks in animal brains. An ANN consists of connected units or nodes called artificial neurons, which loosely model the neurons in the brain."
+          "definition": "It is a model inspired by the structure and function of biological neural networks in animal brains. An ANN consists of connected units or nodes called artificial neurons, which loosely model the neurons in the brain. It is also known as neural net and abbreviated as ANN or NN."
         },
         "sw": {
           "term": "Mtandao nyurounde",
@@ -392,7 +392,7 @@
       "data_augmentation": {
         "en": {
           "term": "Data augmentation",
-          "definition": "A statistical technique which allows maximum likelihood estimation from incomplete data."
+          "definition": "Artificially boosting the range and number of training examples by transforming existing examples to create additional examples. For example, in an image dataset, you can rotate, stretch, and reflect each sample (the image and its associated annotations) to increase the amount of labeled data available for training and evaluation."
         },
         "sw": {
           "term": "Ujalizaji data",
@@ -542,7 +542,7 @@
       "explainable_ai_xai": {
         "en": {
           "term": "Explainable AI (XAI)",
-          "definition": "Either refers to an artificial intelligence (AI) system over which it is possible for humans to retain intellectual oversight, or refers to the methods to achieve this."
+          "definition": "It is both the technology that allows humans to oversee and understand AI decisions, and the methods used to make those decisions clear."
         },
         "sw": {
           "term": "Akiliunde inayofafanua (XAI)",
@@ -572,7 +572,7 @@
       "fairness_in_ai": {
         "en": {
           "term": "Fairness (in AI)",
-          "definition": "Fairness in machine learning refers to the various attempts at correcting algorithmic bias in automated decision processes based on machine learning models. Decisions made by computers after a machine-learning process may be considered unfair if they were based on variables considered sensitive. For example gender, ethnicity, sexual orientation or disability."
+          "definition": "Various attempts at correcting algorithmic bias in automated decision processes based on machine learning models. Decisions made by computers after a machine-learning process may be considered unfair if they were based on variables considered sensitive. For example gender, ethnicity, sexual orientation or disability."
         },
         "sw": {
           "term": "Usawa (katika akiliunde)",
@@ -631,7 +631,7 @@
       "finetuning": {
         "en": {
           "term": "Fine-tuning",
-          "definition": "In deep learning, fine-tuning is an approach to transfer learning in which the parameters of a pre-trained model are trained on new data."
+          "definition": "In deep learning, fine-tuning is an approach to transfer learning in which the parameters of a pre-trained model are trained on new data, to improve the model's performance."
         },
         "sw": {
           "term": "Uboreshaji modeli",
@@ -721,7 +721,7 @@
       "humanintheloop_hitl": {
         "en": {
           "term": "Human-in-the-Loop (HITL)",
-          "definition": "In machine learning, HITL is used in the sense of humans aiding the computer in making the correct decisions in building a model."
+          "definition": "In machine learning, HITL is used in the sense of humans aiding the computer in making the correct decisions."
         },
         "sw": {
           "term": "Mwanadamu uzioni",
@@ -841,7 +841,7 @@
       "natural_language_processing_nlp": {
         "en": {
           "term": "Natural Language Processing (NLP)",
-          "definition": "An interdisciplinary subfield of computer science and artificial intelligence, primarily concerned with providing computers with the ability to process data encoded in natural language. \nMajor tasks in natural language processing are speech recognition, text classification, natural-language understanding, and natural-language generation."
+          "definition": "An interdisciplinary subfield of computer science and artificial intelligence, primarily concerned with providing computers with the ability to process data encoded in natural language. \nMajor tasks in this subfield are speech recognition, text classification, natural-language understanding, and natural-language generation."
         },
         "sw": {
           "term": "Uchakataji Lugha Asilia",
@@ -871,7 +871,7 @@
       "noisy_data": {
         "en": {
           "term": "Noisy data",
-          "definition": "Data with a large amount of additional meaningless information in it called noise."
+          "definition": "Data with a large amount of additional meaningless, and often inconsistent, information in it."
         },
         "sw": {
           "term": "Datataka",
@@ -930,7 +930,7 @@
       "open_source": {
         "en": {
           "term": "Open source",
-          "definition": "A source code (a plain text computer program written in a programming language) that is made freely available for possible modification and redistribution."
+          "definition": "A plain text computer program (source code) that is made freely available for possible modification and redistribution."
         },
         "sw": {
           "term": "Programu huria",
@@ -1018,7 +1018,7 @@
       "prompt_engineering": {
         "en": {
           "term": "Prompt engineering",
-          "definition": "The process of structuring an instruction that can be interpreted and understood by a generative AI model."
+          "definition": "The process of structuring an instruction that can be interpreted and understood by a generative AI model"
         },
         "sw": {
           "term": "Uhandisi vidokezo",
@@ -1078,7 +1078,7 @@
       "raw_data": {
         "en": {
           "term": "Raw data",
-          "definition": "Also known as primary data, are data (e.g., numbers, instrument readings, figures, etc.) collected from a source, prior to cleaning or analysis."
+          "definition": "A type of data (e.g., numbers, instrument readings, figures, etc.) collected from a source prior to cleaning or analysis. Also known as primary data."
         },
         "sw": {
           "term": "Data ghafi",
@@ -1198,7 +1198,7 @@
       "supervised_learning": {
         "en": {
           "term": "Supervised learning",
-          "definition": "A paradigm in machine learning where input objects and a desired output value train a model."
+          "definition": "A paradigm in machine learning where input objects and a desired output value are used to train a model."
         },
         "sw": {
           "term": "Ujifunzaji elekezwa",
@@ -1228,7 +1228,7 @@
       "synthetic_media": {
         "en": {
           "term": "Synthetic media",
-          "definition": "A catch-all term for the artificial production, manipulation, and modification of data and media by automated means, especially through the use of artificial intelligence algorithms, such as for the purpose of misleading people or changing an original meaning. Also known as AI-generated media."
+          "definition": "A catch-all term for the artificial production, manipulation, and modification of data and media by automated means, especially through the use of artificial intelligence algorithms. It can be used to enhance or even change an original meaning. Also known as AI-generated media."
         },
         "sw": {
           "term": "Maudhui sanisi",
@@ -1258,7 +1258,7 @@
       "transfer_learning": {
         "en": {
           "term": "Transfer learning",
-          "definition": "Transfer learning (TL) is a technique in machine learning (ML) in which knowledge learned from a task is re-used in order to boost performance on a related task.[1] For example, for image classification, knowledge gained while learning to recognize cars could be applied when trying to recognize trucks."
+          "definition": "A technique in machine learning (ML) in which knowledge learned from a task is re-used in order to boost performance on a related task. For example, for image classification, knowledge gained while learning to recognize cars could be applied when trying to recognize trucks."
         },
         "sw": {
           "term": "Ujifunzaji hamishi",
@@ -1288,7 +1288,7 @@
       "unsupervised_learning": {
         "en": {
           "term": "Unsupervised learning",
-          "definition": "A framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data."
+          "definition": "A paradigm in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data."
         },
         "sw": {
           "term": "Ujifunzaji usioelekezwa",
@@ -1349,7 +1349,7 @@
       "ab_testing": {
         "en": {
           "term": "A/B testing",
-          "definition": "A statistical way of comparing two (or more) techniques\u2014the A and the B. Typically, the A is an existing technique, and the B is a new technique. A/B testing not only determines which technique performs better but also whether the difference is statistically significant."
+          "definition": "A statistical way of comparing two (or more) techniques\u2014the A and the B. Typically, the A is an existing technique, and the B is a new technique. This comparison not only determines which technique performs better but also whether the difference is statistically significant."
         },
         "sw": {
           "term": "Jaribio A/B",
@@ -1378,7 +1378,7 @@
       "ablation": {
         "en": {
           "term": "Ablation",
-          "definition": "In artificial intelligence (AI), particularly machine learning (ML), ablation is the removal of a component of an AI system. An ablation study investigates the performance of an AI system by removing certain components to understand the contribution of the component to the overall system."
+          "definition": "The removal of a component of an AI system with the intent of learning something. An ablation study investigates the performance of an AI system by removing certain components to understand the contribution of the component to the overall system."
         },
         "sw": {
           "term": "Uondoaji vipengele",
@@ -1438,7 +1438,7 @@
       "anomaly_detection": {
         "en": {
           "term": "Anomaly detection",
-          "definition": "In machine learning, this is the process of using machine learning models to identify anomalies rapidly. This serves several purposes, whether to maintain clean, high-quality data that you will use for processing or specific business purposes."
+          "definition": "The process of using machine learning models to identify anomalies rapidly. This can serve several purposes, including maintaining clean, high-quality data that you will use for processing or to support specific business purposes."
         },
         "sw": {
           "term": "Utambuzi wa dosari",
@@ -1467,7 +1467,7 @@
       "artifical_general_intelligence": {
         "en": {
           "term": "Artifical general intelligence",
-          "definition": "A non-human mechanism that demonstrates a broad range of problem solving, creativity, and adaptability. For example, a program demonstrating artificial general intelligence could translate text, compose symphonies, and excel at games that have not yet been invented."
+          "definition": "Machines that demonstrate a broad range of problem solving, creativity, and adaptability. For example, a computer program demonstrating artificial general intelligence could translate text, compose symphonies, and excel at games that have not yet been invented."
         },
         "sw": {
           "term": "Akiliunde jumuifu",
@@ -1496,7 +1496,7 @@
       "artificial_narrow_intelligence_ani": {
         "en": {
           "term": "Artificial Narrow Intelligence (ANI)",
-          "definition": "Narrow AI can be classified as being \u201climited to a single, narrowly defined task. Most modern AI systems would be classified in this category.\u201d Some examples of narrow AI are self-driving cars and robot systems used in the medical field."
+          "definition": "Intelligence limited to a single, narrowly defined task. Most modern AI systems would be classified in this category. Some examples of narrow AI are self-driving cars and robot systems used in the medical field."
         },
         "sw": {
           "term": "Akiliunde mahususi",
@@ -1526,7 +1526,7 @@
       "automl_automated_machine_learning": {
         "en": {
           "term": "AutoML (Automated Machine Learning)",
-          "definition": "Automated machine learning (AutoML) is the process of automating the tasks of applying machine learning to real-world problems. It is the combination of automation and ML."
+          "definition": "The process of automating the tasks of applying machine learning to real-world problems. It is the combination of automation and ML."
         },
         "sw": {
           "term": "Ujifunzaji wa mashine kiotomati",
@@ -1556,7 +1556,7 @@
       "big_data": {
         "en": {
           "term": "Big data",
-          "definition": "Primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing application software. Big data usually includes data sets with sizes beyond the ability of commonly used software tools to capture, curate, manage, and process data within a tolerable elapsed time."
+          "definition": "Data sets that are too large or complex to be dealt with by traditional data-processing application software. It usually includes data sets with sizes beyond the ability of commonly used software tools to capture, curate, manage, and process data within a tolerable elapsed time."
         },
         "sw": {
           "term": "Data pana",
@@ -1615,7 +1615,7 @@
       "black_box_ai": {
         "en": {
           "term": "Black Box AI",
-          "definition": "A term used to describe artificial intelligence systems whose internal workings and decision-making processes are opaque or not easily understandable to humans."
+          "definition": "Artificial intelligence systems whose internal workings and decision-making processes are opaque or not easily understandable to humans."
         },
         "sw": {
           "term": "Akiliunde fiche",
@@ -1644,7 +1644,7 @@
       "data_minimization": {
         "en": {
           "term": "Data minimization",
-          "definition": "Data minimization is the principle of collecting, processing and storing only the necessary amount of personal information required for a specific purpose."
+          "definition": "The principle of collecting, processing and storing only the necessary amount of personal information required for a specific purpose."
         },
         "sw": {
           "term": "Ubanifu data",
@@ -1674,7 +1674,7 @@
       "debiasing": {
         "en": {
           "term": "Debiasing",
-          "definition": "Debiasing is the reduction of bias, particularly with respect to judgment and decision making. Biased judgment and decision making is that which systematically deviates from the prescriptions of objective standards such as facts, logic, and rational behavior or prescriptive norms."
+          "definition": "The reduction of bias, particularly with respect to judgment and decision making. Biased judgment and decision making is that which systematically deviates from the prescriptions of objective standards such as facts, logic, and rational behavior or prescriptive norms."
         },
         "sw": {
           "term": "Uondoaji uegemezi",
@@ -1704,7 +1704,7 @@
       "differential_privacy": {
         "en": {
           "term": "Differential Privacy",
-          "definition": "Differential privacy (DP) is a mathematically rigorous framework for releasing statistical information about datasets while protecting the privacy of individual data subjects. It enables a data holder to share aggregate patterns of the group while limiting information that is leaked about specific individuals."
+          "definition": "A mathematically rigorous framework for releasing statistical information about datasets while protecting the privacy of individual data subjects. It enables a data holder to share aggregate patterns of the group while limiting information that is leaked about specific individuals."
         },
         "sw": {
           "term": "Faragha pembuzi",
@@ -1734,7 +1734,7 @@
       "edge_computing": {
         "en": {
           "term": "Edge Computing",
-          "definition": "Edge computing is a distributed computing model that brings computation and data storage closer to the sources of data. Edge is about processing data closer to where it's being generated, enabling processing at greater speeds and volumes, leading to greater action-led results in real time."
+          "definition": "A distributed computing model that brings computation and data storage closer to the sources of data. Edge is about processing data closer to where it's being generated, enabling processing at greater speeds and volumes, leading to greater action-led results in real time."
         },
         "sw": {
           "term": "Uchakataji kasi",
@@ -1764,7 +1764,7 @@
       "false_negative": {
         "en": {
           "term": "False negative",
-          "definition": "A result that indicates a given condition does not exist when it does. This means the algorithm generates a negative result when it should have been positive. A false negative could result in a cancerous region being overlooked, leading to a delayed diagnosis and treatment."
+          "definition": "A result that indicates a given condition does not exist when it actually does. This means the algorithm generates a negative result when it should have been positive. A false negative could result in a cancerous region being overlooked, leading to a delayed diagnosis and treatment."
         },
         "sw": {
           "term": "Hasi hadaifu",
@@ -1794,7 +1794,7 @@
       "false_positive": {
         "en": {
           "term": "False positive",
-          "definition": "A result that indicates a given condition does exist when it does not. For instance, in a medical imaging scenario, a false positive might lead to a healthy region being flagged as cancerous, potentially causing unnecessary concern and medical procedures for the patient."
+          "definition": "A result that indicates a given condition does exist when it actually does not. For instance, in a medical imaging scenario, a false positive might lead to a healthy region being flagged as cancerous, potentially causing unnecessary concern and medical procedures for the patient."
         },
         "sw": {
           "term": "Chanya hadaifu",
@@ -1824,7 +1824,7 @@
       "federated_learning": {
         "en": {
           "term": "Federated Learning",
-          "definition": "A distributed machine learning approach that trains machine learning models using decentralized examples residing on devices such as smartphones. In federated learning, a subset of devices downloads the current model from a central coordinating server. The devices use the examples stored on the devices to make improvements to the model. The devices then upload the model improvements (but not the training examples) to the coordinating server, where they are aggregated with other updates to yield an improved global model."
+          "definition": "A distributed machine learning approach that trains machine learning models using decentralized examples residing on devices such as smartphones. In federated learning, a subset of devices downloads the current model from a central coordinating server. The approach use the examples stored on the devices to make improvements to the downloaded model. The devices then upload the model improvements (but not the training examples) to the coordinating server, where they are aggregated with other updates to yield an improved global model."
         },
         "sw": {
           "term": "Ujifunzaji shirikishi",
@@ -1853,7 +1853,7 @@
       "feedback_loop": {
         "en": {
           "term": "Feedback Loop",
-          "definition": "Feedback occurs when outputs of a system are routed back as inputs as part of a chain of cause-and-effect that forms a circuit or loop. The system can then be said to feed back into itself. For example, if the AI system is a chatbot, it might receive feedback from users on how well it is able to understand and respond to their queries. The AI system then uses this feedback to adjust its algorithms and improve its performance."
+          "definition": "A system where its outputs are routed back as inputs as part of a chain of cause-and-effect that forms a circuit or loop. The system can then be said to feed back into itself. For example, if the AI system is a chatbot, it might receive feedback from users on how well it is able to understand and respond to their queries. The AI system then uses this feedback to adjust its algorithms and improve its performance."
         },
         "sw": {
           "term": "Uzio mrejesho",
@@ -1912,7 +1912,7 @@
       "image_recognition": {
         "en": {
           "term": "Image recognition",
-          "definition": "Also known as image classification, is a process that classifies object(s), pattern(s), or concept(s) in an image."
+          "definition": "A process that classifies object(s), pattern(s), or concept(s) in an image. Also known as image classification."
         },
         "sw": {
           "term": "Utambuzi wa picha",
@@ -1941,7 +1941,7 @@
       "intelligent_agent_ia": {
         "en": {
           "term": "Intelligent agent (IA)",
-          "definition": "An agent that perceives its environment, takes actions autonomously in order to achieve goals, and may improve its performance with learning or acquiring knowledge. An intelligent agent may be simple or complex e.g. a thermostat, a human being..."
+          "definition": "An agent that perceives its environment, takes actions autonomously in order to achieve goals, and may improve its performance with learning or acquiring knowledge. An intelligent agent may be simple or complex e.g. a thermostat or a humanoid robot."
         },
         "sw": {
           "term": "Wakalamaizi",
@@ -1971,7 +1971,7 @@
       "memory_leak": {
         "en": {
           "term": "Memory leak",
-          "definition": "In computer science, a memory leak is a type of resource leak that occurs when a computer program incorrectly manages memory allocations in a way that memory which is no longer needed is not released. It reduces the performance of the computer by reducing the amount of available memory."
+          "definition": "A type of resource leak that occurs when a computer program incorrectly manages memory allocations in a way that memory which is no longer needed is not released. It reduces the performance of the computer by reducing the amount of available memory."
         },
         "sw": {
           "term": "Uhodhi kumbukumbu",
@@ -2001,7 +2001,7 @@
       "overfitting": {
         "en": {
           "term": "Overfitting",
-          "definition": "In mathematical modeling, overfitting is \"the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably\"."
+          "definition": "The production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably."
         },
         "sw": {
           "term": "Ujifunzaji banifu",
@@ -2060,7 +2060,7 @@
       "precision": {
         "en": {
           "term": "Precision",
-          "definition": "Precision is the fraction of relevant instances among the retrieved instances. It is calculated by dividing relevant retrieved instances with all retrieved instances.\nFor example, a computer program for recognizing dogs (the relevant element) in a digital photograph processes a picture which contains 10 cats and 12 dogs. The program then identifies 8 dogs. Of the eight elements identified as dogs, only 5 actually are dogs (true positives), while the other 3 are cats (false positives). 7 dogs were missed (false negatives), and 7 cats were correctly excluded (true negatives). The program's precision is then 5/8 (true positives / selected elements)."
+          "definition": "The fraction of correct things actually retrieved out of all the things retrieved. It is calculated by dividing relevant retrieved instances with all retrieved instances.\nFor example, a computer program for recognizing dogs (the relevant element) in a digital photograph processes a picture which contains 10 cats and 12 dogs. The program then identifies 8 dogs. Of the eight elements identified as dogs, only 5 actually are dogs (true positives), while the other 3 are cats (false positives). 7 dogs were missed (false negatives), and 7 cats were correctly excluded (true negatives). The program's precision is then 5/8 (true positives / selected elements)."
         },
         "sw": {
           "term": "Ushabaha",
@@ -2090,7 +2090,7 @@
       "predictive_analytics": {
         "en": {
           "term": "Predictive analytics",
-          "definition": "Predictive analytics is a form of analytics that uses machine learning or technology to predict what will happen in a specific time frame based on historical data and patterns."
+          "definition": "A means of analysing data that uses machine learning or technology to predict what will happen in a specific time frame based on historical data and patterns."
         },
         "sw": {
           "term": "Uchanganuzi bashirifu",
@@ -2119,7 +2119,7 @@
       "privacy_impact_assessment_pia": {
         "en": {
           "term": "Privacy Impact Assessment (PIA)",
-          "definition": "A Privacy Impact Assessment (PIA) is a process which assists organizations in identifying and managing the privacy risks arising from new projects, initiatives, systems, processes, strategies, policies, business relationships etc."
+          "definition": "A process which assists organizations in identifying and managing the privacy risks arising from new projects, initiatives, systems, processes, strategies, policies, business relationships etc."
         },
         "sw": {
           "term": "Tathmini ya athari kwa faragha",
@@ -2178,7 +2178,7 @@
       "recall": {
         "en": {
           "term": "Recall",
-          "definition": "Recall is the fraction of relevant instances that were retrieved. It is calculated by dividing relevant retrieved instances with all relevant instances. \nFor example, a computer program for recognizing dogs (the relevant element) in a digital photograph processes a picture which contains 10 cats and 12 dogs. The program then identifies 8 dogs. Of the eight elements identified as dogs, only 5 actually are dogs (true positives), while the other 3 are cats (false positives). 7 dogs were missed (false negatives), and 7 cats were correctly excluded (true negatives). The program's recall is 5/12 (true positives / relevant elements)."
+          "definition": "The fraction of correct things that were actually retrieved out of all the things that were correct. \nFor example, a computer program for recognizing dogs (the relevant element) in a digital photograph processes a picture which contains 10 cats and 12 dogs. The program then identifies 8 dogs. Of the eight elements identified as dogs, only 5 actually are dogs (true positives), while the other 3 are cats (false positives). 7 dogs were missed (false negatives), and 7 cats were correctly excluded (true negatives). The program's recall is 5/12 (true positives / relevant elements)."
         },
         "sw": {
           "term": "Kumbuko tambuzi",
@@ -2208,7 +2208,7 @@
       "reinforcement_learning_from_human_feedback": {
         "en": {
           "term": "Reinforcement Learning from human feedback",
-          "definition": "In machine learning, reinforcement learning from human feedback (RLHF) is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences, which can then be used to train other models through reinforcement learning."
+          "definition": "A technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences, which can then be used to train other models through reinforcement learning."
         },
         "sw": {
           "term": "Mafunzo yanayoimarishwa na maoni ya wanadamu",
@@ -2238,7 +2238,7 @@
       "retrieval_augmented_generation": {
         "en": {
           "term": "Retrieval augmented generation",
-          "definition": "Retrieval augmented generation (RAG) is a type of generative artificial intelligence that has information retrieval capabilities. It modifies interactions with a large language model (LLM) so that the model responds to user queries with reference to a specified set of documents, using this information in preference to information drawn from its own vast, static training data. This allows LLMs to use domain-specific and/or updated information."
+          "definition": "A type of generative artificial intelligence that has information retrieval capabilities. It modifies interactions with a large language model (LLM) so that the model responds to user queries with reference to a specified set of documents, using this information in preference to information drawn from its own vast, static training data. This allows LLMs to use domain-specific and/or updated information."
         },
         "sw": {
           "term": "Uzalishaji jalizi kwa upekuzi",
@@ -2268,7 +2268,7 @@
       "robustness": {
         "en": {
           "term": "Robustness",
-          "definition": "In computer science, robustness is the ability of a computer system to cope with errors during execution and cope with erroneous input. It is tested using techniques such as fuzz testing (an automated software testing technique that involves providing invalid, unexpected, or random data as inputs to a computer program. The program is then monitored for exceptions such as crashes or potential memory leaks.)"
+          "definition": "The ability of a computer system to cope with errors during execution and cope with erroneous input. It is tested using techniques such as fuzz testing (an automated software testing technique that involves providing invalid, unexpected, or random data as inputs to a computer program. The program is then monitored for exceptions such as crashes or potential memory leaks.)"
         },
         "sw": {
           "term": "Uthabiti",
@@ -2297,7 +2297,7 @@
       "selftraining": {
         "en": {
           "term": "Self-training",
-          "definition": "A variant of self-supervised learning that is particularly useful when all of the following conditions are true:\n- The ratio of unlabeled examples to labeled examples in the dataset is high.\n- This is a classification problem."
+          "definition": "A variant of self-supervised learning that is particularly useful in classification problems when the ratio of unlabeled examples to labeled examples in the dataset is high."
         },
         "sw": {
           "term": "Kujifundisha",
@@ -2326,7 +2326,7 @@
       "superintelligence": {
         "en": {
           "term": "Superintelligence",
-          "definition": "A superintelligence is a hypothetical agent that possesses intelligence surpassing that of the brightest and most gifted human minds."
+          "definition": "A hypothetical agent that possesses intelligence surpassing that of the brightest and most gifted human minds."
         },
         "sw": {
           "term": "Akiliunde pevu",
@@ -2385,7 +2385,7 @@
       "true_negative_tn": {
         "en": {
           "term": "True negative (TN)",
-          "definition": "An example in which the model correctly predicts the negative class. For example, the model infers that a particular email message is not spam, and that email message really is not spam."
+          "definition": "An example in which a binary classification model correctly predicts the negative class. For example, the model infers that a particular email message is not spam, and that email message really is not spam."
         },
         "sw": {
           "term": "Hasi halisi",
@@ -2414,7 +2414,7 @@
       "true_positive_tp": {
         "en": {
           "term": "True positive (TP)",
-          "definition": "An example in which the model correctly predicts the positive class. For example, the model infers that a particular email message is spam, and that email message really is spam."
+          "definition": "An example in which a binary classification model correctly predicts the positive class. For example, the model infers that a particular email message is spam, and that email message really is spam."
         },
         "sw": {
           "term": "Chanya halisi",
