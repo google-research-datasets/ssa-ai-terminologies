@@ -1018,7 +1018,7 @@
       "prompt_engineering": {
         "en": {
           "term": "Prompt engineering",
-          "definition": "The process of structuring an instruction that can be interpreted and understood by a generative AI model"
+          "definition": "The process of structuring an instruction that can be interpreted and understood by a generative AI model."
         },
         "sw": {
           "term": "Uhandisi vidokezo",
@@ -1824,7 +1824,7 @@
       "federated_learning": {
         "en": {
           "term": "Federated Learning",
-          "definition": "A distributed machine learning approach that trains machine learning models using decentralized examples residing on devices such as smartphones. In federated learning, a subset of devices downloads the current model from a central coordinating server. The approach use the examples stored on the devices to make improvements to the downloaded model. The devices then upload the model improvements (but not the training examples) to the coordinating server, where they are aggregated with other updates to yield an improved global model."
+          "definition": "A distributed machine learning approach that trains machine learning models using decentralized examples residing on devices such as smartphones. In federated learning, a subset of devices downloads the current model from a central coordinating server. The approach uses the examples stored on the devices to make improvements to the downloaded model. The devices then upload the model improvements (but not the training examples) to the coordinating server, where they are aggregated with other updates to yield an improved global model."
         },
         "sw": {
           "term": "Ujifunzaji shirikishi",
